@@ -1,0 +1,160 @@
+@import "style-reset.css";
+
+
+* {
+	box-sizing: border-box;
+}
+
+body * {
+/*	border: 1px solid aquamarine;*/
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	border: 3px solid blue;
+}
+
+.logo {
+	display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.site-header .inner-column {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+}
+
+.welcome .inner-column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	border: 3px solid aqua;
+}
+
+.about .inner-column {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	border: 3px solid aqua;
+}
+
+.thing-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 3px solid yellow;
+	padding: 5px;
+	gap: 5px;
+}
+
+
+.thing-2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 3px solid yellow;
+	padding: 5px;
+	gap: 5px;
+}
+
+.thing-1-heading, .thing-2-heading {
+	display: block;
+	background-color: wheat;
+	width: 50%;
+}
+
+@media (min-width: 500px) {
+	.thing-3, .thing-4 {
+		display: none;
+	}
+	 h3 {
+		visibility: hidden;
+	}
+}
+
+@media (min-width: 600px) {
+	.thing-1, .thing-2 {
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+	.thing-1 > picture {
+		width: 50%;
+	}
+
+
+	.thing-2 > picture {
+		width: 50%;
+	}
+}
+
+@media (min-width: 800px) {
+	.welcome .inner-column {
+		flex-direction: row-reverse;
+	}
+
+	.about .inner-column {
+		flex-direction: row;
+	}
+
+	.thing-1-picture, .thing-2-picture {
+		display: none;
+	}
+
+	.thing-1-heading, .thing-2-heading {
+		display: none;
+	}
+
+}
+
+@media (min-width: 1000px) {
+	.welcome .inner-column {
+		flex-direction: row;
+	}
+	.thing-1-picture, .thing-2-picture {
+		width: 50%;
+		border: 3px solid red;
+	}
+
+	.thing-1-heading, .thing-2-heading {
+		border: 3px solid red;
+	}
+
+	.thing-1, .thing-2 {
+		display: none;
+	}
+
+}
+
+.site-header .logo {
+	max-width: 60px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.site-footer .inner-column {
+	border: 3px solid indianred;
+}
+
+
+.inner-column {
+	width: 100%;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+.page-content {
+	flex-grow: 1;
+}
