@@ -41,24 +41,9 @@ body {
 	left: -20px;
 }
 
-.svg-2 {
+.svg-2, .svg-3, .svg-4, .svg-5 {
 	position: absolute;
-}
-
-.svg-3 {
-	position: absolute;
-}
-
-.svg-4 {
-	position: absolute;
-}
-
-.svg-5 {
-	position: absolute;
-}
-
-.svg-6 {
-	position: absolute;
+/*	outline: 3px solid green;*/
 }
 
 
@@ -115,10 +100,16 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: #FFB8C5;
-	padding-top: 10%;
-	padding-bottom: 8%;
+	background-color: #FFB8C5; 
+	padding-top: 5%;
+	padding-bottom: 5%;
 	gap: 10px;
+}
+
+.welcome-info-box {
+	display: block;
+	height: 10%;
+	width: 100%;
 }
 
 
@@ -127,10 +118,6 @@ h1 {
 	flex-direction: column;
 }
 
-.welcome-info-box {
-	display: block;
-	width: 100%;
-}
 
 .welcome-text {
 	display: flex;
@@ -170,7 +157,7 @@ h1 {
 	background-color: #FE0159;
 	gap: 10px;
 	padding-top: 40px;
-	padding-bottom: 30%;
+	padding-bottom: 100%;
 }
 
 .things-list {
@@ -184,8 +171,16 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	background-color: #FFB8C5;
+	z-index: 1;
 	padding: 5px;
 	gap: 5px;
+}
+
+
+@media (width <=499px) {
+	svg {
+		display: none;
+	}
 }
 
 
@@ -211,9 +206,6 @@ h1 {
 		display: none;
 	}
 
-	.svg-6 {
-		display: none;
-	}
 }
 
 @media (width >= 550px) {
@@ -245,9 +237,6 @@ h1 {
 		display: none;
 	}
 
-	.svg-6 {
-		display: none;
-	}
 }
 
 @media (width >= 600px) {
@@ -271,6 +260,14 @@ h1 {
 	.rectangular-box {
 		display: none;
 	}
+
+	.svg-5 {
+		display: block;
+		width: 400px;
+		top: 0;
+		right: 0;
+		transform: translate(0%, -50%);
+	}
 }
 
 @media (width >= 800px) {
@@ -287,7 +284,6 @@ h1 {
   
   	.thing-1, .thing-2 {
     	flex-direction: column;
-    
   }
   
   	.thing-1 > picture, .thing-2 > picture {
@@ -295,7 +291,7 @@ h1 {
   }
 
     .rectangular-box {
-	 	display: block;
+	 		display: block;
 }
 
 	.svg {
@@ -305,17 +301,14 @@ h1 {
 		left: 70px;
 	}
 
-	  .svg-6 {
-     	display: block;
-		width: 400px;
-		top: 0px;
-		right: 0px;
-		transform: translate(0%, -40%)
-	}
 }
 
 
 @media (width >= 1000px) {
+
+	.welcome {
+		background-image: linear-gradient(70deg, rgb(0 0 0 / .2) 50%, rgb(255 184 197) 50%, rgb(0 0 0 / .2) 55%, rgb(255 184 197) 50%);  
+	}
 	
 	.welcome-info {
 		flex-direction: row;
@@ -325,7 +318,7 @@ h1 {
    
   	.thing-1, .thing-2 {
     	flex-direction: row;
-    	background-color: #FE0159;
+    	background-color: transparent;
     	gap: 10px;
   }
   
@@ -348,44 +341,35 @@ h1 {
 	  	display: none;
   }
 
-     .svg-2 {
+   .svg-2 {
      	display: block;
-		width: 500px;
-		top: 0px;
-		right: 0px;
-		z-index: 1;
-		transform: translate(0%, -50%)
+			width: 300px;
+			top: 0px;
+			right: 0px;
+			transform: translate(0%, -50%)
 	}
 
-     .svg-3 {
+   .svg-3 {
      	display: block;
-		width: 300px;
-		bottom: 0px;
-		left: 0px;
-		transform: translate(-10%, 50%);
+			width: 400px;
+			bottom: 0px;
+			left: 0px;
+			transform: translate(-10%, 50%);
 	}
 
 	.svg-4 {
      	display: block;
      	height: 1000px;
-		width: 1000px;
-		bottom: 0px;
-		left: 0px;
-		transform: translate(0%, 0%);
+			width: 1000px;
+			bottom: 0px;
+			left: 0px;
+			transform: translate(0%, 0%);
 	}
 
 	.svg-5 {
-     	display: block;
-     	height: 1000px;
-		width: 1000px;
-		bottom: 0px;
-		left: 0px;
-		transform: translate(-5%, 0%);
-	}
-
-	.svg-6 {
 		display: none;
 	}
+
 
 } 
 
@@ -393,34 +377,38 @@ h1 {
 
 	.svg-2 {
      	display: block;
-		width: 800px;
-		top: 0px;
-		right: 0px;
-		z-index: 1;
-		transform: translate(0%, -50%)
+			width: 600px;
+			top: 0px;
+			right: -10px;
+			transform: translate(0%, -50%)
 	}
 
 	.svg-3 {
      	display: block;
-		width: 400px;
-		bottom: 0px;
-		left: 0px;
-		transform: translate(-10%, 50%);
+			width: 400px;
+			bottom: 0px;
+			left: 0px;
+			transform: translate(-10%, 50%);
 	}
 
 	.svg-4 {
      	display: block;
      	height: 1000px;
-		width: 1075px;
-		bottom: 0px;
-		left: 0px;
-		transform: translate(0%, 0%);
+			width: 1075px;
+			bottom: 0px;
+			left: 0px;
+		  transform: translate(0%, 0%);
+	}
+
+	.svg-5 {
+		display: none;
 	}
 
 }
 
 
 footer {
-	background-color: black;
+	position: sticky;
+	background-color: rgb(0 0 0);
 }
 
