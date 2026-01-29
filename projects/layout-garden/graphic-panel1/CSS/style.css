@@ -44,6 +44,7 @@ body {
     justify-items: center;
     align-content: center;
     text-align: center;
+    border: 2px solid green;
 }
   p {
     margin-top: 1rem; 
