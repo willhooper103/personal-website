@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+}
+
+.inner-column {
+	width:100%;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	outline: 3px solid green;
+}
+
+.news-panel {
+	display: flex;
+	flex-direction: row;
+	padding: 1rem;
+	gap: 20px;
+	outline: 3px solid blue;
+}
+
+.column-one, .column-two, .column-three {
+	display: flex;
+	flex-direction: column;
+	outline: 3px solid red;
+}
+
+.info {
+    padding: 1rem;
+    justify-items: left;
+    align-content: center;
+    text-align: center;
+}
+
