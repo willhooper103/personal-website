@@ -3,44 +3,42 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
+	<title>Layout-Garden</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/big-banner.css">
+	<link rel="stylesheet" href="css/art-panel.css">
 </head>
 <body>
 	
 
-<?php// include('header.php'); ?>
-
-<main>
+<main class="page-content">
 
 	<section class="page-header">
-		<inner-column>
+		<div class="inner-column">
 			<h1 class='attention-voice'>Layout garden</h1>
-		</inner-column>
+		</div>
+			<?php //include('header-to-left.php'); ?>
 	</section>
 
 
 	<section class="section-one">
-		<inner-column>  
+		<div class='inner-column'>
 
-
-			 <?php include('graphic-panel1/index.php'); ?>
-			 <?php include('graphic-panel1/index.php'); ?>
-			 <?php include('graphic-panel1/index.php'); ?>
-			 <?php include('graphic-panel1/index.php'); ?>
-			 <?php include('graphic-panel1/index.php'); ?>
-
-			
-		</inner-column>
+			 <?php include('PHP/art-panel.php'); ?>
+					
+		</div> 
 	</section>
 
 
 	<section class="other-section">
-		<inner-column>
+		<div class='inner-column'>
 
-			<another-layout>
-			
-		</inner-column>
+			 <?php include('PHP/big-banner.php'); ?>
+
+			 <?php //include('PHP/news-panel.php'); ?>
+					
+		</div> 
 	</section>
 </main>
 </body>

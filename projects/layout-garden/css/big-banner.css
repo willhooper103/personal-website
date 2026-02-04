@@ -1,0 +1,17 @@
+
+
+.big-banner {
+	display: grid;
+	place-items: center;
+	padding: 100px;
+	background-color: antiquewhite;
+}
+
+.attention-voice {
+	font-size: 2.5rem;
+}
+
+
+
+
+

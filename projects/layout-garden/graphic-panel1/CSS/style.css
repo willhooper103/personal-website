@@ -1,88 +1,64 @@
-@import "CSS/style-reset.css";
 
-* {
-  box-sizing: border-box;
-}
-
-html {
+.graphic-panel-1 {
+ 
   --brown: #CAAA6E;
   --red: #DC6447;
   --yellow: #E1C85F;
-  --black: #010101
+  --black: #010101;
   --red: indianred;
-  --white: white;
-}
+  --white: white; 
 
-body {
-  font-family: sans-serif;
-}
-
-.inner-column {
-  width: 100%;
-  max-width: 1100px:
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-
-.billy-goat {
-  background-color: var(--brown)
-}
-
-.italian-village {
-  background-color: var(--red);
-}
-
-.twin-anchors {
-  background-color: var(--yellow);
-}
-
-.graphic-panel {
-  display: grid;
-  .info {
-    padding: 1rem;
-    justify-items: center;
-    align-content: center;
-    text-align: center;
-    border: 2px solid green;
-}
-  p {
-    margin-top: 1rem; 
-    font-size: 1.2rem;
-  }
-  .action {
-    margin-top: 1rem;
-    justify-items: center;
-    align-content: center;
-    text-align: center;
-    background-color: var(--white);
-    padding: 6px;
-    border-radius: 20px;
+  .billy-goat {
+    background-color: var(--brown);
   }
 
-  
-  @media (width >= 700px) {
-    grid-template-columns: 1fr 1fr;
+  .italian-village {
+    background-color: var(--red);
+  }
+
+  .twin-anchors {
+    background-color: var(--yellow);
+  }
+
+  .graphic-panel {
+    display: grid;
+    .info {
+      padding: 1rem;
+      justify-items: center;
+      align-content: center;
+      text-align: center;
+      border: 2px solid green;
+  }
+    p {
+      margin-top: 1rem; 
+      font-size: 1.2rem;
+    }
+    .actions {
+      margin-top: 1rem;
+      justify-items: center;
+      align-content: center;
+      text-align: center;
+      background-color: var(--white);
+      padding: 6px;
+      border-radius: 20px;
+    }
+
     
-    &.flipped {
-      picture {
-        order: 2;
+    @media (width >= 700px) {
+      grid-template-columns: 1fr 1fr;
+      
+      &.flipped {
+        picture {
+          order: 2;
+        }
       }
     }
   }
+
+
+  
+
 }
 
 
-img {
-  display: block;
-  width: 100%;
-}
 
-.attention-voice {
-  font-size: 2rem;
-}
-
-a {
-  text-decoration: none;
-  color: var(--black);
-}

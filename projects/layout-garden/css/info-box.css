@@ -1,0 +1,17 @@
+
+
+
+.dyptich {
+	display: flex;
+	flex-direction: column;
+
+}
+
+picture {
+	display: block;
+}
+
+img {
+	display: block;
+	width: 100%;
+}

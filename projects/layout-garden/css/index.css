@@ -1,0 +1,36 @@
+@import "reset.css";
+
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	outline: 3px solid red;
+}
+
+.page-content {
+	flex-grow: 1;
+}
+
+.inner-column {
+	width: 100%;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	outline: 3px solid springgreen;
+}
+
+.other-section {
+/*	background-color: red;*/
+}
+
+
