@@ -1,0 +1,50 @@
+
+
+.footer-module {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 80px;
+	color: white;
+	background-color: black;
+	outline: 3px solid red;
+}
+
+h2 {
+	font-size: 1.2rem;
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+/*	outline: 3px solid aqua;*/
+	gap: 20px;
+}
+
+.social {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+/*	outline: 3px solid orange;*/
+	gap: 20px;
+}
+
+.footer-module ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 4px;
+/*	outline: 3px solid white;*/
+}
+
+.footer-module h2 {
+	text-decoration: underline;
+} 
+
+
+
+
+
+

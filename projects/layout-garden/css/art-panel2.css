@@ -1,0 +1,22 @@
+
+
+.art-module {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+/*	outline: 3px solid blueviolet;*/
+}
+
+picture {
+	display: block;
+/*	outline: 3px solid red;*/
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+.art-info {
+/*	outline: 3px solid lightgreen;*/
+}
