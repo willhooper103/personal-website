@@ -2,7 +2,7 @@
 
 <div class='header-module'>
 	<picture class='logo'>
-		<img src="images/blk-square.png" alt="">
+		<img src="images/orange-panel.png" alt="">
 	</picture>
 	<nav class='site-nav'>
 		<ul>

@@ -1,4 +1,4 @@
-/*@import "reset.css";*/
+
 
 
 * {
@@ -13,6 +13,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
+	background-color: #dce0d9;
 /*	outline: 3px solid red;*/
 }
 
