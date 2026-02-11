@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/big-banner.css">
 	<link rel="stylesheet" href="css/art-panel.css">
-	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/header2.css">
 	<link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
@@ -19,7 +19,7 @@
 	<section class="site-header">
 		<div class="inner-column">
 			
-			<?php include('php/header.php'); ?>
+			<?php include('php/header2.php'); ?>
 		</div>
 			
 	</section>
