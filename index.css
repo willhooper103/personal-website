@@ -1,0 +1,149 @@
+
+@import "style-reset copy 4.css";
+
+* {
+	background-color: antiquewhite;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: 100vw;
+/*	border: 2px solid rebeccapurple;*/
+}
+
+.inner-column {
+	max-width: 1100px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	outline: 3px solid dodgerblue;
+}
+
+.page-content {
+	flex-grow: 1;
+}
+
+
+section {
+	padding: 20px;
+}
+
+
+.headshot {
+	display: block;
+	width: 300px;
+/*	outline: 3px solid aqua;*/
+}
+
+.headshot > img {
+	display: block;
+}
+
+
+.about-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+/*	outline: 3px solid lemonchiffon;*/
+}
+
+.about-info > picture {
+	outline: 3px solid green;
+}
+
+.gallery .project-list {
+	display: grid;
+	justify-items: center;
+	aligne-items: center;
+	gap: 20px;
+/*	outline: 2px solid blue;*/
+}
+
+.project-list > li {
+	display: block;
+	width: 200px;
+}
+
+svg {
+	display: block;
+	width: 100%;
+	fill: lightgrey;
+	border-radius: 2%;
+	stroke-width: 3px;
+}
+
+
+.site-footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color: black;
+/*	outline: 3px solid hotpink;*/
+}
+
+.footer-menu {
+	background-color: black;
+}
+
+.footer-menu > li {
+	color: antiquewhite;
+	background-color: black;
+}
+
+
+h1 {
+	font-family: sans-serif;
+	font-size: 24px;
+	color: black;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: indianred;
+}
+
+ul {
+	list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+ul a {
+	font-size: 18px;
+}
+
+@media (min-width: 500px) {
+	.gallery .image-list {
+		grid-template-columns: 1fr;
+	}
+	.about-info {
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 800px) {
+	.gallery .project-list {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.about-info {
+		flex-direction: row;
+}
+
+@media (min-width: 1000px) {
+	.gallery .image-list {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+	

@@ -1,0 +1,34 @@
+
+.site-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	padding: 20px;
+	background-color: lightgrey;
+	outline: 3px solid red;
+}
+
+.nav-menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 5px;
+	background-color: lightgrey;
+
+	outline: 3px solid orange;
+}
+
+.nav-menu > ul {
+	background-color: lightgrey;
+}
+
+.header-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: lightgrey;
+	outline: 3px solid green;
+}
