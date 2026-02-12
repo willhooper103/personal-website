@@ -1,34 +1,53 @@
 
 .site-header {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
 	position: sticky;
 	top: 0;
 	width: 100%;
 	padding: 20px;
-	background-color: lightgrey;
-	outline: 3px solid red;
-}
-
-.nav-menu {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: 5px;
-	background-color: lightgrey;
-
-	outline: 3px solid orange;
-}
-
-.nav-menu > ul {
-	background-color: lightgrey;
+	background-color: var(--paper);
+/*	outline: 3px solid red;*/
 }
 
 .header-list {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-color: lightgrey;
-	outline: 3px solid green;
+	background-color: var(--paper);
+	font-family: var(--pen);
+/*	outline: 3px solid green;*/
 }
+
+.nav-menu {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 20px;
+	background-color: var(--paper);
+/*	outline: 3px solid orange;*/
+}
+
+.nav-menu > ul {
+	background-color: lightgrey;
+	color: black;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+ul a {
+	font-size: 18px;
+}
+
+
+
+.artist-name {
+	font-size: 2rem;
+}
+

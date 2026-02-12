@@ -14,6 +14,7 @@
 		<link rel='stylesheet' href='index.css'>
 		<link rel='stylesheet' href='reset.css'>
 		<link rel='stylesheet' href='header.css'>
+		<link rel='stylesheet' href='about.css'>
 	</head>
 		
 	<body>
@@ -30,15 +31,10 @@
 
 			<section class='about'>
 				<div class='inner-column'>
-					<div class='about-info'>
-						<picture class='headshot'>
-							<img src="challenge-1/images/blk-square.png" alt="" width="300" height="350">
-						</picture>
 
-						<div class='about-text'>
-							<h2>Here you will find my work from <a href="https://perpetual.education" target="_blank">Perpetual.Education</h2></p>
-						</div>
-					</div>
+					<?php include('about.php'); ?>
+				
+					
 				</div>
 			</section>
 

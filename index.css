@@ -1,12 +1,13 @@
 
-@import "style-reset copy 4.css";
+
 
 * {
-	background-color: antiquewhite;
 	box-sizing: border-box;
+	font-family: var(--pen);
 	margin: 0;
 	padding: 0;
 }
+
 
 body {
 	position: relative;
@@ -14,7 +15,9 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 	width: 100vw;
-/*	border: 2px solid rebeccapurple;*/
+	--pen: sans-serif;
+	--paper: gainsboro;
+	background-color: var(--paper);
 }
 
 .inner-column {
@@ -23,7 +26,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 5px;
-	outline: 3px solid dodgerblue;
+/*	outline: 3px solid dodgerblue;*/
 }
 
 .page-content {

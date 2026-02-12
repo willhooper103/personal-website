@@ -1,0 +1,36 @@
+
+
+
+
+.about-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+	background-image: linear-gradient(to right, black, #B0B1AD), url('images/grey-panel.jpg');
+	padding: 75px;
+	border-radius: 5px;
+/*	outline: 3px solid lemonchiffon;*/
+	
+}
+
+.text-box {
+	display: block;
+	width: 30%;
+	padding: 20px;
+	background-color: white;
+	border-radius: 5px;
+/*	outline: 3px solid blue;*/
+}
+
+.text-box > p {
+	line-height: 1.2;
+	font-size: 1.2rem;
+}
+
+.text-box > a {
+	color: indianred;
+}
+
+
