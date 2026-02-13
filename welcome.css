@@ -1,0 +1,52 @@
+
+
+
+
+.welcome-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 10px;
+	background-image: linear-gradient(to right, rgb(0,0,0,.8), rgb(255,255,255,0)), url('images/building.jpg');
+	background-size: cover;
+	padding: 50px;
+	border-radius: 5px;
+	outline: 3px solid lemonchiffon;
+	
+}
+
+.welcome > h1 {
+	color: white;
+	font-size: 4.5rem;
+	line-height: 1.2;
+	font-weight: 700;
+	background_color: var(--paper);
+}
+
+.welcome {
+	background_color: var(--paper);
+
+}
+
+
+
+
+
+@media (width < 700px) {
+	.welcome-info {
+		align-items: end;
+		justify-content: center;
+	}
+
+	.text-box {
+		width: 65%;
+	}
+
+
+
+
+	
+}
+
+

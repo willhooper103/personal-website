@@ -14,7 +14,9 @@
 		<link rel='stylesheet' href='index.css'>
 		<link rel='stylesheet' href='reset.css'>
 		<link rel='stylesheet' href='header.css'>
-		<link rel='stylesheet' href='about.css'>
+		<link rel='stylesheet' href='welcome.css'>
+		<link rel='stylesheet' href='about-module.css'>
+		<link rel='stylesheet' href='projects-module.css'>
 	</head>
 		
 	<body>
@@ -29,49 +31,29 @@
 
 		<main class='page-content'>
 
-			<section class='about'>
+			<section class='welcome'>
 				<div class='inner-column'>
 
-					<?php include('about.php'); ?>
+					<?php include('welcome.php'); ?>
 				
 					
 				</div>
 			</section>
 
+			<section class='about'>
+				<div class='inner-column'>
+					
+					<?php include('about-module.php'); ?>
+				</div>
+
+				
+			</section>
+
 			<section class='projects'>
 				<div class='inner-column'>
-
-					<section class='gallery'>
-						<ul class='project-list'>
-							<li><a href="https://instagram.com/willhooperart">
-							      <svg height="200" width="200">
-							      <rect x="0" y="0" width='200' height='200'/>
-							   	  </a></li>
-							<li><a href="https://instagram.com/willhooperart">
-							      <svg height="200" width="200">
-							      <rect x="0" y="0" width='200' height='200'/>
-							      </a></li>
-							<li><a href="https://instagram.com/willhooperart">
-							      <svg height="200" width="200">
-							      <rect x="0" y="0" width='200' height='200'/>
-							      </a></li>
+					<?php include('projects-module.php'); ?>
+				</div>			
 						
-							<li><a href="https://instagram.com/willhooperart">
-							      <svg height="200" width="200">
-							      <rect x="0" y="0" width='200' height='200'/>
-							      </a></li>
-							<li><a href="https://instagram.com/willhooperart">
-							      <svg height="200" width="200">
-							      <rect x="0" y="0" width='200' height='200'/>
-							      </a></li>
-							<li><a href="https://instagram.com/willhooperart">
-							      <svg height="200" width="200">
-							      <rect x="0" y="0" width='200' height='200'/>
-							      </a></li>
-
-						</ul>
-					</section>
-				</div>
 			</section>
 		</main>
 

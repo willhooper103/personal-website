@@ -1,0 +1,45 @@
+
+
+
+.about-module {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: white;
+	border-radius: 5px;
+	padding: 30px;
+	gap: 20px;
+/*	outline: 3px solid blue;*/
+
+}
+
+picture {
+	display: block;
+	width: 80%;
+/*	outline: 3px solid blue;*/
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.about-module p {
+	font-size: 1.5em;
+	line-height: 1.2;
+}
+
+@media (width < 700px) {
+	.about-module {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+	}
+}
+
+
+
+
+

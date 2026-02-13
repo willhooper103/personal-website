@@ -1,71 +1,21 @@
 
 
 
-
-.about-info {
+.about-module {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	align-items: flex-start;
-	gap: 10px;
-	background-image: linear-gradient(to right, rgb(0,0,0,.8), rgb(255,255,255,0)), url('images/building.jpg');
-	background-size: cover;
-	padding: 50px;
-	border-radius: 5px;
-/*	outline: 3px solid lemonchiffon;*/
-	
-}
-
-.welcome > h1 {
-	color: white;
-	font-size: 4.5rem;
-	line-height: 1.2;
-	font-weight: 700;
-	background_color: var(--paper);
-}
-
-.welcome {
-	background_color: var(--paper);
-	padding: 20px;
-/*	outline: 3px solid white;*/
-
-}
-
-.text-box {
-	display: block;
-	display: flex;
-	width: 30%;
-	padding: 20px;
-	background-color: white;
-	border-radius: 5px;
-/*	outline: 3px solid blue;*/
-}
-
-.text-box > p {
-	flex-shrink: 1;
-	line-height: 1.2;
-	font-size: 1.2rem;
 	outline: 3px solid blue;
+
 }
 
-.text-box > a {
-	color: indianred;
+.headshot {
+	display: block;
+	width: 50%;
 }
 
-@media (width < 700px) {
-	.about-info {
-		align-items: end;
-		justify-content: center;
-	}
-
-	.text-box {
-		width: 65%;
-	}
-
-
-
-
-	
+img {
+	display: block;
+	width: 100%;
+	height: auto;
 }
-
-
