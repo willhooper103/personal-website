@@ -51,6 +51,7 @@
 
 			<section class='projects'>
 				<div class='inner-column'>
+					
 					<?php include('projects-module.php'); ?>
 				</div>			
 						
