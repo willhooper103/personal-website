@@ -16,7 +16,7 @@ body {
 	min-height: 100vh;
 	width: 100vw;
 	--pen: sans-serif;
-	--paper: gainsboro;
+	--paper: rgb(221,223,218,100);
 	background-color: var(--paper);
 }
 
@@ -38,30 +38,6 @@ section {
 	padding: 20px;
 }
 
-
-.headshot {
-	display: block;
-	width: 300px;
-/*	outline: 3px solid aqua;*/
-}
-
-.headshot > img {
-	display: block;
-}
-
-
-.about-info {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	align-items: center;
-	gap: 10px;
-/*	outline: 3px solid lemonchiffon;*/
-}
-
-.about-info > picture {
-	outline: 3px solid green;
-}
 
 .gallery .project-list {
 	display: grid;
@@ -113,19 +89,7 @@ h2 {
 	font-family: sans-serif;
 }
 
-a {
-	text-decoration: none;
-	color: indianred;
-}
 
-ul {
-	list-style-type: none;
-    padding-inline-start: 0px;
-}
-
-ul a {
-	font-size: 18px;
-}
 
 @media (min-width: 500px) {
 	.gallery .image-list {
