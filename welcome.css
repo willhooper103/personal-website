@@ -25,15 +25,16 @@
 }
 
 .welcome {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
 	background_color: var(--paper);
+	outline: 3px solid green;
 
 }
 
-
-
-
-
-@media (width < 700px) {
+@media (width <= 700px) {
 	.welcome-info {
 		align-items: end;
 		justify-content: center;
@@ -43,10 +44,57 @@
 		width: 65%;
 	}
 
+	.welcome > h1 {
+	color: white;
+	font-size: 2.5rem;
+	line-height: 1.2;
+	font-weight: 700;
+	background_color: var(--paper);
+}
+
+}
 
 
+@media (width <= 400px) {
+	.welcome-info {
+		align-items: end;
+		justify-content: center;
+	}
 
-	
+	.text-box {
+		width: 65%;
+	}
+
+	.welcome > h1 {
+	color: white;
+	font-size: 2.5rem;
+	line-height: 1.2;
+	font-weight: 700;
+	background_color: var(--paper);
+}
+
+}
+
+
+@media (width <= 344) {
+	.welcome-info {
+		align-items: end;
+		justify-content: center;
+	}
+
+	.text-box {
+		width: 65%;
+	}
+
+	.welcome > h1 {
+	color: white;
+	font-size: 2.5rem;
+	line-height: 1.2;
+	font-weight: 700;
+	background_color: var(--paper);
+}
+
+
 }
 
 
