@@ -30,7 +30,7 @@ h2 {
 	gap: 20px;
 }
 
-.footer-module ul {
+.footer-module > ul {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

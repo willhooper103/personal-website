@@ -76,7 +76,7 @@
 }
 
 
-@media (width <= 344) {
+@media (width <= 344px) {
 	.welcome-info {
 		align-items: end;
 		justify-content: center;

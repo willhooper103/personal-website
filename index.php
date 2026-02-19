@@ -14,6 +14,7 @@
 		<link rel='stylesheet' href='index.css'>
 		<link rel='stylesheet' href='reset.css'>
 		<link rel='stylesheet' href='header.css'>
+		<link rel='stylesheet' href='footer.css'>
 		<link rel='stylesheet' href='welcome.css'>
 		<link rel='stylesheet' href='about-module.css'>
 		<link rel='stylesheet' href='projects-module.css'>
@@ -60,12 +61,8 @@
 
 		<footer class='site-footer'>
 			<div class='inner-column'>
-				<ul class='footer-menu'>
-					<li>willhooper103@gmail.com</li>
-					<li>linkedin.com/</li>
-					<li>bluesky</li>
-				</ul>
 				
+				<?php include('footer.php'); ?>
 			</div>
 			
 		</footer>

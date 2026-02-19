@@ -1,7 +1,7 @@
 
 <div class='footer-module'>
 
-	<div class='contact'>
+	<div class="contact">
 
 		<h2>Contact:</h2>
 
@@ -18,8 +18,8 @@
 		<h2>Find me here:</h2>
 
 		<ul>
-			<li><a href="https://bsky.app/profile/willhooperart.bsky.social">@willhooperart.bsky.social</a></li>
-			<li><a href="https://www.instagram.com/willhooperart">instagram.com/willhooperart</a></li>
+			<li> <a href="https://bsky.app/profile/willhooperart.bsky.social">@willhooperart.bsky.social</a></li>
+			<li> <a href="https://www.instagram.com/willhooperart">instagram.com/willhooperart</a></li>
 		</ul>
 		
 		

@@ -54,26 +54,23 @@ ul a {
 @media (width <= 700px) {
 	.header-list {
 		flex-direction: column;
-		line-height:1.5;
-		outline: 3px solid orange;
+		line-height: 1.5;
+/*		outline: 3px solid orange;*/
 	}
 
 @media (width <= 400px) {
 	.header-list {
 		flex-direction: column;
-		line-height:1.5;
-		outline: 3px solid orange;
+		line-height: 1.5;
+/*		outline: 3px solid orange;*/
 	}
 
 @media (width <= 344px) {
 	.header-list {
 		flex-direction: column;
-		line-height:1.5;
-		outline: 3px solid orange;
+		line-height: 1.5;
+/*		outline: 3px solid orange;*/
 	}
-
-
-
 
 }
 

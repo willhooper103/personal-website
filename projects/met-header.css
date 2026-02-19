@@ -1,0 +1,78 @@
+
+@import "reset.css";
+
+body {
+	box-sizing: border-box ;
+}
+
+.met-header-module {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: rgb(228,2,43,100);
+	padding: 10px;
+/*	outline: 3px solid red;*/
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	font-size: 1.2em
+/*	outline: 3px solid blue;*/
+}
+
+.action {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+/*	outline: 3px solid orange;*/
+}
+
+.action li {
+	outline: 2px solid white;
+	border-radius: 3px;
+	padding: 10px;
+}
+
+.action li:nth-of-type(3) {
+	background-color: white;
+}
+
+img	{
+	display: block;
+
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+/*	outline: 3px solid green;*/
+	gap: 10px;
+	font-family: sans-serif;
+	list-style-type: none;
+}
+
+.action a:nth-of-type(3) {
+	color: rgb(228,2,43,100);
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.logo {
+	font-size: 40px;
+	color: white;
+}
+
+
+
+
+
+
+
