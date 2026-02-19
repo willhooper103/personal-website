@@ -11,20 +11,20 @@
 		<meta name='og:image' content='challenge-1/images/note-app.png'>
 		<meta name='og:image' content='challenge-1/images/wired-revised.png'>
 		<meta name='og:image' content='challenge-1/images/collage.png'>
-		<link rel='stylesheet' href='index.css'>
-		<link rel='stylesheet' href='reset.css'>
-		<link rel='stylesheet' href='header.css'>
-		<link rel='stylesheet' href='footer.css'>
-		<link rel='stylesheet' href='welcome.css'>
-		<link rel='stylesheet' href='about-module.css'>
-		<link rel='stylesheet' href='projects-module.css'>
+		<link rel='stylesheet' href='css/index.css'>
+		<link rel='stylesheet' href='css/reset.css'>
+		<link rel='stylesheet' href='css/header.css'>
+		<link rel='stylesheet' href='css/footer.css'>
+		<link rel='stylesheet' href='css/welcome.css'>
+		<link rel='stylesheet' href='css/about-module.css'>
+		<link rel='stylesheet' href='css/projects-module.css'>
 	</head>
 		
 	<body>
 		<header class='site-header'>
 			<div class='inner-column'>
 
-				<?php include('header.php'); ?>
+				<?php include('php/header.php'); ?>
 				
 
 			</div>
@@ -35,7 +35,7 @@
 			<section class='welcome'>
 				<div class='inner-column'>
 
-					<?php include('welcome.php'); ?>
+					<?php include('php/welcome.php'); ?>
 				
 					
 				</div>
@@ -44,7 +44,7 @@
 			<section class='about'>
 				<div class='inner-column'>
 					
-					<?php include('about-module.php'); ?>
+					<?php include('php/about-module.php'); ?>
 				</div>
 
 				
@@ -53,7 +53,7 @@
 			<section class='projects'>
 				<div class='inner-column'>
 					
-					<?php include('projects-module.php'); ?>
+					<?php include('php/projects-module.php'); ?>
 				</div>			
 						
 			</section>
@@ -62,7 +62,7 @@
 		<footer class='site-footer'>
 			<div class='inner-column'>
 				
-				<?php include('footer.php'); ?>
+				<?php include('php/footer.php'); ?>
 			</div>
 			
 		</footer>
