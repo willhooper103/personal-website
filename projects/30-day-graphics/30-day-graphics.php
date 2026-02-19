@@ -1,26 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<title>30 Day Graphics</title>
-</head>
 
-<body>
-	
-	<header>
-		<div class="inner-column">
-			<h1>Will Hooper</h1>
-			<nav>
-				<span>about</span>
-				<span>contact</span>
-			
-			</nav>
-		</div>
-	</header>
 
-	<main class="site-content">
+<main class="site-content">
 		<div class="inner-column">
 
 		   <section class="about">
@@ -65,6 +45,3 @@
 		</ul>	
 		</section>	
 	</main>
-</body>
-	
-</html>

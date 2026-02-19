@@ -1,0 +1,38 @@
+
+.about {
+	background-color: #FFFF;
+	font-size: 1.2rem;
+	line-height: 1.2;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+.gallery {
+/*	place-items: center;*/
+}
+
+.gallery .image-list {
+	display: grid;
+	justify-items: center;
+	aligne-items: center;
+	margin-top: 40px;
+	gap: 20px;
+}
+
+
+
+@media (min-width: 500px) {
+	.gallery .image-list {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (min-width: 800px) {
+	.gallery .image-list {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 1000px) {
+	.gallery .image-list {
+		grid-template-columns: 1fr 1fr 1fr;
