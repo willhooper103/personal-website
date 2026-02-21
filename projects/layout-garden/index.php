@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/big-banner.css">
+	<link rel="stylesheet" href="css/news-style.css">
 	<link rel="stylesheet" href="css/art-panel.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/footer.css">
@@ -41,7 +42,7 @@
 
 			 <?php include('php/big-banner.php'); ?>
 
-			 <?php //include('php/news-panel.php'); ?>
+			 <?php include('php/news.php'); ?>
 					
 		</div> 
 	</section>
