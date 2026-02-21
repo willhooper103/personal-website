@@ -7,23 +7,25 @@
 	align-items: flex-start;
 	padding: 30px;
 	gap: 20px;
-	outline: 3px solid green;
+/*	outline: 3px solid green;*/
 }
 
 .projects-module ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	border-radius: 5px;
 	width: 100%;
 	gap: 20px;
-	outline: 3px solid red;
+/*	outline: 3px solid red;*/
 
 }
 
 .projects-module li {
 	background-color: white;
+	border-radius: 5px;
 	padding: 50px;
-	outline: 3px solid aqua;
+/*	outline: 3px solid aqua;*/
 }
 
 .projects-module h2 {

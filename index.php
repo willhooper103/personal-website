@@ -54,6 +54,7 @@
 				<div class='inner-column'>
 					
 					<?php include('php/projects-module.php'); ?>
+			
 				</div>			
 						
 			</section>
