@@ -8,7 +8,7 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	gap: 10px;
-	background-image: linear-gradient(to right, rgb(0,0,0,.8), rgb(255,255,255,0)), url("http://localhost:8888/images/building.jpg");
+	background-image: linear-gradient(to right, rgb(0,0,0,.8), rgb(255,255,255,0)), url("images/building.jpg");
 	background-size: cover;
 	padding: 50px;
 	border-radius: 5px;
