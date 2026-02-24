@@ -6,9 +6,9 @@
 	<title>layout-garden</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/big-banner.css">
+	<link rel="stylesheet" href="css/big-banner2.css">
 	<link rel="stylesheet" href="css/news-style.css">
-	<link rel="stylesheet" href="css/art-panel.css">
+	<link rel="stylesheet" href="css/art-panel2.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/footer.css">
 </head>
@@ -31,7 +31,7 @@
 	<section class="section-one">
 		<div class='inner-column'>
 
-			 <?php include('php/art-panel.php'); ?>
+			 <?php include('php/art-panel2.php'); ?>
 					
 		</div> 
 	</section>
@@ -40,9 +40,11 @@
 	<section class="other-section">
 		<div class='inner-column'>
 
-			 <?php include('php/big-banner.php'); ?>
+			<?php include('php/news.php'); ?>
 
-			 <?php include('php/news.php'); ?>
+			 <?php include('php/big-banner2.php'); ?>
+
+			
 					
 		</div> 
 	</section>

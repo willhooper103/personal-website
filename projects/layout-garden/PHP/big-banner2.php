@@ -1,6 +1,23 @@
 
 
 <div class="big-banner">
-	<h1 class="attention-voice">BIG BANNER</h1>
+	<div class='sides'>
+		
+			<div class='left-side'>
+
+				<picture>
+		          <img src="https://peprojects.dev/images/landscape.jpg" alt="">
+		        </picture>
+					
+			</div>
+
+			<div class='right-side'>
+
+				<picture>
+		          <img src="https://peprojects.dev/images/landscape.jpg" alt="">
+		        </picture>
+			
+			</div>
+	</div>
 	
 </div>
