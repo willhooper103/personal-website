@@ -1,15 +1,44 @@
-
+* {
+	box-sizing: border-box;
+}
 
 .big-banner {
-	display: grid;
-	place-items: center;
-	padding: 100px;
+	padding: 50px;
 	background-color: antiquewhite;
+/*	outline: 3px solid red;*/
 }
 
-.attention-voice {
-	font-size: 2.5rem;
+.sides {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	gap: 20px;
+/*	padding: 50px;*/
+/*	outline: 3px solid green;*/
 }
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+  	background-color: black;
+}
+
+.left-side, .right-side {
+	width: 100%;
+	background-color: rgb(251,246,239,100);
+/*	outline: 3px solid dodgerblue;*/
+
+}
+
+@media (min-width: 600px) {
+	  
+	.sides {
+		flex-direction: row;
+	}
+}
+
+
 
 
 
