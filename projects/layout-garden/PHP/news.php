@@ -5,7 +5,7 @@
 					
 					<li class='block'>
 						<picture>
-						<img src="images/news-panel.png" alt="">
+						<img src="images/news-panel.jpg" alt="">
 						</picture>
 
 						<div class="info">
@@ -15,7 +15,7 @@
 					
 					<li class='block'>
 						<picture>
-						<img src="images/news-panel.png" alt="">
+						<img src="images/news-panel.jpg" alt="">
 						</picture>
 
 						<div class="info">
@@ -25,7 +25,7 @@
 					
 					<li class='block'>
 						<picture>
-						<img src="images/news-panel.png" alt="">
+						<img src="images/news-panel.jpg" alt="">
 						</picture>
 
 						<div class="info">
@@ -35,7 +35,7 @@
 					
 					<li class='block'>
 						<picture>
-						<img src="images/news-panel.png" alt="">
+						<img src="images/news-panel.jpg" alt="">
 						</picture>
 
 						<div class="info">
