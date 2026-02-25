@@ -31,7 +31,7 @@
 	<section class="section-one">
 		<div class='inner-column'>
 
-			 <?php include('php/art-panel2.php'); ?>
+			 <?php // include('php/art-panel2.php'); ?>
 					
 		</div> 
 	</section>
