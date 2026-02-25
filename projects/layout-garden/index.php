@@ -20,7 +20,7 @@
 	<section class="site-header">
 		<div class="inner-column">
 			
-			<?php include('php/header.php'); ?>
+			<?php include('header.php'); ?>
 		</div>
 			
 	</section>
@@ -31,7 +31,7 @@
 	<section class="section-one">
 		<div class='inner-column'>
 
-			 <?php // include('php/art-panel2.php'); ?>
+			 <?php // include('art-panel2.php'); ?>
 					
 		</div> 
 	</section>
@@ -40,9 +40,9 @@
 	<section class="other-section">
 		<div class='inner-column'>
 
-			<?php include('php/news.php'); ?>
+			<?php include('news.php'); ?>
 
-			 <?php include('php/big-banner3.php'); ?>
+			 <?php include('big-banner3.php'); ?>
 
 			
 					
@@ -52,7 +52,7 @@
 
 <footer class='site-footer'>
 	<div class="inner-column">
-		<?php include('php/footer.php'); ?>
+		<?php include('footer.php'); ?>
 		
 	</div>
 	
