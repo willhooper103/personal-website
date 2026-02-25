@@ -6,7 +6,7 @@
 	<title>layout-garden</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/big-banner2.css">
+	<link rel="stylesheet" href="css/big-banner3.css">
 	<link rel="stylesheet" href="css/news-style.css">
 	<link rel="stylesheet" href="css/art-panel2.css">
 	<link rel="stylesheet" href="css/header.css">
@@ -42,7 +42,7 @@
 
 			<?php include('php/news.php'); ?>
 
-			 <?php include('php/big-banner2.php'); ?>
+			 <?php include('php/big-banner3.php'); ?>
 
 			
 					
