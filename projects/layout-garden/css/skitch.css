@@ -1,0 +1,96 @@
+
+
+.skitch-module {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 10px;
+	gap: 20px;
+	outline: 2px solid black;
+}
+
+.dual-panel {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding: 5px;
+	gap: 20px;
+/*	outline: 2px solid orange;*/
+}
+
+.media-panel {
+	display: flex;
+	flex-direction: column;
+	height: 200%
+/*	padding: 10px;*/
+	outline: 2px solid red;
+}
+
+
+.img-panel {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+/*	outline: 2px solid red;*/
+}
+
+
+.news-panel {
+/*	width: 60%;*/
+/*	padding: 10px;*/
+/*	outline: 2px solid red;*/
+}
+
+.bottom-panel {
+	padding: 20px;
+	width: 100%;
+	background-color: rgb(251,247,239,100);
+/*	outline: 2px solid red;*/
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+picture + p {
+	margin-top: 20px;
+}
+
+div + p {
+	margin-top: 20px;
+}
+
+.news-panel p {
+	max-width: 30ch;
+}
+
+p {
+	font-size: 1.2rem;
+	line-height: 1.2;
+}
+
+p + p {
+	margin-top: 12px;
+}
+
+header {
+	font-size: 2rem;
+	padding: 5px
+/*	outline: 2px solid green;*/
+	
+}
+
+@media (min-width: 800px) {
+		.dual-panel {
+		 flex-direction: row;
+	}
+	
+}
+
+
+
+

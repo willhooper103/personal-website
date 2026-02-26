@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/big-banner3.css">
 	<link rel="stylesheet" href="css/news-style.css">
 	<link rel="stylesheet" href="css/skitch.css">
+	<link rel="stylesheet" href="css/cta.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/footer.css">
 </head>
@@ -32,9 +33,16 @@
 		<div class='inner-column'>
 
 			 <?php include('skitch.php'); ?>
+
+	
 					
 		</div> 
 	</section>
+
+	<section class="other-section">
+		<div class='inner-column'>
+
+			 <?php include('cta.php'); ?>
 
 
 	<section class="other-section">
