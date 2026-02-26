@@ -24,7 +24,7 @@
 		<header class='site-header'>
 			<div class='inner-column'>
 
-				<?php include('php/header.php'); ?>
+				<?php include('header.php'); ?>
 				
 
 			</div>
@@ -35,7 +35,7 @@
 			<section class='welcome'>
 				<div class='inner-column'>
 
-					<?php include('php/welcome.php'); ?>
+					<?php include('welcome.php'); ?>
 				
 					
 				</div>
@@ -44,7 +44,7 @@
 			<section class='about'>
 				<div class='inner-column'>
 					
-					<?php include('php/about-module.php'); ?>
+					<?php include('about-module.php'); ?>
 				</div>
 
 				
@@ -53,7 +53,7 @@
 			<section class='projects'>
 				<div class='inner-column'>
 					
-					<?php include('php/projects-module.php'); ?>
+					<?php include('projects-module.php'); ?>
 			
 				</div>			
 						
@@ -63,7 +63,7 @@
 		<footer class='site-footer'>
 			<div class='inner-column'>
 				
-				<?php include('php/footer.php'); ?>
+				<?php include('footer.php'); ?>
 			</div>
 			
 		</footer>
