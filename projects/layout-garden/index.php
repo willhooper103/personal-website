@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/big-banner3.css">
 	<link rel="stylesheet" href="css/news-style.css">
-	<link rel="stylesheet" href="css/art-panel2.css">
+	<link rel="stylesheet" href="css/skitch.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/footer.css">
 </head>
@@ -31,7 +31,7 @@
 	<section class="section-one">
 		<div class='inner-column'>
 
-			 <?php // include('art-panel2.php'); ?>
+			 <?php include('skitch.php'); ?>
 					
 		</div> 
 	</section>
