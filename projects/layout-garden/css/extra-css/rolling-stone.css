@@ -1,0 +1,21 @@
+
+
+.rolling-stone-module {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	gap: 30px;
+	outline: 3px solid blue;
+
+}
+
+
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+

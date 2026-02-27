@@ -1,0 +1,36 @@
+
+
+.art-module {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+/*	outline: 3px solid blueviolet;*/
+}
+
+picture {
+	display: block;
+/*	outline: 3px solid red;*/
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+.art-info {
+/*	outline: 3px solid lightgreen;*/
+}
+
+h1 {
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.art-info h2 {
+	font-size: 1.5rem;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+
