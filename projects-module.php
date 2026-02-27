@@ -1,6 +1,6 @@
 
 
-<div class='projects-module'>
+<div id="projects" class='projects-module'>
 	<h2>Projects</h2>
 
 	<ul>

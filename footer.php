@@ -1,7 +1,7 @@
 
 <div class='footer-module'>
 
-	<div class="contact">
+	<div id="contact" class="contact">
 
 		<h2>Contact:</h2>
 

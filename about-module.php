@@ -1,6 +1,6 @@
 
 
-<div class='about-module'>
+<div id="about" class='about-module'>
 	<picture class='headshot'>
 		<img src="images/headshot.jpg" alt="Will Hooper">
 	</picture>
