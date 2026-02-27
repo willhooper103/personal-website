@@ -1,12 +1,13 @@
 
 
+/*STRUCTURE*/
+
 .cta-module {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	padding: 10px;
 	gap: 10px;
-	outline: 2px solid red;
 }
 
 
@@ -17,34 +18,42 @@
 	gap: 30px;
 }
 
-
 .column-1, .column-2, .column-3, p {
 	padding: 10px;
 }
 
-p {
-	font-size: 1rem;
-}
+/*STYLE*/
 
 .img-div {
 	padding: 75px;
 	background-image: url("../images/news-panel.jpg");
 	background-size: cover;
 	background-position: center;
+	transition: background-image 0.5s ease-in-out;	
+}
+
+.img-div:hover {
+	background-image: url("../images/orange-panel.png");
 }
 
 
-.info-list-1 li {
+.info-list-1 li, .info-list-2 li, .info-list-3 li {
+	background-color: rgb(222,223,219,100);
+	transition: box-shadow 0.3s ease-in-out;
+  	color: black;
 	outline: 2px solid black;
 }
 
-
-.info-list-2 li {
-	outline: 2px solid black;
+.info-list-1 li:hover, .info-list-2 li:hover, .info-list-3 li:hover {
+	box-shadow: 0 12px 12px 0 rgba(0,0,0,0.4);
 }
 
 
-.info-list-3  li {
-	outline: 2px solid black;
+/*TYPE*/
+
+p {
+	font-size: .9rem;
 }
+
+
 
