@@ -16,7 +16,7 @@
 	<section class="site-header">
 		<div class="inner-column">
 			
-			<?php include('php/header.php'); ?>
+			<?php include('header.php'); ?>
 		</div>
 			
 	</section>
@@ -27,7 +27,7 @@
 	<section class="section-one">
 		<div class='inner-column'>
 
-			 <?php include('php/graphics.php'); ?>
+			 <?php include('graphics.php'); ?>
 					
 		</div> 
 	</section>
@@ -36,9 +36,9 @@
 	<section class="other-section">
 		<div class='inner-column'>
 
-			 <?php //include('php/big-banner.php'); ?>
+			 <?php //include('big-banner.php'); ?>
 
-			 <?php //include('php/news-panel.php'); ?>
+			 <?php //include('news-panel.php'); ?>
 					
 		</div> 
 	</section>
@@ -46,7 +46,7 @@
 
 <footer class='site-footer'>
 	<div class="inner-column">
-		<?php include('php/footer.php'); ?>
+		<?php include('footer.php'); ?>
 		
 	</div>
 	
