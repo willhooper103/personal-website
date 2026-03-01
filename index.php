@@ -30,7 +30,7 @@
 			</div>
 		</header>
 
-		<main class='page-content'>
+		<main id="index" class='page-content'>
 
 			<section class='welcome'>
 				<div class='inner-column'>
