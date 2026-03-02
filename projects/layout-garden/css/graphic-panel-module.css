@@ -1,0 +1,83 @@
+/* STRUCTURE  */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  --pea: #D1D1A9;
+  --grey: #DEDFDB;
+}
+
+
+/* TYPOGOPHY  */
+
+body {
+  font-family: sans-serif;
+
+}
+
+.graphic-panels {
+  background-color: var(--grey);
+}
+  
+  .info {
+    background-color: var(--grey);
+  }
+
+
+.attention-voice {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-size: 1rem;
+}
+
+/* ELEMENTS  */
+
+
+.panel-1, .panel-2, .panel-3 {
+  display: grid; 
+  .info {
+    padding: 1rem;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+  p {
+    margin-top: 1em;
+  }
+  .action {
+    margin-top: 1em;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 6px;
+    border-radius: 20px;
+    background-color: indianred;
+  }
+
+  @media (width >=700px) {
+  
+    grid-template-columns: 1fr 1fr;
+  
+    &.flipped {
+      picture {
+        order: 2;
+      }
+    }
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
