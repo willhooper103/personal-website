@@ -9,20 +9,22 @@
 	border-radius: 5px;
 	padding: 30px;
 	gap: 20px;
-/*	outline: 3px solid blue;*/
-
 }
 
 picture {
 	display: block;
 	width: 80%;
-/*	outline: 3px solid blue;*/
 }
 
 img {
 	display: block;
 	width: 100%;
 	height: auto;
+	border-radius: 5px;
+}
+
+a {
+	color: indianred;
 }
 
 .about-module p {

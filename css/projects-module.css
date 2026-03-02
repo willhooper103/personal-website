@@ -7,7 +7,6 @@
 	align-items: flex-start;
 	padding: 30px;
 	gap: 20px;
-/*	outline: 3px solid green;*/
 }
 
 .projects-module ul {
@@ -15,21 +14,17 @@
 	flex-direction: row;
 	justify-content: space-evenly;
 	width: 100%;
-	gap: 20px;
-/*	outline: 3px solid red;*/
-
 }
 
 .projects-module li {
 	background-color: white;
 	border-radius: 5px;
 	padding: 50px;
-/*	outline: 3px solid aqua;*/
 }
 
 .projects-module h2 {
 	color: white;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	line-height: 1.2;
 	font-weight: 700;
 } 
