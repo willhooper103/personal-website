@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/big-banner3.css">
 	<link rel="stylesheet" href="css/news-style.css">
 	<link rel="stylesheet" href="css/skitch.css">
+	<link rel="stylesheet" href="css/graphic-panel-module.css">
 	<link rel="stylesheet" href="css/cta.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/footer.css">
@@ -33,6 +34,13 @@
 		<div class='inner-column'>
 
 			 <?php include('skitch.php'); ?>
+		</div>
+	</section>
+
+	<section class="section-one">
+		<div class='inner-column'>
+
+			 <?php include('graphic-panel-module.php'); ?>
 
 	
 					
@@ -49,6 +57,11 @@
 		<div class='inner-column'>
 
 			<?php include('news.php'); ?>
+		</div>
+	</section>
+
+	<section class="other-section">
+		<div class='inner-column'>
 
 			 <?php include('big-banner3.php'); ?>
 
