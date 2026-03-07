@@ -4,8 +4,9 @@
 	top: 0;
 	width: 100%;
 	padding: 20px;
+	z-index: 10;
 	background-color: var(--paper);
-/*	outline: 3px solid red;*/
+/*	outline: 3px solid aqua;*/
 }
 
 .header-list {
