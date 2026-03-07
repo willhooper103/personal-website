@@ -18,7 +18,7 @@
 	gap: 30px;
 }
 
-.column-1, .column-2, .column-3, p {
+.cta-module > .column-1, .cta-module > .column-2, .cta-module > .column-3, p {
 	padding: 10px;
 }
 
