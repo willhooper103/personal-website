@@ -7,15 +7,13 @@
 	<div class='dual-panel'>
 		
 		<div class='media-panel'>
-			
-			<picture>
-				<img src="images/news-panel.jpg" alt="">
-			</picture>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam! Minus explicabo voluptas dolores, reprehenderit!</p>
+			<div class='left-panel'>
 
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam! Minus explicabo voluptas dolores, reprehenderit!</p>
-
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam! Minus explicabo voluptas dolores, reprehenderit!</p>
+				<picture>
+					<img src="images/alley-night.jpg" alt="">
+				</picture>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam! Minus explicabo voluptas dolores, reprehenderit!</p>
+			</div>
 		
 		</div>
 
