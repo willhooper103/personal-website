@@ -1,0 +1,77 @@
+.circle-img-module {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1.5rem
+/*  outline: 2px solid green;*/
+}
+
+ .thing img {
+  display: block;
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.text {
+  text-align: center;
+}
+
+.text h2 {
+  padding: .5rem;
+/*  outline: 2px solid red;*/
+}
+
+.text p + a {
+  margin-top: 8px;
+}
+
+.text a {
+  color: rgb(239, 75, 55, 100);
+}
+
+.thing {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+/*  border: 3px solid aqua;*/
+}
+
+@media (min-width: 300px) {
+  .circle-img-module {
+    gap: 20px;
+  }
+
+  .circle-img-module .thing {
+    flex-direction: column;
+    align-items: center;
+  }
+  .circle-img-module .text {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 400px) {
+  .circle-img-module .thing {
+    flex-direction: row;
+    align-items: center;
+  }
+  .circle-img-module .text {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 600px) {
+  .circle-img-module {
+    flex-direction: row;
+  }
+  .circle-img-module .thing {
+    flex-direction: column;
+    align-items: center;
+  }
+  .circle-img-module .text {
+    justify-content: center;
+  }
+}
+
