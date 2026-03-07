@@ -1,0 +1,43 @@
+
+.scroll-module * {
+	border-radius: 8px;
+}
+
+section-one {
+	position: relative;
+}
+
+.scroll-module {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	padding: 1rem;
+	gap: 10px;
+/*	outline: 2px solid yellow;*/
+}
+
+.scroll-module > .column-1 {
+	background-color: rgb(251,247,239,100);
+}
+
+.scroll-module > .column-1, .column-3 {
+	display: block;
+	position: sticky;
+	top: 100px;
+	z-index: 1;
+	padding: 1rem;
+	outline: 2px solid black;
+}
+
+.column-2 {
+	display: flex;
+	flex-direction: column;
+	z-index: 1;
+	gap: 20px;
+}
+
+.column-2-info {
+	padding: 1rem;
+	outline: 2px solid black;
+}
