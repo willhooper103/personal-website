@@ -10,34 +10,69 @@
 			<div class='left-panel'>
 
 				<picture>
-					<img src="images/alley-night.jpg" alt="">
+					<img src="images/portrait-panel.jpg" alt="">
 				</picture>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam! Minus explicabo voluptas dolores, reprehenderit!</p>
 			</div>
 		
 		</div>
 
-		<div class='news-panel'>
+		<div class='right-panel'>
 
-			<div class='img-panel'>
-				<picture>
-					<img src="images/news-panel.jpg" alt="">
-				</picture>
+			<div class='news-panel'>
 
-				<picture>
-					<img src="images/news-panel.jpg" alt="">
-				</picture>
+				<div class='img-panel'>
+					<picture>
+						<img src="images/news-panel.jpg" alt="">
+					</picture>
 
+					<picture>
+						<img src="images/news-panel.jpg" alt="">
+					</picture>
+
+				</div>
+
+
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dolore voluptatibus magnam, ex minima consequatur explicabo.</p>
+			
 			</div>
 
+			<div class='news-panel'>
 
-			<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dolore voluptatibus magnam, ex minima consequatur explicabo.</p>
-		
+				<div class='img-panel'>
+					<picture>
+						<img src="images/news-panel.jpg" alt="">
+					</picture>
+
+					<picture>
+						<img src="images/news-panel.jpg" alt="">
+					</picture>
+
+				</div>
+
+
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dolore voluptatibus magnam, ex minima consequatur explicabo.</p>
+			
+			</div>
+
+			<div class='news-panel'>
+
+				<div class='img-panel'>
+					<picture>
+						<img src="images/news-panel.jpg" alt="">
+					</picture>
+
+					<picture>
+						<img src="images/news-panel.jpg" alt="">
+					</picture>
+
+				</div>
+
+
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dolore voluptatibus magnam, ex minima consequatur explicabo.</p>
+			
+				</div>
+			</div>
 		</div>
-	</div>
-
-	<div class='bottom-panel'>
-	
-	</div>
 
 </div>

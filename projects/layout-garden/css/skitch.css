@@ -1,3 +1,6 @@
+
+
+
 .skitch-module * {
 	border-radius: 8px;
 }
@@ -25,7 +28,7 @@
 	flex-direction: column;
 	height: 200%
 /*	padding: 10px;*/
-	outline: 2px solid red;
+/*	outline: 2px solid red;*/
 }
 
 .left-panel {
@@ -39,18 +42,35 @@
 }
 
 .left-panel img {
+	background-color: rgb(251,247,239,100);
+}
+
+.left-panel img {
 	filter: saturate(50%);
 }
 
 .left-panel img:hover {
-	filter: saturate(150%);
+	filter: saturate(100%);
 }
 
+.right-panel {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+/*	outline: 2px solid yellow;*/
+}
+
+
+.news-panel {
+	display: flex;
+	flex-direction: column;
+/*	outline: 2px solid green;*/
+}
 
 
 .img-panel {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	gap: 10px;
 /*	outline: 2px solid red;*/
 }
@@ -59,19 +79,6 @@
 	outline: 2px solid black;
 }
 
-
-.news-panel {
-/*	width: 60%;*/
-/*	padding: 10px;*/
-	outline: 2px solid red;
-}
-
-.bottom-panel {
-	padding: 20px;
-	width: 100%;
-	background-color: rgb(251,247,239,100);
-/*	outline: 2px solid red;*/
-}
 
 img {
 	display: block;
@@ -107,12 +114,34 @@ header {
 	
 }
 
+@media (min-width: 500px) {
+	.right-panel {
+			flex-direction: column;
+			gap: 40px;
+		}
+		.img-panel {
+			gap: 20px;
+		}
+}
+
 @media (min-width: 800px) {
 		.dual-panel {
 		 flex-direction: row;
 	}
+		.right-panel {
+			flex-direction: row;
+		}
 	
 }
+	
+
+@media (min-width: 1000px) {
+	
+	
+}
+
+
+
 
 
 
