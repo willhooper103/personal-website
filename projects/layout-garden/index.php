@@ -6,8 +6,8 @@
 	<title>layout-garden</title>
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/index.css">
-	<link rel="stylesheet" href="css/big-banner3.css">
-	<link rel="stylesheet" href="css/news-style.css">
+	<link rel="stylesheet" href="css/big-banner.css">
+	<link rel="stylesheet" href="css/news.css">
 	<link rel="stylesheet" href="css/sticky-scroll.css">
 	<link rel="stylesheet" href="css/skitch.css">
 	<link rel="stylesheet" href="css/graphic-panel-module.css">
@@ -74,7 +74,7 @@
 	<section class="other-section">
 		<div class='inner-column'>
 
-			 <?php include('big-banner3.php'); ?>
+			 <?php include('big-banner.php'); ?>
 
 			
 					
