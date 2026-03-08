@@ -1,12 +1,11 @@
 /* STRUCTURE  */
 
+
+.graphic-panels * {
+    border-radius: 8px;
+}
 * {
   box-sizing: border-box;
-}
-
-html {
-  --pea: #D1D1A9;
-  --grey: #DEDFDB;
 }
 
 
@@ -14,16 +13,7 @@ html {
 
 body {
   font-family: sans-serif;
-
 }
-
-.graphic-panels {
-  background-color: var(--grey);
-}
-  
-  .info {
-    background-color: var(--grey);
-  }
 
 
 .attention-voice {
@@ -38,6 +28,9 @@ a {
 
 /* ELEMENTS  */
 
+.graphic-panels picture {
+  outline: 2px solid black;
+}
 
 .panel-1, .panel-2, .panel-3 {
   display: grid; 
