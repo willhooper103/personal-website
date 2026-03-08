@@ -9,7 +9,8 @@
 						</picture>
 
 						<div class="info">
-							<p>Here is some news. It's the news, news, news...not the olds.</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia quaerat aspernatur?
+							</p>
 				        </div>
 			    	</li>
 					
@@ -19,7 +20,8 @@
 						</picture>
 
 						<div class="info">
-							<p>Here is some news. It's the news, news, news...not the olds.</p>
+							<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Cum porro, quas quibusdam!
+							</p>
 				        </div>
 			    	</li>
 					
@@ -29,7 +31,8 @@
 						</picture>
 
 						<div class="info">
-							<p>Here is some news. It's the news, news, news...not the olds.</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi ipsam quasi.
+							</p>
 				        </div>
 			    	</li>
 					
@@ -39,7 +42,8 @@
 						</picture>
 
 						<div class="info">
-							<p>Here is some news. It's the news, news, news...not the olds.</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, repudiandae corporis expedita?
+							</p>
 				        </div>
 			    	</li>
 
