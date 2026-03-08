@@ -21,7 +21,7 @@ section-one {
 	background-color: rgb(251,247,239,100);
 }
 
-.scroll-module > .column-1, .column-3 {
+.scroll-module > .column-1 {
 	display: block;
 	position: sticky;
 	top: 100px;
@@ -30,14 +30,37 @@ section-one {
 	outline: 2px solid black;
 }
 
-.column-2 {
+.scroll-module > .column-2 {
+	display: block;
+	position: sticky;
+	top: 100px;
+	z-index: 1;
+	padding: 1rem;
+	background-color: rgb(251,247,239,100);
+	outline: 2px solid black;
+}
+
+.column-3 {
 	display: flex;
 	flex-direction: column;
 	z-index: 1;
 	gap: 20px;
 }
 
-.column-2-info {
+.column-3-info {
 	padding: 1rem;
 	outline: 2px solid black;
 }
+
+.column-3-info:hover {
+	color: rgb(251,247,239,100);
+	background-color: rgb(233, 79, 55, 100);
+}
+
+
+
+
+
+
+
+
