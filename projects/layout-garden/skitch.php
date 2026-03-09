@@ -12,7 +12,7 @@
 				<picture>
 					<img src="images/portrait-panel.jpg" alt="">
 				</picture>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ullam! Minus explicabo voluptas dolores, reprehenderit!</p>
+				<p>Here is an image that changes when hovered over. </p>
 			</div>
 		
 		</div>
@@ -33,7 +33,7 @@
 				</div>
 
 
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dolore voluptatibus magnam, ex minima consequatur explicabo.</p>
+				<p>This text could describe the boxes above it.</p>
 			
 			</div>
 
@@ -51,7 +51,7 @@
 				</div>
 
 
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dolore voluptatibus magnam, ex minima consequatur explicabo.</p>
+				<p>This text could describe the boxes above it.</p>
 			
 			</div>
 
@@ -69,7 +69,7 @@
 				</div>
 
 
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Dolore voluptatibus magnam, ex minima consequatur explicabo.</p>
+				<p>This text could describe the boxes above it.</p>
 			
 				</div>
 			</div>

@@ -9,7 +9,7 @@
 						</picture>
 
 						<div class="info">
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia quaerat aspernatur?
+							<p>These boxes are organized on a grid.
 							</p>
 				        </div>
 			    	</li>
@@ -20,7 +20,7 @@
 						</picture>
 
 						<div class="info">
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing, elit. Cum porro, quas quibusdam!
+							<p>These boxes are organized on a grid.
 							</p>
 				        </div>
 			    	</li>
@@ -31,7 +31,7 @@
 						</picture>
 
 						<div class="info">
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi ipsam quasi.
+							<p>These boxes are organized on a grid.
 							</p>
 				        </div>
 			    	</li>
@@ -42,7 +42,7 @@
 						</picture>
 
 						<div class="info">
-							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, repudiandae corporis expedita?
+							<p>These boxes are organized on a grid.
 							</p>
 				        </div>
 			    	</li>

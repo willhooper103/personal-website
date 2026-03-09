@@ -5,12 +5,12 @@
 		<ul class='info-list-1'>
 			<li>
 				<div class='img-div'></div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia vel autem. </p>
+				<p>A color change and drop shadow appear when hovered over. </p>
 			</li>
 
 			<li>
 				<div class='img-div'></div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia vel autem. </p>
+				<p>A color change and drop shadow appear when hovered over. </p>
 			</li>
 		</ul>
 	</div>
@@ -19,17 +19,17 @@
 		<ul class='info-list-2'>
 			<li>
 				<div class='img-div'></div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia vel autem. </p>
+				<p>A color change and drop shadow appear when hovered over. </p>
 			</li>
 		
 			<li>
 				<div class='img-div'></div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia vel autem. </p>
+				<p>A color change and drop shadow appear when hovered over. </p>
 			</li>
 			
 			<li>
 				<div class='img-div'></div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia vel autem. </p>
+				<p>A color change and drop shadow appear when hovered over. </p>
 			</li>
 		</ul>
 	</div>
@@ -39,17 +39,17 @@
 			
 			<li>
 				<div class='img-div'></div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia vel autem. </p>
+				<p>A color change and drop shadow appear when hovered over. </p>
 			</li>
 		
 			<li>
 				<div class='img-div'></div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia vel autem. </p>
+				<p>A color change and drop shadow appear when hovered over. </p>
 			</li>
 			
 			<li>
 				<div class='img-div'></div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis mollitia vel autem. </p>
+				<p>A color change and drop shadow appear when hovered over. </p>
 			</li>
 				
 		
