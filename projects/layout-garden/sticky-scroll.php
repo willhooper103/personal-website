@@ -43,37 +43,37 @@
 
 		<div class='column-3-info'>
 			<h3>Header</h3>
-			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
+			<p>These boxes change background color and text color.</p>
 		</div>
 
 		<div class='column-3-info'>
 			<h3>Header</h3>
-			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
+			<p>These boxes change background color and text color.</p>
 		</div>
 
 		<div class='column-3-info'>
 			<h3>Header</h3>
-			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
+			<p>These boxes change background color and text color.</p>
 		</div>
 
 		<div class='column-3-info'>
 			<h3>Header</h3>
-			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
+			<p>These boxes change background color and text color.</p>
 		</div>
 
 		<div class='column-3-info'>
 			<h3>Header</h3>
-			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
+			<p>These boxes change background color and text color.</p>
 		</div>
 
 		<div class='column-3-info'>
 			<h3>Header</h3>
-			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
+			<p>These boxes change background color and text color.</p>
 		</div>
 
 		<div class='column-3-info'>
 			<h3>Header</h3>
-			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
+			<p>These boxes change background color and text color.</p>
 		</div>
 
 	</div>
