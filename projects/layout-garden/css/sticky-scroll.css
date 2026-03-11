@@ -14,7 +14,7 @@ section-one {
 	align-items: flex-start;
 	padding: 1rem;
 	gap: 10px;
-	outline: 2px solid yellow;
+/*	outline: 2px solid yellow;*/
 }
 
 .scroll-module > .column-1 {
