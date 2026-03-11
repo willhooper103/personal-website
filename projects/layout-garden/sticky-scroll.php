@@ -9,21 +9,15 @@
 		<div class='column-2-info'>
 			<h3>Header</h3>
 			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
+			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
 		</div>
+		
 
 		<div class='column-2-info'>
 			<h3>Header</h3>
 			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
-		</div>
-
-		<div class='column-2-info'>
-			<h3>Header</h3>
 			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
-		</div>
 
-		<div class='column-2-info'>
-			<h3>Header</h3>
-			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
 		</div>
 
 		<div class='column-2-info'>
