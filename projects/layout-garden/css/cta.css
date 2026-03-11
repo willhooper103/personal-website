@@ -1,26 +1,23 @@
 
 
+
 /*STRUCTURE*/
 
 .cta-module {
-	display: flex;
+	display: grid;
 	flex-direction: row;
-	justify-content: flex-start;
-	padding: 10px;
+	justify-content: center;
 	gap: 10px;
 }
 
 
-.info-list-1, .info-list-2, .info-list-3 {
-	display: flex;
+.info-list {
+	display: grid;
 	flex-direction: column;
 	justify-content: flex-start;
 	gap: 30px;
 }
 
-.cta-module > .column-1, .cta-module > .column-2, .cta-module > .column-3, p {
-	padding: 10px;
-}
 
 /*STYLE*/
 
@@ -36,8 +33,12 @@
 	background-image: url("../images/orange-panel.png");
 }
 
+.info-list p {
+	padding: 1rem;
+}
 
-.info-list-1 li, .info-list-2 li, .info-list-3 li {
+
+.info-list li {
 	background-color: rgb(222,223,219,100);
 	transition: box-shadow 0.3s ease-in-out;
   	color: black;
@@ -45,7 +46,7 @@
 	border-radius: 8px;
 }
 
-.info-list-1 li:hover, .info-list-2 li:hover, .info-list-3 li:hover {
+.info-list li:hover {
 	box-shadow: 0 12px 12px 0 rgba(0,0,0,0.4);
 }
 
@@ -54,6 +55,25 @@
 
 p {
 	font-size: .9rem;
+}
+
+
+@media (min-width: 500px) {
+	.cta-module .info-list {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (min-width: 800px) {
+	.cta-module .info-list {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 1000px) {
+	.cta-module .info-list {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
 
 

@@ -62,7 +62,7 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
   .circle-img-module {
     flex-direction: row;
   }

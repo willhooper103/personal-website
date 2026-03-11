@@ -14,7 +14,7 @@ section-one {
 	align-items: flex-start;
 	padding: 1rem;
 	gap: 10px;
-/*	outline: 2px solid yellow;*/
+	outline: 2px solid yellow;
 }
 
 .scroll-module > .column-1 {
@@ -28,6 +28,11 @@ section-one {
 	z-index: 1;
 	padding: 1rem;
 	outline: 2px solid black;
+}
+
+.column-1 > p {
+	max-width: 50ch;
+	line-height: 1.5;
 }
 
 .scroll-module > .column-2 {
@@ -55,6 +60,80 @@ section-one {
 .column-3-info:hover {
 	color: rgb(251,247,239,100);
 	background-color: rgb(233, 79, 55, 100);
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+h3 + p {
+	margin-top: 1rem;
+}
+
+.column-2-info > p + h3 {
+	margin-top: 1.2rem;
+}
+
+@media (min-width: 300px) {
+	.scroll-module {
+		flex-direction: column;
+	}
+
+	.scroll-module > .column-1 {
+		position: static;
+		width: 100%;
+	}
+
+	.scroll-module > .column-2 {
+		position: static;
+		width: 100%;
+	}
+
+	.scroll-module > .column- {
+		position: static;
+		width: 100%;
+	}
+}
+
+@media (min-width: 500px) {
+	.scroll-module {
+		flex-direction: column;
+	}
+
+	.scroll-module > .column-1 {
+		position: static;
+		width: 100%;
+	}
+
+	.scroll-module > .column-2 {
+		position: static;
+		width: 100%;
+	}
+
+	.scroll-module > .column-3 {
+		position: static;
+		width: 100%;
+	}
+}
+
+@media (min-width: 800px) {
+	.scroll-module {
+		flex-direction: row;
+	}
+
+	.scroll-module > .column-1 {
+		position: sticky;
+	}
+
+	.scroll-module > .column-2 {
+		position: sticky;
+	}
+}
+
+@media (min-width: 1000px) {
+	.scroll-module {
+		flex-direction: row;
+	}
 }
 
 
