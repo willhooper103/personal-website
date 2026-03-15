@@ -34,8 +34,8 @@
 	<section class="section-one">
 		<div class='inner-column'>
 
+			<?php include('sticky-scroll.php'); ?>
 			
-			 <?php include('skitch.php'); ?>
 		</div>
 	</section>
 
@@ -43,8 +43,8 @@
 	<section class="section-two">
 		<div class='inner-column'>
 
-			 
-			 <?php include('sticky-scroll.php'); ?>
+			 <?php include('skitch.php'); ?>
+			
 		</div>
 	</section>
 

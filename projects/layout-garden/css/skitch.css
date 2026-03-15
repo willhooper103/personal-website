@@ -11,7 +11,6 @@
 	justify-content: center;
 	align-items: flex-start;
 	gap: 20px;
-/*	outline: 2px solid black;*/
 }
 
 .dual-panel {
@@ -19,16 +18,12 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: flex-start;
-	gap: 20px;
-/*	outline: 2px solid orange;*/
+	gap: 1rem;
 }
 
 .media-panel {
 	display: flex;
 	flex-direction: column;
-	height: 200%
-/*	padding: 10px;*/
-/*	outline: 2px solid red;*/
 }
 
 .left-panel {
@@ -37,7 +32,6 @@
 	justify-content: flex-start;
 	align-items: center;
 	padding: 1rem;
-	padding-bottom: 6rem;
 	outline: 2px solid black;
 }
 
@@ -56,23 +50,19 @@
 .right-panel {
 	display: flex;
 	flex-direction: row;
-	gap: 10px;
-/*	outline: 2px solid yellow;*/
+	gap: 1rem;
 }
 
 
 .news-panel {
 	display: flex;
 	flex-direction: column;
-/*	outline: 2px solid green;*/
 }
 
 
 .img-panel {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
-/*	outline: 2px solid red;*/
 }
 
 .img-panel img {
@@ -109,15 +99,13 @@ p + p {
 
 header {
 	font-size: 2rem;
-	padding: 5px
-/*	outline: 2px solid green;*/
-	
+	padding: 5px	
 }
 
 @media (min-width: 500px) {
 	.right-panel {
 			flex-direction: column;
-			gap: 40px;
+			gap: 1rem;
 		}
 		.img-panel {
 			gap: 20px;
@@ -135,10 +123,6 @@ header {
 }
 	
 
-@media (min-width: 1000px) {
-	
-	
-}
 
 
 
