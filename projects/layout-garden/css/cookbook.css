@@ -1,0 +1,44 @@
+
+
+.recipe * {
+	border-radius: 8px;
+}
+
+.recipe {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+/*	padding: 1rem;*/
+	outline: 2px solid black;
+}
+
+header {
+	outline: 2px solid green;
+}
+
+header p {
+	max-width: 50ch;
+}
+
+.description {
+	margin-top: 2rem;
+}
+
+.ingredients {
+	outline: 2px solid red;
+}
+
+.how-to {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-top: 2rem;
+	gap: 2rem;
+	outline: 2px solid aqua;
+}
+
+h1{
+	max-width: 26ch;
+}
