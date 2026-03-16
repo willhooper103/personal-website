@@ -12,7 +12,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	padding: 1rem;
+/*	padding: 1rem;*/
 	--pen: sans-serif;
 	--paper: rgb(221,223,218,100);
 	background-color: #dce0d9;
@@ -28,7 +28,7 @@ body {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 5px;
+	padding-top: 1.5rem;
 /*	outline: 3px solid dodgerblue;*/
 }
 

@@ -3,7 +3,7 @@
 	position: sticky;
 	top: 0;
 	width: 100%;
-	padding: 20px;
+	padding: 1rem;
 	z-index: 10;
 	background-color: var(--paper);
 /*	outline: 3px solid aqua;*/
