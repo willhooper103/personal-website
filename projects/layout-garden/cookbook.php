@@ -2,29 +2,40 @@
 
 <div class='recipe'>
 	<header>
-		<h1>
-			BAKED HONEY AND SESAME CHICKEN WITH CILANTRO AND MINT SLAW
-		</h1>
-		<div class='description'>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium commodi quam itaque tempora vel ratione earum at voluptatem iusto quis expedita saepe minima debitis eos eaque dolore doloremque ducimus, voluptates, facere aliquid et inventore est iure rerum. Adipisci libero tenetur non, repellendus, laborum officia veritatis modi, assumenda doloremque possimus autem.</p>
+		<div class='title-box'>
+			<h1>
+			A REALLY TASTY RECIPE
+			</h1>
+			<div class='description'>
+			<p>Sticky honey-based baked chicken thighs are one of my go-to recipes when I just don't have the capacity to stand up and cook. Throw it in the oven and quickly make the slaw then sit down and relaz while the oven does the hard work! The basting mixture is just a simple combination of honey and water, which provides that sticky, carmelized goodness you find on Chinese roast meats. The technique of salting the vegetables draws out the water to preserve their crunch.  </p>
 			
+			</div>
 		</div>
+
+		<picture>
+			<img src="images/news-panel.jpg" alt="">
+			
+		</picture>
 	</header>
 
 	<div class='how-to'>
 
 		<div class='ingredients'>
 			<ul>
-				<li>ingredients</li>
-				<li>ingredients</li>
-				<li>ingredients</li>
-				<li>ingredients</li>
-				<li>ingredients</li>
-				<li>ingredients</li>
-				<li>ingredients</li>
-				<li>ingredients</li>
-				<li>ingredients</li>
-				<li>ingredients</li>
+				<li>6 skin-on boneless chicken thighs</li>
+				<li>2 tbsp honey</li>
+				<li>1 tbsp Chinese five spice powder</li>
+				<li>1 tbsp light soy sauce</li>
+				<li>1 tbsp dark soy sauce</li>
+				<li>1 tbsp oyster sauce</li>
+				<li>1 tsp granulated sugar</li>
+				<li>1 tsp MSG</li>
+				<li>pinch of salt</li>
+				<li>1 tsp sesame oil</li>
+				<li>1 tsp vegetable oil</li>
+				<li> 2 tbsp water</li>
+				<li>1 tbsp sesame seeds</li>
+				<li>chili oil to serve (optional)</li>
 			</ul>
 		</div>
 
