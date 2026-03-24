@@ -27,7 +27,7 @@ section-one {
 	top: 100px;
 	z-index: 1;
 	padding: 1rem;
-	outline: 2px solid black;
+	outline: 1px solid black;
 }
 
 .column-1 > p {
@@ -42,7 +42,7 @@ section-one {
 	z-index: 1;
 	padding: 1rem;
 	background-color: rgb(251,247,239,100);
-	outline: 2px solid black;
+	outline: 1px solid black;
 }
 
 .column-3 {
@@ -54,7 +54,7 @@ section-one {
 
 .column-3-info {
 	padding: 1rem;
-	outline: 2px solid black;
+	outline: 1px solid black;
 }
 
 .column-3-info:hover {
