@@ -13,7 +13,9 @@
 		<link rel="stylesheet" href="css/graphic-panel-module.css">
 		<link rel="stylesheet" href="css/cta.css">
 		<link rel="stylesheet" href="css/circle-img.css">
+		<link rel="stylesheet" href="css/detailed-module.css">
 		<link rel="stylesheet" href="css/cookbook.css">
+		<link rel="stylesheet" href="css/horizontal-scroll.css">
 		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/footer.css">
 	</head>
@@ -97,6 +99,22 @@
 				<div class='inner-column'>
 
 					 <?php include('cookbook.php'); ?>
+
+				</div> 
+			</section>
+
+			<section class="other-section">
+				<div class='inner-column'>
+
+					 <?php include('horizontal-scroll.php'); ?>
+
+				</div> 
+			</section>
+
+			<section class="other-section">
+				<div class='inner-column'>
+
+					 <?php include('detailed-module.php'); ?>
 
 				</div> 
 			</section>
