@@ -1,0 +1,54 @@
+
+
+.scroll-container-wrapper * {
+	border-radius: 8px;
+}
+
+
+.item {
+	flex: none;
+	width: 400px;
+	margin: 10px;
+	display: inline-block;
+	outline: 1px solid black;
+}
+
+.scroll-container-wrapper {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 1rem;
+	outline: 1px solid black;
+}
+
+.horizontal-scroll-container {
+	display: flex;
+	overflow-x: auto;
+	scroll-behavior: smooth;
+	white-space: nowrap;
+	padding: 0 40px;
+}
+
+.left-arrow, .right-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 10;
+	cursor: pointer;
+}
+
+.left-arrow {
+	left: 0;
+}
+
+.right-arrow {
+	right: 0;
+}
+
+
+
+
+
+
+
+}
