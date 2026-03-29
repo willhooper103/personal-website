@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="css/skitch.css">
 		<link rel="stylesheet" href="css/graphic-panel-module.css">
 		<link rel="stylesheet" href="css/cta.css">
+		<link rel="stylesheet" href="css/archive.css">
 		<link rel="stylesheet" href="css/circle-img.css">
 		<link rel="stylesheet" href="css/detailed-module.css">
 		<link rel="stylesheet" href="css/cookbook.css">
@@ -63,6 +64,14 @@
 				<div class='inner-column'>
 
 					 <?php include('cta.php'); ?>
+
+				</div>
+			</section>
+
+			<section class="other-section">
+				<div class='inner-column'>
+
+					 <?php include('archive.php'); ?>
 
 				</div>
 			</section>
