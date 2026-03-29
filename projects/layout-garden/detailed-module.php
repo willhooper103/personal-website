@@ -72,19 +72,20 @@
 		
 		<div class='small-images'>
 
-			<picture>
-				<img src="images/news-panel.jpg" alt="">
-			</picture>
+			<div class='portrait-panel'>
+				
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, voluptatem.</p>
+
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, voluptatem.</p>
+				
+				
+			</div>
 
 			<picture>
 				<img src="images/news-panel.jpg" alt="">
 			</picture>
-
-			<picture>
-				<img src="images/news-panel.jpg" alt="">
-			</picture>
-
 		</div>
+
 
 		<div class='small-images'>
 
@@ -93,11 +94,7 @@
 			</picture>
 
 			<picture>
-				<img src="images/news-panel.jpg" alt="">
-			</picture>
-
-			<picture>
-				<img src="images/news-panel.jpg" alt="">
+				<img src="images/portrait-panel.jpg" alt="">
 			</picture>
 
 		</div>
