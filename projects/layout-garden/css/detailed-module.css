@@ -20,7 +20,7 @@
 	justify-content: flex-start;
 	align-items: center;
 /*	width: 50%;*/
-	gap: 1rem;
+	gap: 2.1rem;
 /*	outline: 2px solid blue;*/
 }
 
@@ -57,12 +57,33 @@
 /*	outline: 2px solid violet;*/
 }
 
+.portrait-panel {
+/*	display: block;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-image: url("../images/portrait-panel.jpg");
+	background-size: cover;
+	padding: 100px;
+	width: 100%;
+	gap: 1rem;
+	outline: 1px solid black;
+}
+
+/*.portrait-panel p {*/
+	display: inline-block;
+	padding: 100px;
+	outline: 1px solid green;
+}
+
 .small-images {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
 	gap: 1rem;
+/*	outline: 2px solid violet;*/
 }
 
 .small-images img {

@@ -29,7 +29,7 @@ a {
 /* ELEMENTS  */
 
 .graphic-panels picture {
-  outline: 2px solid black;
+  outline: 1px solid black;
 }
 
 .panel-1, .panel-2, .panel-3 {

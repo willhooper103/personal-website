@@ -42,7 +42,7 @@
 	background-color: rgb(222,223,219,100);
 	transition: box-shadow 0.3s ease-in-out;
   	color: black;
-	outline: 2px solid black;
+	outline: 1px solid black;
 	border-radius: 8px;
 }
 
