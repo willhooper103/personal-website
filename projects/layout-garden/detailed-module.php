@@ -51,19 +51,6 @@
 		
 		</div>
 
-
-
-		<div class='text-box'>
-			
-			<picture>
-				<img src="images/orange-panel.png" alt="">
-			</picture>
-
-
-			<p>Here is some text to describe a thing.</p>
-		
-		</div>
-
 	</div>
 
 
@@ -73,16 +60,13 @@
 		<div class='small-images'>
 
 			<div class='portrait-panel'>
-				
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, voluptatem.</p>
-
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, voluptatem.</p>
-				
-				
+				<div class=''>
+					
+				</div>
 			</div>
 
 			<picture>
-				<img src="images/news-panel.jpg" alt="">
+				<img src="images/portrait-panel.jpg" alt="">
 			</picture>
 		</div>
 
