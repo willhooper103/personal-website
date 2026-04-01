@@ -62,9 +62,25 @@ section-one {
 	background-color: rgb(233, 79, 55, 100);
 }
 
+h3 {
+	font-size: 1.5rem;
+}
+
 p + h3 {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	margin-top: 1.2rem;
+}
+
+h4 {
+	font-weight: 600;
+}
+
+p + h4 {
+	margin-top: 1rem;
+}
+
+h4 + p {
+	margin-top: .5rem;
 }
 
 h3 + p {
@@ -72,10 +88,24 @@ h3 + p {
 /*	margin-bottom: .8rem;*/
 }
 
+.column-2-info + .column-2-info {
+	margin-top: 1rem;
+}
+
 
 @media (min-width: 300px) {
 	.scroll-module {
 		flex-direction: column;
+		padding: 1rem;
+
+	.column-3 {
+		width: 100%;
+	}
+}
+
+
+	.scroll-module p {
+		max-width: 80ch;
 	}
 
 	.scroll-module > .column-1 {
@@ -86,6 +116,10 @@ h3 + p {
 	.scroll-module > .column-2 {
 		position: static;
 		width: 100%;
+	}
+
+	.column-2 p {
+		max-width: 80ch;
 	}
 
 	.scroll-module > .column- {
