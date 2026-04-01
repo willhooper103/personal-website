@@ -10,12 +10,13 @@
 		<link rel="stylesheet" href="css/news.css">
 		<link rel="stylesheet" href="css/sticky-scroll.css">
 		<link rel="stylesheet" href="css/skitch.css">
+		<link rel="stylesheet" href="css/complicated-module.css">
 		<link rel="stylesheet" href="css/graphic-panel-module.css">
 		<link rel="stylesheet" href="css/cta.css">
 		<link rel="stylesheet" href="css/archive.css">
 		<link rel="stylesheet" href="css/circle-img.css">
 		<link rel="stylesheet" href="css/detailed-module.css">
-		<link rel="stylesheet" href="css/cookbook.css">
+		<!-- <link rel="stylesheet" href="css/cookbook.css"> -->
 		<link rel="stylesheet" href="css/horizontal-scroll.css">
 		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/footer.css">
@@ -38,6 +39,14 @@
 
 					<?php include('sticky-scroll.php'); ?>
 					
+				</div>
+			</section>
+
+			<section class="other-section">
+				<div class='inner-column'>
+
+					 <?php include('complicated-module.php'); ?>
+
 				</div>
 			</section>
 
@@ -107,7 +116,7 @@
 			<section class="other-section">
 				<div class='inner-column'>
 
-					 <?php include('cookbook.php'); ?>
+					 <!-- <?php include('cookbook.php'); ?> -->
 
 				</div> 
 			</section>
