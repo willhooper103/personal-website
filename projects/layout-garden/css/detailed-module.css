@@ -19,9 +19,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-/*	width: 50%;*/
-	gap: 2.1rem;
-/*	outline: 2px solid blue;*/
+	gap: 1rem;
 }
 
 .left-info-box img {
@@ -71,11 +69,6 @@
 	outline: 1px solid black;
 }
 
-/*.portrait-panel p {*/
-	display: inline-block;
-	padding: 100px;
-	outline: 1px solid green;
-}
 
 .small-images {
 	display: flex;
@@ -91,7 +84,18 @@
 }
 
 
-
 img {
 	display: block;
 }
+
+@media (min-width: 300px)
+@media (min-width: 500px)
+@media (min-width: 800px)
+@media (min-width: 1000px)
+
+
+
+
+
+
+
