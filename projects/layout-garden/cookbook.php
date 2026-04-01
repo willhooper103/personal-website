@@ -7,8 +7,8 @@
 			A REALLY TASTY RECIPE
 			</h1>
 			<div class='description'>
-			<p>Sticky honey-based baked chicken thighs are one of my go-to recipes when I just don't have the capacity to stand up and cook. Throw it in the oven and quickly make the slaw then sit down and relaz while the oven does the hard work! The basting mixture is just a simple combination of honey and water, which provides that sticky, carmelized goodness you find on Chinese roast meats. The technique of salting the vegetables draws out the water to preserve their crunch.  </p>
-			
+				<p>Sticky honey-based baked chicken thighs are one of my go-to recipes when I just don't have the capacity to stand up and cook. Throw it in the oven and quickly make the slaw then sit down and relaz while the oven does the hard work! The basting mixture is just a simple combination of honey and water, which provides that sticky, carmelized goodness you find on Chinese roast meats. The technique of salting the vegetables draws out the water to preserve their crunch.  </p>
+				
 			</div>
 		</div>
 
