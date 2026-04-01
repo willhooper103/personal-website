@@ -4,6 +4,10 @@
 .graphic-panels * {
     border-radius: 8px;
 }
+
+.graphic-panels {
+  padding: 1rem;
+}
 * {
   box-sizing: border-box;
 }
@@ -54,6 +58,9 @@ a {
   }
 
   @media (width >=700px) {
+    .graphic-panels {
+      padding: 1rem;
+    }
   
     grid-template-columns: 1fr 1fr;
   
