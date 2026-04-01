@@ -7,7 +7,7 @@
 .archive {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: flex-start;
 /*	padding: 1rem;*/
 	gap: 1rem;
@@ -15,12 +15,12 @@
 }
 
 .archive picture {
-	outline: 1px solid black;
+/*	outline: 1px solid black;*/
 }
 
 
 .archive img {
-	width: 100%;
+	width: 97%;
 }
 
 .search-info {
@@ -67,13 +67,41 @@ h1 {
 	font-size: 1.5rem;
 }
 
-h3 {
+.search-info h3 {
+	font-size: 1rem;
 	font-weight: 700;
 }
 
+
 h1 + .index-terms {
-	margin-top: 70px;
+	margin-top: 56px;
 }
+
+@media (min-width: 300px) {
+	.archive {
+		flex-direction: column;
+		align-items: center;
+		padding: 1rem;
+	}
+}
+
+@media (min-width: 500px) {
+	.archive {
+		flex-direction: column;
+		align-items: center;
+		padding: 1rem;
+	}
+
+}
+
+@media (min-width: 800px) {
+	.archive {
+		flex-direction: row;
+		align-items: flex-start;
+	}
+}
+
+@media (min-width: 1000px)
 
 
 
