@@ -4,19 +4,37 @@
 	box-sizing: border-box;
 }
 
-html {
-	font-family: sans-serif;
+:root {
+
+	--color: rgb(233, 79, 55);
+	--stoke-strong: black;
+
+	--round-corners: 8px;
+	--round: 50%;
+	--thin-border: 1px solid black;	
+	--medium-border: 2px solid black;
+	--thick-border: 3px solid black;
 }
+
+picture {
+	display: block;
+	overflow: hidden;
+	img {
+		display: block;
+		width: 100%;
+		height: auto;
+		opacity: 1;
+	}
+}
+
 
 body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-/*	padding: 1rem;*/
 	--pen: sans-serif;
 	--paper: rgb(221,223,218,100);
 	background-color: #dce0d9;
-/*	outline: 3px solid red;*/
 }
 
 .page-content {
@@ -29,7 +47,6 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 1.5rem;
-/*	outline: 3px solid dodgerblue;*/
 }
 
 
