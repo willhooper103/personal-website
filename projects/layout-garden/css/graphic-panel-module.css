@@ -2,7 +2,7 @@
 
 
 .graphic-panels * {
-    border-radius: 8px;
+    border-radius: var(--round-corners);
 }
 
 .graphic-panels {
@@ -33,7 +33,7 @@ a {
 /* ELEMENTS  */
 
 .graphic-panels picture {
-  outline: 1px solid black;
+  outline: var(--thin-border);
 }
 
 .panel-1, .panel-2, .panel-3 {

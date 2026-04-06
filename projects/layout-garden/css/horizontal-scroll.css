@@ -1,7 +1,7 @@
 
 
 .scroll-container-wrapper * {
-	border-radius: 8px;
+	border-radius: var(--round-corners);
 }
 
 
@@ -18,7 +18,8 @@
 	width: 100%;
 	overflow: hidden;
 	margin-bottom: 1rem;
-	outline: 1px solid black;
+	outline: var(--thin-border);
+	border-radius: var(--round-corners);
 }
 
 .horizontal-scroll-container {

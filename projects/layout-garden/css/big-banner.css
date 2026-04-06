@@ -1,6 +1,6 @@
 
 .banner-module * {
-	border-radius: 8px;
+	border-radius: var(--round-corners);
 }
 
 .banner-module {
@@ -11,7 +11,7 @@
 	gap: 20px;
 	padding: 1rem;
 /*	background-color: rgb(251,247,239,100);*/
-/*	border-radius: 8px;*/
+/*	border-radius: var(--border-radius);*/
 /*	outline: 1px solid black;*/
 }
 
@@ -30,12 +30,10 @@
 
 .left-side-panel picture {
 	width: 100%;
-/*	outline: 2px solid yellow;*/
 }
 
 .image-panel picture {
 	margin-bottom: 1.5rem;
-/*	outline: 2px solid dodgerblue;*/
 }
 
 
@@ -77,7 +75,7 @@
 /*	outline: 2px solid violet;*/
 }
 
-.circle-panel img {
+.circle-panel picture {
 	max-width: 100px;
 	border-radius: 50%;
 }

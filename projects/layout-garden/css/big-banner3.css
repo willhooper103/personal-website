@@ -1,5 +1,5 @@
 .banner-module {
-	border-radius: 8px;
+	border-radius: var(--border-radius);
 }
 
 .banner-module {
@@ -21,7 +21,7 @@
 	padding-right: 20px;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	border-radius: 8px;
+	border-radius: var(--border-radius);
 	line-height: 1.2;
 	background-color: rgb(221, 223, 218, 100);
 }

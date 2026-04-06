@@ -1,6 +1,6 @@
 
 .complicated-module * {
-	border-radius: 8px;
+	border-radius: var(--round-corners);
 }
 
 
@@ -34,7 +34,7 @@ left-section > .top-section {
 	padding: 1rem;
 	width: 100%;
 	gap: 1rem;
-	outline: 1px solid black;
+	outline: var(--thin-border);
 }
 
 .bottom-section {
@@ -42,10 +42,8 @@ left-section > .top-section {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
-/*	padding: 1rem;*/
 	width: 100%;
 	gap: 1rem;
-/*	outline: 1px solid green;*/
 }
 
 .box-1, .box-2, .box-3 {
@@ -89,10 +87,10 @@ right-section > .bottom-section {
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: flex-start;
-	padding: 1rem;
+/*	padding: 1rem;*/
 	width: 100%;
 /*	gap: 1rem;*/
-	outline: 1px solid black;
+	outline: var(--thin-border);
 	background-color: rgb(251, 247, 239, 100);
 }
 
@@ -104,7 +102,6 @@ right-section > .bottom-section {
 	padding: 1rem;
 	width: 100%;
 	gap: 1rem;
-/*	outline: 1px solid orange;*/
 }
 
 @media (min-width: 300px) {

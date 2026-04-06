@@ -2,7 +2,7 @@
 
 
 .skitch-module * {
-	border-radius: 8px;
+	border-radius: var(--round-corners);
 }
 
 .skitch-module {
