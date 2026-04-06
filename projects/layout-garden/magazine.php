@@ -7,7 +7,7 @@
 			<div class='green-box-top'>
 
 				<figure>
-					<video controls src="images/test-video.mov"></video>
+					<video controls src="images/welcome-video.mov"></video>
 				</figure>
 
 			</div>
