@@ -3,6 +3,10 @@
 
 /*STRUCTURE*/
 
+.cta-module * {
+	border-radius: var(--round-corners);
+}
+
 .cta-module {
 	display: grid;
 	flex-direction: row;
@@ -26,7 +30,8 @@
 	background-image: url("../images/news-panel.jpg");
 	background-size: cover;
 	background-position: center;
-	transition: background-image 0.5s ease-in-out;	
+	transition: background-image 0.5s ease-in-out;
+	border-radius: 8px, 8px, 0px, 0px;	
 }
 
 .img-div:hover {
@@ -43,7 +48,7 @@
 	transition: box-shadow 0.3s ease-in-out;
   	color: black;
 	outline: 1px solid black;
-	border-radius: 8px;
+	
 }
 
 .info-list li:hover {
