@@ -81,7 +81,7 @@
 		flex-direction: column;
 	}
 
-	.image-1 img, .image-2 img {
+	.image-1 img, .image-2 picture {
 		width: 100%;
 	}
 }
@@ -91,7 +91,7 @@
 		flex-direction: column;
 	}
 
-	.image-1 img, .image-2 img {
+	.image-1 picture, .image-2 picture {
 		width: 75%;
 	}
 
@@ -103,7 +103,7 @@
 		flex-direction: row;
 	}
 
-	.image-1 img, .image-2 img {
+	.image-1 picture, .image-2 picture {
 		width: 100%;
 	}
 }
