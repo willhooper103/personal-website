@@ -1,0 +1,240 @@
+
+
+.gift-card *:not(button) {
+	border-radius: var(--round-corners);
+}
+
+
+/*STRUCTURE*/
+
+.gift-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+	gap: 1rem;
+	outline: var(--thin-border);
+}
+
+.gift-card > picture {
+	display: block;
+}
+
+.gift-card img {
+	display: block;
+	width: 100%;
+}
+
+.ordering-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space evenly;
+	align-items: flex-start;
+	max-height: 30rem;
+	width: 50%;
+	padding: 1rem;
+	overflow-y: auto;
+	outline: 2px solid blue;
+}
+
+
+.amount {
+	display: flex;
+	flex-direction: column;
+	justify-content: space evenly;
+	align-items: flex-start;
+	gap: 1rem;
+}
+
+.dollar-amount {
+	display: flex;
+	flex-direction: row;
+	justify-content: space evenly;
+	align-items: flex-start;
+	gap: 1rem;
+}
+.dollar-amount ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space evenly;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: 1rem;
+/*	outline: 2px solid green;*/
+}
+
+
+/*STYLE*/
+
+h1 + h2 {
+	margin-top: 20px;
+}
+
+.ordering-info h2 + div {
+	margin-top: 30px;
+}
+
+.ordering-info h2 + p {
+	margin-top: 1rem;
+}
+
+.ordering-info div + h2 {
+	margin-top: 30px;
+}
+
+.ordering-info div + button {
+	margin-top: 30px;
+}
+
+.divide-line {
+	width: 100%;
+	outline: var(--thin-border);
+}
+
+.amount p {
+	padding: 1.5rem;
+	outline: var(--thin-border);
+}
+
+.amount + .deliver-how {
+	margin-top: 30px;
+}
+
+.dollar-amount ul > li {
+	padding: 1.5rem;
+	outline: var(--thin-border);
+}
+
+.dollar-amount li:hover {
+	color: white;
+	background-color: rgb(233, 79, 55);
+}
+
+.amount p:hover {
+	color: white;
+	background-color: rgb(233, 79, 55);
+}
+
+.deliver-how h2 + ul, .delivery-where h2 + ul {
+	margin-top: 30px;
+}
+
+
+.deliver-how + .deliver-where {
+	margin-top: 30px;
+}
+
+.buy-now:hover, .add-to-cart:hover {
+	color: white;
+	background-color: rgb(233, 79, 55);
+}
+
+
+/*TYPEOGROPHY*/
+
+
+h1 {
+	font-wieght: 700;
+}
+
+
+.deliver-how ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space evenly;
+	align-items: flex-start;
+	
+}
+
+.deliver-how ul > li {
+	padding: 1.5rem;
+	width: 100%;
+	outline: var(--thin-border);
+}
+
+.deliver-where h2 + ul {
+	margin-top: 30px;
+}
+
+.deliver-where li + div {
+	margin-top: 1rem;
+}
+
+.deliver-where div + li {
+	margin-top: 1rem;
+}
+
+.deliver-where + h2 {
+	margin-top: 30px;
+}
+
+.name-box, .email-box, .your-name, .your-email, .delivery-date {
+	padding: 1.5rem;
+	width: 100%;
+	outline: var(--thin-border);
+}
+
+.quantity {
+	padding: 1.5rem;
+	width: 15%;
+	outline: var(--thin-border);
+}
+
+.your-message {
+	padding: 3rem;
+	width: 100%;
+	outline: var(--thin-border);
+}
+
+.your-message + .divide-line {
+	margin-top: 30px;
+}
+
+.deliver-where button + button {
+	margin-top: 20px;
+}
+
+.deliver-where button {
+	font-size: 18px;
+	padding: 1rem;
+	width: 100%;
+	border: 1px solid black;
+}
+
+.buy-now {
+	background-color:rgb(220, 224, 217)
+}
+
+.add-to-cart {
+	color: white;
+	background-color: black;
+}
+
+
+
+.gift-card picture {
+	width: 50%;
+}
+
+
+@media (width 300px) {
+ 	.gift-card {
+		flex-direction: column;
+	}
+}
+
+
+@media (min-width: 500px) {
+	.gift-card {
+		flex-direction: row;
+	}
+}
+
+
+@media (min-width: 1000px) {
+	.gift-card {
+		flex-direction: row;
+	}
+}
+
