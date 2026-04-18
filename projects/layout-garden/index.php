@@ -12,12 +12,14 @@
 		<link rel="stylesheet" href="css/skitch.css">
 		<link rel="stylesheet" href="css/complicated-module.css">
 		<link rel="stylesheet" href="css/graphic-panel-module.css">
+		<link rel="stylesheet" href="css/gift-card.css">
 		<link rel="stylesheet" href="css/cta.css">
 		<link rel="stylesheet" href="css/archive.css">
 		<link rel="stylesheet" href="css/circle-img.css">
 		<link rel="stylesheet" href="css/detailed-module.css">
 		<link rel="stylesheet" href="css/box.css">
 		<link rel="stylesheet" href="css/magazine.css">
+		<link rel="stylesheet" href="css/whitney.css">
 		<!-- <link rel="stylesheet" href="css/cookbook.css"> -->
 		<link rel="stylesheet" href="css/horizontal-scroll.css">
 		<link rel="stylesheet" href="css/header.css">
@@ -74,6 +76,14 @@
 				<div class='inner-column'>
 
 					 <?php include('magazine.php'); ?>
+
+				</div> 
+			</section>
+
+			<section class="section-five">
+				<div class='inner-column'>
+
+					 <?php include('gift-card.php'); ?>
 
 				</div> 
 			</section>
@@ -152,6 +162,14 @@
 				<div class='inner-column'>
 
 					 <?php include('detailed-module.php'); ?>
+
+				</div> 
+			</section>
+
+			<section class="section-fifteen">
+				<div class='inner-column'>
+
+					 <?php include('whitney.php'); ?>
 
 				</div> 
 			</section>
