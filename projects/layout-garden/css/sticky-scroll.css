@@ -12,9 +12,7 @@ section-one {
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: flex-start;
-/*	padding: 1rem;*/
 	gap: 1.5rem;
-/*	outline: 2px solid yellow;*/
 }
 
 .scroll-module > .column-1 {
