@@ -8,6 +8,7 @@
 	display: grid;
 	padding: 1rem;
 	gap: 2rem;
+	border-radius: var(--round-corners);
 	outline: var(--thin-border);
 }
 
