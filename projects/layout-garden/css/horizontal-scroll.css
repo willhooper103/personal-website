@@ -13,11 +13,12 @@
 	outline: 1px solid black;
 }
 
+
 .scroll-container-wrapper {
 	position: relative;
-	width: 100%;
+	width: auto;
 	overflow: hidden;
-	margin-bottom: 1rem;
+	margin: 1rem;
 	outline: var(--thin-border);
 	border-radius: var(--round-corners);
 }
