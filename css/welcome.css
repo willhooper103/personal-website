@@ -8,11 +8,12 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	gap: 10px;
-	background-image: linear-gradient(to right, rgb(0,0,0,.8), rgb(255,255,255,0)), url("https://peprojects.dev/beta3/will/images/building.jpg");
+/*	background-image: linear-gradient(to right, rgb(0,0,0,.8), rgb(255,255,255,0)), url("https://peprojects.dev/beta3/will/images/building.jpg");*/
+	background-color: rgb(223 79 55);
 	background-size: cover;
 	padding: 30px;
 	border-radius: 5px;
-/*	outline: 3px solid lemonchiffon;*/
+	outline: var(--thin-border);
 	
 }
 
