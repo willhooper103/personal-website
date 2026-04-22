@@ -11,7 +11,7 @@ whitney {
 	padding: 1rem;
 	grid-template-columns: 60% 40%;
 	gap: 30px;
-	outline: 2px solid blue;
+	outline: 2px solid green;
 }
 
 .on-view {
@@ -29,7 +29,6 @@ whitney {
 	display: block;
 	display: grid;
 	gap: 20px;
-/*	outline: 2px solid violet;*/
 }
 
 @media (width < 700px) {
@@ -41,7 +40,6 @@ whitney {
 	.upcoming-list {
 		grid-template-columns: 1fr 1fr;
 	}
-	
 }
 
 @media (width >= 700px) {
@@ -51,12 +49,12 @@ whitney {
 
 	.on-view {
 		position: sticky;
-		top: 0;
+		top: 150px;
 	}
 
 
 	.upcoming-list {
-		grid-template-columns: 1fr ;
+		grid-template-columns: 1fr;
 	}	
 
 }
