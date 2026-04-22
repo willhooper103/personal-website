@@ -2,63 +2,86 @@
 
 <div class='detailed-module'>
 
-	<div class='left-info-box'>
+	<ul class='left-info-list'>
 
-		<div class='text-box'>
-			
+		<li>
 			<picture>
 				<img src="images/orange-panel.png" alt="">
 			</picture>
 
 
 			<p>Here is some text to describe a thing.</p>
-		
-		</div>
+		</li>
 
-		<div class='text-box'>
-			
+		<li>
 			<picture>
 				<img src="images/orange-panel.png" alt="">
 			</picture>
 
 
 			<p>Here is some text to describe a thing.</p>
-		
-		</div>
-	
+		</li>
 
-		<div class='text-box'>
-			
+		<li>
 			<picture>
 				<img src="images/orange-panel.png" alt="">
 			</picture>
 
 
 			<p>Here is some text to describe a thing.</p>
-		
-		</div>
+		</li>
 
-	
-	
-		<div class='text-box'>
-			
+		<li>
 			<picture>
 				<img src="images/orange-panel.png" alt="">
 			</picture>
 
 
 			<p>Here is some text to describe a thing.</p>
-		
-		</div>
+		</li>
 
-	</div>
+		<li>
+			<picture>
+				<img src="images/orange-panel.png" alt="">
+			</picture>
+
+
+			<p>Here is some text to describe a thing.</p>
+		</li>
+
+		<li>
+			<picture>
+				<img src="images/orange-panel.png" alt="">
+			</picture>
+
+
+			<p>Here is some text to describe a thing.</p>
+		</li>
+
+		<li>
+			<picture>
+				<img src="images/orange-panel.png" alt="">
+			</picture>
+
+
+			<p>Here is some text to describe a thing.</p>
+		</li>
+
+		<li>
+			<picture>
+				<img src="images/orange-panel.png" alt="">
+			</picture>
+
+
+			<p>Here is some text to describe a thing.</p>
+		</li>
+
+	</ul>
 
 
 	
 	<div class='right-side'>
 		
-		<div class='small-images'>
-
 			<div class='portrait-panel'>
 				<div class=''>
 					
@@ -68,10 +91,7 @@
 			<picture>
 				<img src="images/portrait-panel.jpg" alt="">
 			</picture>
-		</div>
-
-
-		<div class='small-images'>
+		
 
 			<picture>
 				<img src="images/news-panel.jpg" alt="">
@@ -80,9 +100,6 @@
 			<picture>
 				<img src="images/portrait-panel.jpg" alt="">
 			</picture>
-
-		</div>
-	
 		
 	</div>
 	
