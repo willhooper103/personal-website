@@ -1,0 +1,390 @@
+
+
+.svg-list {
+	display: block;
+	display: grid;
+}
+
+picture-1 {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+picture-1 svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+picture-1 .ellipse {
+  fill: white;
+  stroke: black;
+}
+
+picture-1 .triangle {
+  fill: white;
+  stroke: black;
+}
+
+picture-1 .triangle:hover {
+	fill: black;
+	transition: 2s;
+}
+
+
+
+
+
+picture-2 {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+picture-2 svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+picture-2 .ellipse {
+  fill: white;
+  stroke: black;
+}
+
+picture-2 .ellipse:hover {
+  fill: black;
+  transition: 2s;
+}
+
+picture-2 .triangle {
+  fill: black;
+  stroke: black;
+}
+
+
+picture-3 {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+picture-3 svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+picture-3 .ellipse {
+  fill: black;
+  stroke: black;
+}
+
+picture-3 .triangle {
+  fill: white;
+  stroke: white;
+}
+
+
+
+picture-4 {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+picture-4 svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+picture-4 .ellipse {
+  fill: black;
+  stroke: black;
+}
+
+picture-4 .triangle {
+  fill: black;
+  stroke: rgb(221 223 218);
+}
+
+picture-4 .triangle:hover {
+  fill: rgb(221 223 218);
+  stroke: rgb(221 223 218);
+  transition: 2s;
+}
+
+
+
+
+picture-5 {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+picture-5 svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+picture-5 .ellipse {
+  fill: red;
+  stroke: black;
+}
+
+picture-5 .triangle {
+  fill: red;
+  stroke: black;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+
+	50% {
+		transform: scale(1.2);
+		opacity: 1;
+	}
+
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+picture-5 .triangle {
+	animation: pulse 2s infinite;
+}
+
+
+@keyframes colorChange {
+		0%{fill:black}
+		50%{fill:red}
+		100%{fill:black}
+}
+
+ 
+picture-5 .triangle {
+	animation: colorChange 6s infinite;
+}
+
+
+
+
+picture-6 {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+picture-6 svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+picture-6 .ellipse {
+  fill: red;
+  stroke: red;
+}
+
+picture-6 .triangle {
+  fill: rgb(0 0 0 45);
+  stroke: black;
+}
+
+
+picture-7 {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+picture-7 svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+picture-7 .ellipse {
+  fill: red;
+  stroke: black;
+}
+
+picture-7 .triangle {
+  fill: firebrick;
+  stroke: black;
+}
+
+
+
+@media (min-width: 500px) {
+	.svg-list {
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+@media (min-width: 700px){
+	.svg-list {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+}
+
+@media (min-width: 900px){
+	.svg-list {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+}
+
+
+picture-8 {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+picture-8 svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+picture-8 .ellipse {
+  fill: black;
+  stroke: black;
+}
+
+picture-8 .triangle {
+  fill: black;
+  stroke: rgb(221 223 218);
+}
+
+picture-8 .triangle:hover {
+  fill: rgb(221 223 218);
+  stroke: rgb(221 223 218);
+  transition: 2s;
+}
+
+@keyframes colorChange {
+		0%{fill:black}
+		50%{fill:red}
+		100%{fill:black}
+}
+
+ 
+picture-8 .triangle .ellipse {
+	animation: colorChange 6s infinite;
+}
+
+picture-8 .ellipse {
+	animation: colorChange 6s infinite;
+}
+
+
+
+picture-18 {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+picture-18 svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+picture-18 .ellipse {
+  fill: black;
+  stroke: black;
+}
+
+picture-18 .triangle {
+  fill: black;
+  stroke: rgb(221 223 218);
+}
+
+picture-18 .triangle:hover {
+  fill: rgb(221 223 218);
+  stroke: rgb(221 223 218);
+  transition: 2s;
+}
+
+
+
+picture-28 {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+picture-28 svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+picture-28 .ellipse {
+  fill: black;
+  stroke: black;
+}
+
+picture-28 .triangle {
+  fill: black;
+  stroke: rgb(221 223 218);
+}
+
+picture-28 .triangle:hover {
+  fill: rgb(221 223 218);
+  stroke: rgb(221 223 218);
+  transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
