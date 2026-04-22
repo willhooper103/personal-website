@@ -1,0 +1,39 @@
+
+
+ludlow * {
+	border-radius: var(--round-corners);
+}
+
+ludlow {
+	display: block;
+	display: grid;
+	padding: 1rem;
+	gap: 2rem;
+}
+
+picture {
+	display: block;
+}
+
+img {
+	width: 100%;
+}
+
+
+@media (width > 600px) {
+	ludlow {
+		grid-template-columns: 1fr;
+	} 
+
+}
+
+
+@media (width > 900px) {
+	ludlow {
+		grid-template-columns: 1fr 1fr;
+	} 
+
+/*	ludlow > img {*/
+/*		content: url('images/portrait-panel.jpg');*/
+	}
+}
