@@ -14,6 +14,7 @@
 	align-items: center;
 	padding: 1rem;
 	gap: 1rem;
+	border-radius: var(--round-corners);
 	outline: var(--thin-border);
 }
 
@@ -35,7 +36,6 @@
 	width: 50%;
 	padding: 1rem;
 	overflow-y: auto;
-	outline: 2px solid blue;
 }
 
 
@@ -61,11 +61,11 @@
 	align-items: flex-start;
 	flex-wrap: wrap;
 	gap: 1rem;
-/*	outline: 2px solid green;*/
 }
 
 
 /*STYLE*/
+
 
 h1 + h2 {
 	margin-top: 20px;
