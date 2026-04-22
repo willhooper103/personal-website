@@ -5,8 +5,8 @@
 	width: 100%;
 	padding: 1rem;
 	z-index: 10;
-	background-color: var(--paper);
-/*	outline: 3px solid aqua;*/
+	background-color: var(--off-white);
+	outline: var(--thin-border);
 }
 
 .header-list {
@@ -14,8 +14,8 @@
 	flex-direction: row;
 	justify-content: space-between;
 	background-color: var(--paper);
+	background-color: var(--off-white);
 	font-family: var(--pen);
-/*	outline: 3px solid green;*/
 }
 
 .nav-menu {
@@ -23,7 +23,7 @@
 	flex-direction: row;
 	align-items: center;
 	gap: 20px;
-	background-color: var(--paper);
+	background-color: var(--off-white);
 /*	outline: 3px solid orange;*/
 }
 
