@@ -6,7 +6,10 @@
 
 :root {
 
-	--color: rgb(233, 79, 55);
+	--orange: rgb(233, 79, 55);
+	--grey: rgb(221 223 218);
+	--off-white: rgb(255 255 255);
+	
 	--stoke-strong: black;
 
 	--round-corners: 8px;
@@ -14,9 +17,6 @@
 	--thin-border: 1px solid black;	
 	--medium-border: 2px solid black;
 	--thick-border: 3px solid black;
-
-	--aquamarine: aquamarine;
-	--grey: #dce0d9;
 }
 
 picture {
@@ -50,6 +50,8 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 1.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 
 
