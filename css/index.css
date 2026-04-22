@@ -1,5 +1,22 @@
 
 
+:root {
+
+	--orange: rgb(233, 79, 55);
+	--grey: rgb(221 223 218);
+	--off-white: rgb(255 255 255);
+
+
+	--stoke-strong: black;
+
+	--round-corners: 8px;
+	--round: 50%;
+	--thin-border: 1px solid black;	
+	--medium-border: 2px solid black;
+	--thick-border: 3px solid black;
+
+}
+
 
 * {
 	box-sizing: border-box;

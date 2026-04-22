@@ -13,12 +13,18 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	gap: 1rem;
 	width: 100%;
 }
 
+.projects-module li > a {
+	color: white;
+}
+
 .projects-module li {
-	background-color: white;
-	border-radius: 5px;
+	background-color: rgb(223 79 55);
+	border-radius: var(--round-corners);
+	outline: var(--thin-border);
 	padding: 50px;
 }
 
