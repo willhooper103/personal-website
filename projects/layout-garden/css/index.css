@@ -14,6 +14,9 @@
 	--thin-border: 1px solid black;	
 	--medium-border: 2px solid black;
 	--thick-border: 3px solid black;
+
+	--aquamarine: aquamarine;
+	--grey: #dce0d9;
 }
 
 picture {
@@ -34,7 +37,7 @@ body {
 	min-height: 100vh;
 	--pen: sans-serif;
 	--paper: rgb(221,223,218,100);
-	background-color: #dce0d9;
+	background-color: var(--grey);
 }
 
 .page-content {
