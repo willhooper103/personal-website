@@ -16,8 +16,10 @@
 		<link rel="stylesheet" href="css/cta.css">
 		<link rel="stylesheet" href="css/archive.css">
 		<link rel="stylesheet" href="css/circle-img.css">
-		<link rel="stylesheet" href="css/detailed-module.css">
+		<!-- <link rel="stylesheet" href="css/detailed-module.css"> -->
+		<link rel="stylesheet" href="css/detailed-module2.css">
 		<link rel="stylesheet" href="css/box.css">
+		<link rel="stylesheet" href="css/ludlow.css">
 		<link rel="stylesheet" href="css/magazine.css">
 		<link rel="stylesheet" href="css/whitney.css">
 		<!-- <link rel="stylesheet" href="css/cookbook.css"> -->
@@ -170,6 +172,14 @@
 				<div class='inner-column'>
 
 					 <?php include('whitney.php'); ?>
+
+				</div> 
+			</section>
+
+			<section class="section-sixteen">
+				<div class='inner-column'>
+
+					 <?php include('ludlow.php'); ?>
 
 				</div> 
 			</section>
