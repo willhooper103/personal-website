@@ -22,11 +22,10 @@
 	align-items: center;
 	gap: 20px;
 	background-color: var(--off-white);
-/*	outline: 3px solid orange;*/
 }
 
 .nav-menu > ul {
-	background-color: lightgrey;
+	background-color: var(--off-white);
 	color: black;
 }
 
@@ -54,21 +53,18 @@ ul a {
 	.header-list {
 		flex-direction: column;
 		line-height:1.5;
-/*		outline: 3px solid orange;*/
 	}
 
 @media (width <= 400px) {
 	.header-list {
 		flex-direction: column;
 		line-height:1.5;
-/*		outline: 3px solid orange;*/
 	}
 
 @media (width <= 344px) {
 	.header-list {
 		flex-direction: column;
 		line-height:1.5;
-/*		outline: 3px solid orange;*/
 	}
 }
 
