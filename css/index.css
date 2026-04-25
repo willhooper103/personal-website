@@ -6,6 +6,9 @@
 	--grey: rgb(221 223 218);
 	--off-white: rgb(251 247 239);
 
+	--pen: sans-serif;
+	--paper: rgb(221,223,218,100);
+
 
 	--stoke-strong: black;
 
@@ -31,8 +34,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	--pen: sans-serif;
-	--paper: rgb(221,223,218,100);
 	background-color: var(--paper);
 }
 
