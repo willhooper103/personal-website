@@ -7,8 +7,8 @@
 	justify-content: flex-start;
 	background-color: var(--off-white);
 	outline: var(--thin-border);
-	border-radius: 5px;
-	padding: 30px;
+	border-radius: var(--round-corners);
+	padding: var(--standard-padding);
 	gap: 20px;
 }
 
@@ -25,7 +25,7 @@ img {
 }
 
 .about-text a {
-	color: indianred;
+	color: var(--orange);
 }
 
 .about-module p {
