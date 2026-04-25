@@ -137,12 +137,12 @@ picture-5 svg {
 }
 
 picture-5 .ellipse {
-  fill: red;
+  fill: var(--orange);
   stroke: black;
 }
 
 picture-5 .triangle {
-  fill: red;
+  fill: var(--orange);
   stroke: black;
 }
 
@@ -170,7 +170,7 @@ picture-5 .triangle {
 
 @keyframes colorChange {
 		0%{fill:black}
-		50%{fill:red}
+		50%{fill:var(--orange);}
 		100%{fill:black}
 }
 
@@ -196,8 +196,8 @@ picture-6 svg {
 }
 
 picture-6 .ellipse {
-  fill: red;
-  stroke: red;
+  fill: var(--orange);
+  stroke: var(--orange);
 }
 
 picture-6 .triangle {
@@ -220,12 +220,12 @@ picture-7 svg {
 }
 
 picture-7 .ellipse {
-  fill: red;
+  fill: var(--orange);
   stroke: black;
 }
 
 picture-7 .triangle {
-  fill: firebrick;
+  fill: var(--orange);
   stroke: black;
 }
 
@@ -283,7 +283,7 @@ picture-8 .triangle:hover {
 
 @keyframes colorChange {
 		0%{fill:black}
-		50%{fill:red}
+		50%{fill:var(--orange);}
 		100%{fill:black}
 }
 
