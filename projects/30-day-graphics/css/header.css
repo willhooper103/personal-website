@@ -4,17 +4,16 @@
 	top: 0;
 	width: 100%;
 	padding: 20px;
-	background-color: var(--paper);
-/*	outline: 3px solid red;*/
+	background-color: var(--off-white);
+	outline: var(--thin-border);
 }
 
 .header-list {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	background-color: var(--paper);
+	background-color: var(--off-white);
 	font-family: var(--pen);
-/*	outline: 3px solid green;*/
 }
 
 .nav-menu {
@@ -22,7 +21,7 @@
 	flex-direction: row;
 	align-items: center;
 	gap: 20px;
-	background-color: var(--paper);
+	background-color: var(--off-white);
 /*	outline: 3px solid orange;*/
 }
 
