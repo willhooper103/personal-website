@@ -3,6 +3,7 @@
 :root {
 
 	--orange: rgb(233 79 55);
+	--light-orange: rgb(233 79 55 1);
 	--grey: rgb(221 223 218);
 	--off-white: rgb(251 247 239);
 
@@ -18,6 +19,10 @@
 	--medium-border: 2px solid black;
 	--thick-border: 3px solid black;
 
+	--standard-padding: 1rem;
+	--narrow-padding: .5rem;
+	--wide-padding: 1.5rem;
+
 }
 
 
@@ -25,7 +30,7 @@
 	box-sizing: border-box;
 	font-family: var(--pen);
 	margin: 0;
-	padding: 10px;
+	padding: 1rem;
 }
 
 
@@ -42,7 +47,8 @@ body {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 5px;
+	padding: var(--standard-padding);
+	padding-bottom: 0px;
 }
 
 .page-content {
@@ -51,14 +57,14 @@ body {
 
 
 section {
-	padding: 20px;
+	padding: var(--standard-padding);
 }
 
 
 .gallery .project-list {
 	display: grid;
 	justify-items: center;
-	aligne-items: center;
+	align-items: center;
 	gap: 20px;
 }
 
