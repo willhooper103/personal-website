@@ -1,5 +1,25 @@
 
 
+:root {
+
+	--orange: rgb(233 79 55);
+	--grey: rgb(221 223 218);
+	--off-white: rgb(251 247 239);
+
+	--pen: sans-serif;
+	--paper: rgb(221,223,218,100);
+
+
+	--stoke-strong: black;
+
+	--round-corners: 8px;
+	--round: 50%;
+	--thin-border: 1px solid black;	
+	--medium-border: 2px solid black;
+	--thick-border: 3px solid black;
+
+}
+
 * {
 	box-sizing: border-box;
 }
