@@ -18,6 +18,10 @@
 	--medium-border: 2px solid black;
 	--thick-border: 3px solid black;
 
+	--standard-padding: 1rem;
+	--narrow-padding: .5rem;
+	--wide-padding: 1.5rem;
+
 }
 
 
