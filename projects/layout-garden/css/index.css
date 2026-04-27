@@ -1,14 +1,16 @@
 
 
-* {
-	box-sizing: border-box;
-}
+
 
 :root {
 
 	--orange: rgb(233, 79, 55);
 	--grey: rgb(221 223 218);
 	--off-white: rgb(251 247 239);
+
+	--pen: sans-serif;
+	--paper: rgb(221,223,218,100);
+
 	
 	--stoke-strong: black;
 
@@ -17,6 +19,16 @@
 	--thin-border: 1px solid black;	
 	--medium-border: 2px solid black;
 	--thick-border: 3px solid black;
+
+	--standard-padding: 1rem;
+	--narrow-padding: .5rem;
+	--wide-padding: 1.5rem;
+}
+
+* {
+	box-sizing: border-box;
+	font-family: var(--pen);
+	padding: var(--standard-padding);
 }
 
 picture {
@@ -35,8 +47,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	--pen: sans-serif;
-	--paper: rgb(221,223,218,100);
 	background-color: var(--grey);
 }
 
@@ -45,13 +55,11 @@ body {
 }
 
 .inner-column {
-	max-width: 1100px;
 	width: 100%;
+	max-width: 1100px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 1.5rem;
-	padding-left: 1rem;
-	padding-right: 1rem;
+	padding: var(--standard-padding);
 }
 
 
