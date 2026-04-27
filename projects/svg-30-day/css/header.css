@@ -3,7 +3,7 @@
 	position: sticky;
 	top: 0;
 	width: 100%;
-	padding: 20px;
+	padding: var(--standard-padding);
 	background-color: var(--off-white);
 	outline: var(--thin-border);
 }
@@ -12,6 +12,7 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	background-color: var(--paper);
 	background-color: var(--off-white);
 	font-family: var(--pen);
 }

@@ -22,8 +22,7 @@
 * {
 	box-sizing: border-box;
 	font-family: var(--pen);
-	margin: 0;
-	padding: 10px;
+	padding: var(--standard-padding);
 }
 
 
@@ -36,7 +35,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
-	background-color: var(--paper);
+	background-color: var(--grey);
 }
 
 .page-content {
@@ -48,8 +47,7 @@ body {
 	max-width: 1100px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 10px;
-/*	outline: 3px solid springgreen;*/
+	padding: var(--standard-padding);
 }
 
 .other-section {

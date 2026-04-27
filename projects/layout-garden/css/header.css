@@ -3,7 +3,7 @@
 	position: sticky;
 	top: 0;
 	width: 100%;
-	padding: 1rem;
+	padding: var(--standard-padding);
 	z-index: 10;
 	background-color: var(--off-white);
 	outline: var(--thin-border);
@@ -24,7 +24,6 @@
 	align-items: center;
 	gap: 20px;
 	background-color: var(--off-white);
-/*	outline: 3px solid orange;*/
 }
 
 .nav-menu > ul {
@@ -56,21 +55,18 @@ ul a {
 	.header-list {
 		flex-direction: column;
 		line-height:1.5;
-/*		outline: 3px solid orange;*/
 	}
 
 @media (width <= 400px) {
 	.header-list {
 		flex-direction: column;
 		line-height:1.5;
-/*		outline: 3px solid orange;*/
 	}
 
 @media (width <= 344px) {
 	.header-list {
 		flex-direction: column;
 		line-height:1.5;
-/*		outline: 3px solid orange;*/
 	}
 }
 
