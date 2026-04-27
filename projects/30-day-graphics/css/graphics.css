@@ -7,10 +7,6 @@
 	padding: var(--standard-padding);
 }
 
-li {
-	display: block;
-}
-
 
 picture {
 	display: block;
@@ -54,10 +50,6 @@ inner-column {
 
 	@container (width >= 800px) {
 		grid-template-columns: 1fr 1fr 1fr;
-	}
-
-	@media (width >= 1400px) {
-		border: 3px solid red;
 	}
 
 }
