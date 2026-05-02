@@ -7,12 +7,13 @@
 
 .magazine {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	padding: 1rem;
+/*	padding: var(--standard-padding);*/
 	gap: 1rem;
-	border-radius: var(--thin-border);
+	outline: var(--thin-border);
+	outline: 2px solid red;
 }
 
 
@@ -31,9 +32,7 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	width: 50%;
-/*	padding: 1rem;*/
 	gap: 1rem;
-/*	outline: 1px solid red;*/
 }
 
 .red-box-top {
@@ -49,7 +48,7 @@
 	justify-content: space-evenly;
 	align-items: flex-start;
 	width: 100%;
-	padding: 1rem;
+	padding: var(--standard-padding);
 	gap: 1rem;
 	outline: var(--thin-border);
 
@@ -68,6 +67,13 @@
 	gap: 1rem;
 }
 
+.green-box-top {
+	width: 100%;
+}
+
+.green-box-bottom {
+	padding: 0px;
+}
 
 
 .red-box-bottom {
@@ -90,3 +96,34 @@ figure {
 video {
   max-width: 100%;
 }
+
+
+@media (min-width <= 300px) {
+	.magazine {
+		flex-direction: column;
+	}
+
+	.magazine-left {
+		width: 100%;
+	}
+}
+
+@media (min-width > 500px) {
+	.magazine {
+		flex-direction: column;
+	}
+}
+
+@media (min-width > 800px) {
+	.magazine {
+		flex-direction: row;
+	}
+}
+
+@media (min-width > 1000px) {
+	.magazine {
+		flex-direction: row;
+	}
+}
+
+
