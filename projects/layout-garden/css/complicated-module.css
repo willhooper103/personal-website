@@ -20,7 +20,7 @@ left-section {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-/*	padding: 1rem;*/
+	padding: 0;
 	width: 50%;
 	gap: 1rem;
 /*	outline: 1px solid red;*/
@@ -31,13 +31,13 @@ left-section > .top-section {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
-	padding: 1rem;
+/*	padding: 1rem;*/
 	width: 100%;
-	gap: 1rem;
+/*	gap: 1rem;*/
 	outline: var(--thin-border);
 }
 
-.bottom-section {
+left-section > .bottom-section {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
@@ -65,7 +65,7 @@ right-section {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-/*	padding: 1rem;*/
+	padding: 0;
 	width: 50%;
 	gap: 1rem;
 /*	outline: 1px solid red;*/
@@ -76,7 +76,6 @@ right-section > .top-section {
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: flex-start;
-	padding: 1rem;
 	width: 100%;
 	gap: 1rem;
 	outline: 1px solid black;
@@ -87,9 +86,7 @@ right-section > .bottom-section {
 	flex-direction: row;
 	justify-content: space-evenly;
 	align-items: flex-start;
-/*	padding: 1rem;*/
 	width: 100%;
-/*	gap: 1rem;*/
 	outline: var(--thin-border);
 	background-color: rgb(251, 247, 239, 100);
 }
@@ -107,13 +104,16 @@ right-section > .bottom-section {
 @media (min-width: 300px) {
 	.complicated-module {
 		flex-direction: column;
-		padding: 1rem;
 	}
 	left-section {
 		width: 100%;
 	}
 	right-section {
 		width: 100%;
+	}
+
+	.bottom-section {
+		flex-diection: column;
 	}
 }
 
