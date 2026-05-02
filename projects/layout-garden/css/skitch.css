@@ -31,8 +31,11 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	padding: 1rem;
 	outline: 1px solid black;
+}
+
+.left-panel p {
+	padding:var(--standard-padding);
 }
 
 .left-panel img {
