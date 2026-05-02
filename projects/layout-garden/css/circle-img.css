@@ -8,6 +8,7 @@
 	.thing {
 		picture {
 			border-radius: var(--round);
+			padding:0px;
 			width: 40%;
 
 		}

@@ -76,8 +76,9 @@
 }
 
 .circle-panel picture {
+	padding: 0px;
 	max-width: 100px;
-	border-radius: 50%;
+	border-radius: var(--round);
 }
 
 
