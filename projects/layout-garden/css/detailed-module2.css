@@ -39,8 +39,9 @@
 
 .left-info-list picture {
 	display: block;
+	padding: 0px;
 	border-radius: var(--round);
-	width: 30%;
+	width: 60%;
 }
 
 img {
