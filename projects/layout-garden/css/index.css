@@ -33,6 +33,7 @@
 
 picture {
 	display: block;
+/*	border-radius: var(--round);*/
 	overflow: hidden;
 	img {
 		display: block;
