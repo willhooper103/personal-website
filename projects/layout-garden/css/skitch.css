@@ -102,6 +102,12 @@ header {
 	padding: 5px	
 }
 
+@media (min-width: 300px) {
+	.right-panel {
+		flex-direction: column;
+	}
+}
+
 @media (min-width: 500px) {
 	.skitch-module {
 		padding: 1rem;
