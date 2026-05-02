@@ -20,7 +20,8 @@
 		<link rel="stylesheet" href="css/detailed-module2.css">
 		<link rel="stylesheet" href="css/box.css">
 		<link rel="stylesheet" href="css/ludlow.css">
-		<link rel="stylesheet" href="css/magazine.css">
+		<!-- <link rel="stylesheet" href="css/magazine.css"> -->
+		<link rel="stylesheet" href="css/magazine2.css">
 		<link rel="stylesheet" href="css/whitney.css">
 		<!-- <link rel="stylesheet" href="css/cookbook.css"> -->
 		<link rel="stylesheet" href="css/horizontal-scroll.css">
