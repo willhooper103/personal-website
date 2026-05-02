@@ -33,6 +33,7 @@ a {
 /* ELEMENTS  */
 
 .graphic-panels picture {
+  padding: 0px;
   outline: var(--thin-border);
 }
 
@@ -52,9 +53,9 @@ a {
     justify-items: center;
     align-content: center;
     text-align: center;
-    padding: 6px;
-    border-radius: 20px;
-    background-color: indianred;
+    padding: var(--narrow-padding);
+    border-radius: var(--round-corners);
+    background-color: var(--orange);
   }
 
   @media (width >=700px) {
