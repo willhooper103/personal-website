@@ -13,7 +13,9 @@ section-one {
 	justify-content: space-evenly;
 	align-items: flex-start;
 	gap: 1.5rem;
+/*	outline: 2px solid red;*/
 }
+
 
 .scroll-module > .column-1 {
 	background-color: rgb(251,247,239,100);
@@ -94,7 +96,7 @@ h3 + p {
 @media (min-width: 300px) {
 	.scroll-module {
 		flex-direction: column;
-		padding: 1rem;
+/*		padding: 1rem;*/
 
 	.column-3 {
 		width: 100%;
