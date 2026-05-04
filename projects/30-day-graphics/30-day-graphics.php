@@ -1,16 +1,15 @@
 
 
 <main class="site-content">
-		<div class="inner-column">
+	<div class="inner-column">
 
-		   <section class="about">
-			  <p>These images are from a 30-day challenge from my course with Perpetual Education. Since I could do anything I wanted, I chose to narrow down my imagery and color palette for the sake of simplicity. By the end I was thinking of how I could refine the work and design for the web.</p>
-		</div>
-
+	   <section class="about">
+		  <p>These images are from a 30-day challenge from my course with Perpetual Education. Since I could do anything I wanted, I chose to narrow down my imagery and color palette for the sake of simplicity. By the end I was thinking of how I could refine the work and design for the web.</p>
 		</section>
+	</div>
 
 
-		<section class="gallery">
+	<section class="gallery">
 		<ul class="image-list">
 			<li class="image"><img src="images/Day-1.png" alt=" day-1" width="300" height="300"></a></li>
 			<li class="image"><img src="images/Day-2.png" alt=" day-2" width="300" height="300"></a></li>
@@ -43,5 +42,5 @@
 			<li class="image"><img src="images/Day-29.png" alt=" day-1" width="300" height="300"></a></li>
 			<li class="image"><img src="images/Day-30.png" alt=" day-1" width="300" height="300"></a></li>
 		</ul>	
-		</section>	
-	</main>
+	</section>	
+</main>
