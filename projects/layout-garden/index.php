@@ -16,14 +16,11 @@
 		<link rel="stylesheet" href="css/cta.css">
 		<link rel="stylesheet" href="css/archive.css">
 		<link rel="stylesheet" href="css/circle-img.css">
-		<!-- <link rel="stylesheet" href="css/detailed-module.css"> -->
 		<link rel="stylesheet" href="css/detailed-module2.css">
 		<link rel="stylesheet" href="css/box.css">
 		<link rel="stylesheet" href="css/ludlow.css">
-		<!-- <link rel="stylesheet" href="css/magazine.css"> -->
 		<link rel="stylesheet" href="css/magazine2.css">
 		<link rel="stylesheet" href="css/whitney.css">
-		<!-- <link rel="stylesheet" href="css/cookbook.css"> -->
 		<link rel="stylesheet" href="css/horizontal-scroll.css">
 		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/footer.css">
@@ -31,13 +28,13 @@
 
 	<body>
 		
-		<section class="site-header">
+		<header class="site-header">
 			<div class="inner-column">
 				
 				<?php include('header.php'); ?>
 			</div>
 				
-		</section>
+		</header>
 
 		<main class="page-content">
 
