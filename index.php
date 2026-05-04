@@ -26,7 +26,6 @@
 
 				<?php include('header.php'); ?>
 				
-
 			</div>
 		</header>
 
@@ -67,17 +66,6 @@
 			</div>
 			
 		</footer>
-	<body>
-<html>	
-
-
-
-
-
-
-
-
-
 	</body>
-		
-</html>
+</html>	
+
