@@ -4,7 +4,7 @@
 
 		<h2>Find me here:</h2>
 
-		<ul>
+		<ul class='footer-list'>
 			<li>willhooper103@gmail.com</li>
 			<li> <a href="https://bsky.app/profile/willhooperart.bsky.social">@willhooperart.bsky.social</a></li>
 			<li> <a href="https://www.instagram.com/willhooperart">instagram.com/willhooperart</a></li>

@@ -1,0 +1,56 @@
+
+
+nyt * {
+	border-radius: var(--round-corners);
+}
+
+nyt {
+	display: block;
+	display: grid;
+	padding: var(--narrow-padding);
+	gap: 1rem;
+	outline: 2px solid blue;
+}
+
+
+nyt > .main-content {
+	display: block;
+	display: grid;
+	gap: 1rem;
+}
+
+.news-stories {
+	display: block;
+	display: grid;
+}
+
+.stories-list {
+	display: block;
+	display: grid;
+}
+
+.article-heading {
+	padding: var(--standard-padding);
+	border: var(--thin-border);
+}
+
+
+img {
+	display: block;
+}
+
+
+
+@media (width < 700px) {
+
+}
+
+@media (width >= 700px) {
+	.main-content {
+		grid-template-columns: 1fr;
+	}
+
+}
+
+
+
