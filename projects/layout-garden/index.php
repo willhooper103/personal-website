@@ -22,6 +22,8 @@
 		<link rel="stylesheet" href="css/magazine2.css">
 		<link rel="stylesheet" href="css/whitney.css">
 		<link rel="stylesheet" href="css/horizontal-scroll.css">
+		<link rel="stylesheet" href="css/city-paper.css">
+		<link rel="stylesheet" href="css/nyt.css">
 		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/footer.css">
 	</head>
@@ -178,6 +180,22 @@
 				<div class='inner-column'>
 
 					 <?php include('ludlow.php'); ?>
+
+				</div> 
+			</section>
+
+			<section class="section-seventeen">
+				<div class='inner-column'>
+
+					 <?php include('city-paper.php'); ?>
+
+				</div> 
+			</section>
+
+			<section class="section-eightteen">
+				<div class='inner-column'>
+
+					 <?php include('nyt.php'); ?>
 
 				</div> 
 			</section>
