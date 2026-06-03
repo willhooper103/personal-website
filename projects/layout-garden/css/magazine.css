@@ -10,10 +10,8 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-/*	padding: var(--standard-padding);*/
 	gap: 1rem;
 	outline: var(--thin-border);
-	outline: 2px solid red;
 }
 
 
