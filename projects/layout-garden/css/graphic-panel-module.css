@@ -40,7 +40,7 @@ a {
 .panel-1, .panel-2, .panel-3 {
   display: grid; 
   .info {
-    padding: 1rem;
+    padding: var(--standard-padding);
     justify-items: center;
     align-content: center;
     text-align: center;
@@ -60,7 +60,7 @@ a {
 
   @media (width >=700px) {
     .graphic-panels {
-      padding: 1rem;
+      padding: var(--standard-padding);
     }
   
     grid-template-columns: 1fr 1fr;

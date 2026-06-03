@@ -31,7 +31,7 @@
 	background-size: cover;
 	background-position: center;
 	transition: background-image 0.5s ease-in-out;
-	border-radius: 8px, 8px, 0px, 0px;	
+	border-radius: var(--thin-border);	
 }
 
 .img-div:hover {
@@ -39,7 +39,7 @@
 }
 
 .info-list p {
-	padding: 1rem;
+	padding: var(--standard-padding);
 }
 
 
@@ -47,7 +47,7 @@
 	background-color: rgb(222,223,219,100);
 	transition: box-shadow 0.3s ease-in-out;
   	color: black;
-	outline: 1px solid black;
+	outline: var(--thin-border);
 	
 }
 

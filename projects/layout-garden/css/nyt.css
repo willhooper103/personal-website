@@ -8,8 +8,9 @@ nyt {
 	display: block;
 	display: grid;
 	padding: var(--narrow-padding);
+	border-radius: var(--round-corners);
 	gap: 1rem;
-	outline: 2px solid blue;
+	outline: var(--thin-outline);
 }
 
 
@@ -24,7 +25,7 @@ nyt > .main-content {
 	display: grid;
 }
 
-.stories-list {
+.media-list, .text-list {
 	display: block;
 	display: grid;
 }
@@ -34,21 +35,41 @@ nyt > .main-content {
 	border: var(--thin-border);
 }
 
+.main-content > h1 {
+	padding: var(--standard-padding);
+	border: var(--thin-border);
+}
+
+.media-one > h2 {
+	padding: var(--standard-padding);
+}
+
+.media-two > h2 {
+	padding: var(--standard-padding);
+}
+
+p {
+	padding: var(--standard-padding);
+}
+
 
 img {
 	display: block;
 }
-
-
 
 @media (width < 700px) {
 
 }
 
 @media (width >= 700px) {
-	.main-content {
+	.media-list, .text-list {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	nyt > .main-content {
 		grid-template-columns: 1fr;
 	}
+
 
 }
 

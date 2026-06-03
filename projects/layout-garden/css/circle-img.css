@@ -4,7 +4,6 @@
 	justify-content: space-between;
 	align-items: flex-start;
 	padding: 1.5rem;
-/*  outline: 2px solid green;*/
 	.thing {
 		picture {
 			border-radius: var(--round);
@@ -20,8 +19,8 @@
 }
 
 .text h2 {
-	padding: .5rem;
-/*  outline: 2px solid red;*/
+	padding: var(--narrow-padding);
+
 }
 
 .text p + a {
@@ -29,7 +28,7 @@
 }
 
 .text a {
-	color: rgb(239, 75, 55, 100);
+	color: var(--light-orange);
 }
 
 .thing {

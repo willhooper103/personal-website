@@ -20,7 +20,7 @@
 	justify-content: flex-start;
 	align-items: center;
 	width: 100%;
-	background-color: rgb(251, 247, 239, 100);
+	background-color: var(--background);
 	padding: var(--standard-padding);
 	gap: 1rem;
 	outline: var(--thin-border);
@@ -49,7 +49,7 @@
 	display: block;
 	width: 100%;
 	height: auto;
-	padding:0px;
+	padding: 0px;
 	border-radius: var(--round);
 	outline: var(--thin-border);
 }
@@ -61,7 +61,7 @@
 .red-box {
 	width: 100%;
 	padding: 100px;
-	background-color: rgb(222, 223, 219, 100);
+	background-color: var(--background);
 	outline: var(--thin-border);
 }
 
@@ -77,7 +77,7 @@
 .orange-box-1, .orange-box-2 {
 	padding: 50px;
 	width: 100%;
-	background-color: rgb(251, 247, 239, 100);
+	background-color: var(--off-white);
 	outline: var(--thin-border);
 }
 

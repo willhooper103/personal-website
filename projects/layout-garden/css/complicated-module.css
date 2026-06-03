@@ -10,9 +10,7 @@
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
-/*	padding: 1rem;*/
 	gap: 1rem;
-/*	outline: 1px solid blue;*/
 }
 
 left-section {
@@ -23,7 +21,6 @@ left-section {
 	padding: 0;
 	width: 50%;
 	gap: 1rem;
-/*	outline: 1px solid red;*/
 }
 
 left-section > .top-section {
@@ -31,9 +28,7 @@ left-section > .top-section {
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
-/*	padding: 1rem;*/
 	width: 100%;
-/*	gap: 1rem;*/
 	outline: var(--thin-border);
 }
 
@@ -44,20 +39,30 @@ left-section > .bottom-section {
 	align-items: flex-start;
 	width: 100%;
 	gap: 1rem;
+	outline: none;
 }
 
 .box-1, .box-2, .box-3 {
-	padding: 1rem;
-	outline:1px solid black;
+	padding: var(--standard-padding);
+	outline: var(--thin-border);
 }
 
 .box-1:hover {
-	background-color: rgb(251, 247, 239, 100);
+	background-color: var(--off-white);
+}
+
+.box-2:hover {
+	background-color: var(--off-white);
+}
+
+.box-3:hover {
+	background-color: var(--off-white);
 }
 
 
 img {
 	display: block;
+	opacity: 0;
 }
 
 right-section {
@@ -68,7 +73,6 @@ right-section {
 	padding: 0;
 	width: 50%;
 	gap: 1rem;
-/*	outline: 1px solid red;*/
 }
 
 right-section > .top-section {
@@ -78,7 +82,7 @@ right-section > .top-section {
 	align-items: flex-start;
 	width: 100%;
 	gap: 1rem;
-	outline: 1px solid black;
+	outline: var(--thin-border);
 }
 
 right-section > .bottom-section {
@@ -88,7 +92,7 @@ right-section > .bottom-section {
 	align-items: flex-start;
 	width: 100%;
 	outline: var(--thin-border);
-	background-color: rgb(251, 247, 239, 100);
+	background-color: var(--off-white);
 }
 
 .orange-column-1, .orange-column-2 {
@@ -96,7 +100,7 @@ right-section > .bottom-section {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	padding: 1rem;
+	padding: var(--standard-padding);
 	width: 100%;
 	gap: 1rem;
 }

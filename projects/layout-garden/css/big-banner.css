@@ -9,10 +9,7 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	gap: 20px;
-	padding: 1rem;
-/*	background-color: rgb(251,247,239,100);*/
-/*	border-radius: var(--border-radius);*/
-/*	outline: 1px solid black;*/
+	padding: var(--standard-padding);
 }
 
 
@@ -21,9 +18,9 @@
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: flex-start;
-	background-color: rgb(220,224,217,100);
-	padding: 1rem;
-	border-radius: 8px, 0px, 0px, 8px;
+	background-color: var(--background);
+	padding: var(--standard-padding);
+	border-radius: var(--round-corners);
 	gap: 20px;
 	outline: 1px solid black;
 }
@@ -48,20 +45,18 @@
 	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: flex-start;
-	background-color: rgb(220,224,217,100);
+	background-color: var(--background);
 	padding: 1rem;
-/*	width: 50%;*/
 	gap: 40px;
-	outline: 1px solid black;
+	outline: var(--thin-border);
 }
 
 
 
 .bottom-landscape {
-	background-color: rgb(251,247,239,100);
+	background-color: var(--off-white);
 	padding: 100px;
 	width: 100%;
-/*	outline: 2px solid yellow;*/
 }
 
 .circle-panel {
@@ -69,16 +64,15 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: flex-start;
-	padding: 3rem;
+	padding: var(--standard-padding);
 	width: 100%;
-	background-color: rgb(251,247,239,100);
-/*	outline: 2px solid violet;*/
+	background-color: var(--background);
 }
 
 .circle-panel picture {
 	padding: 0px;
 	max-width: 100px;
-	border-radius: var(--round);
+	border-radius: var(--round-corners);
 }
 
 

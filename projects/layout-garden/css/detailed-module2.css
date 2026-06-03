@@ -6,7 +6,7 @@
 .detailed-module {
 	display: block;
 	display: grid;
-	padding: 1rem;
+	padding: var(--standard-padding);
 	gap: 2rem;
 	border-radius: var(--round-corners);
 	outline: var(--thin-border);
@@ -24,7 +24,7 @@
 	justify-content: space-evenly;
 	align-items: center;
 	text-align: center;
-	padding: 1rem;
+	padding: var(--standard-padding);
 	outline: var(--thin-border);
 }
 

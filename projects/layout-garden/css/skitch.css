@@ -31,12 +31,16 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	outline: 1px solid black;
+	outline: var(--thin-border);
+	p {
+		padding:var(--standard-padding);
+	}
+
+	img{
+		&:hover
+	}
 }
 
-.left-panel p {
-	padding:var(--standard-padding);
-}
 
 .left-panel img {
 	background-color: rgb(251,247,239,100);

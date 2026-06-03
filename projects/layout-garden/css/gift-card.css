@@ -12,7 +12,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	padding: 1rem;
+	padding: var(--standard-padding);
 	gap: 1rem;
 	border-radius: var(--round-corners);
 	outline: var(--thin-border);
@@ -34,7 +34,7 @@
 	align-items: flex-start;
 	max-height: 30rem;
 	width: 50%;
-	padding: 1rem;
+	padding: var(--standard-padding);
 	overflow-y: auto;
 }
 
@@ -203,7 +203,7 @@ h1 {
 }
 
 .buy-now {
-	background-color:rgb(220, 224, 217)
+	background-color: var(--background);
 }
 
 .add-to-cart {

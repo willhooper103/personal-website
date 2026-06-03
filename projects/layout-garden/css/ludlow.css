@@ -7,7 +7,7 @@ ludlow * {
 ludlow {
 	display: block;
 	display: grid;
-	padding: 1rem;
+	padding: var(--standard-padding);
 	gap: 2rem;
 }
 
