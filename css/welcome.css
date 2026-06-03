@@ -8,8 +8,7 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	gap: 10px;
-	background-image: linear-gradient(to right, rgb(0,0,0,.8), rgb(255,255,255,0));
-	background-color: var(--orange);
+	background-image: linear-gradient(to right, rgb(0,0,0,.8), var(--brand));
 	background-size: cover;
 	padding: 30px;
 	border-radius: var(--round-corners);
@@ -22,7 +21,6 @@
 	font-size: 4.5rem;
 	line-height: 1.2;
 	font-weight: 700;
-	background_color: var(--off-white);
 }
 
 .welcome {
