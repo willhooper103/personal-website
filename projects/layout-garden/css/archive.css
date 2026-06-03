@@ -27,7 +27,7 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	background-color: rgb(251, 247, 239, 100);
+	background-color: var(--off-white);
 	padding: 1rem;
 	gap: 1rem;
 	outline: 1px solid black;
@@ -38,7 +38,7 @@
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
-	background-color: rgb(220, 224, 217, 100);
+	background-color: var(--background);
 	padding: 1rem;
 	gap: 3rem;
 	outline: 1px solid black;
