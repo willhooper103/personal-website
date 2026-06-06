@@ -46,25 +46,25 @@
 		<div class='bottom-section'>
 
 			<div class='orange-column-1'>
-				<picture>
-					<img src="images/orange-panel.png" alt="">
-				</picture>
+				<div class='img-1'>
+					
+				</div>
 
-				<picture>
-					<img src="images/orange-panel.png" alt="">
-				</picture>
+				<div class='img-2'>
+					
+				</div>
 				
 			</div>
 
 			<div class='orange-column-2'>
 
-				<picture>
-					<img src="images/orange-panel.png" alt="">
-				</picture>
+				<div class='img-3'>
+					
+				</div>
 
-				<picture>
-					<img src="images/orange-panel.png" alt="">
-				</picture>
+				<div class='img-4'>
+					
+				</div>
 
 			</div>
 			

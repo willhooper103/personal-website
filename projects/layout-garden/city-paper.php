@@ -17,29 +17,28 @@
 		<div class="column-one"> 
 			<ul class='image-list-one'>
 				<li>
-					<picture>
-						<img src="images/orange-panel.png" alt="">
-					</picture>
+					<div class='list-one-1'>
+						
+					</div>
 
 					<h1>Story Description</h1>
 				</li>
 
 				<li>
-					<picture>
-						<img src="images/orange-panel.png" alt="">
-					</picture>
+					<div class='list-one-2'>
+						
+					</div>
 
 					<h1>Story Description</h1>
 				</li>
 
 				<li>
-					<picture>
-						<img src="images/orange-panel.png" alt="">
-					</picture>
+					<div class='list-one-3'>
+						
+					</div>
 
 					<h1>Story Description</h1>
 				</li>
-
 			</ul>
 		</div>
 
@@ -47,25 +46,25 @@
 		<div class="column-two"> 
 			<ul class='image-list-two'>
 				<li>
-					<picture>
-						<img src="images/orange-panel.png" alt="">
-					</picture>
+					<div class='list-two-1'>
+						
+					</div>
 
 					<h1>Story Description</h1>
 				</li>
 
 				<li>
-					<picture>
-						<img src="images/orange-panel.png" alt="">
-					</picture>
+					<div class='list-two-2'>
+						
+					</div>
 
 					<h1>Story Description</h1>
 				</li>
 
 				<li>
-					<picture>
-						<img src="images/orange-panel.png" alt="">
-					</picture>
+					<div class='list-two-3'>
+						
+					</div>
 
 					<h1>Story Description</h1>
 				</li>
@@ -77,25 +76,25 @@
 		<div class="column-three"> 
 			<ul class='image-list-three'>
 				<li>
-					<picture>
-						<img src="images/orange-panel.png" alt="">
-					</picture>
+					<div class='list-three-1'>
+						
+					</div>
 
 					<h1>Story Description</h1>
 				</li>
 
 				<li>
-					<picture>
-						<img src="images/orange-panel.png" alt="">
-					</picture>
+					<div class='list-three-2'>
+						
+					</div>
 
 					<h1>Story Description</h1>
 				</li>
 
 				<li>
-					<picture>
-						<img src="images/orange-panel.png" alt="">
-					</picture>
+					<div class='list-three-3'>
+						
+					</div>
 
 					<h1>Story Description</h1>
 				</li>
@@ -106,25 +105,25 @@
 		<div class="column-three"> 
 			<ul class='image-list-four'>
 				<li>
-					<picture>
-						<img src="images/orange-panel.png" alt="">
-					</picture>
+					<div class='list-four-1'>
+						
+					</div>
 
 					<h1>Story Description</h1>
 				</li>
 
 				<li>
-					<picture>
-						<img src="images/orange-panel.png" alt="">
-					</picture>
+					<div class='list-four-2'>
+						
+					</div>
 
 					<h1>Story Description</h1>
 				</li>
 
 				<li>
-					<picture>
-						<img src="images/orange-panel.png" alt="">
-					</picture>
+					<div class='list-four-3'>
+						
+					</div>
 
 					<h1>Story Description</h1>
 				</li>

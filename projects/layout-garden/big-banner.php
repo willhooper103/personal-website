@@ -24,21 +24,20 @@
 	<div class='right-side-panel'> 
 
 		<div class='circle-panel'>
-			<picture>
-				<img src="images/orange-panel.png" alt="">
-			</picture>
-		
-
-			<picture>
-				<img src="images/orange-panel.png" alt="">
-			</picture>
-		
-
-			<picture>
-				<img src="images/orange-panel.png" alt="">
-			</picture>
+			<div class='circle-1'>
 			
+			</div>
+		
+
+			<div class='circle-2'>
+				
+			</div>
+
+			<div class='circle-3'>
+				
+			</div>
 		</div>
+			
 
 		<div class='bottom-landscape'>
 

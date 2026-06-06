@@ -2,9 +2,9 @@
     <div class="circle-img-module">
       
       <div class="thing">
-        <picture>
-            <img src="images/orange-panel.png" alt="">
-        </picture>
+        <div class='thing-img-1'>
+          
+        </div>
         
         <div class="text">
               <h2>Thing name here</h2>
@@ -15,9 +15,9 @@
       
     
        <div class="thing">
-            <picture>
-                <img src="images/orange-panel.png" alt="#">
-            </picture>
+            <div class='thing-img-2'>
+          
+        </div>
 
              <div class="text">
                   <h2>Thing name here</h2>
@@ -28,9 +28,9 @@
       
       
         <div class="thing">
-          <picture>
-              <img src="images/orange-panel.png" alt="">
-          </picture>
+          <div class='thing-img-3'>
+          
+        </div>
 
            <div class="text">
                 <h2>Thing name here</h2>

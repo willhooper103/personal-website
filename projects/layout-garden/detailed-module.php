@@ -5,72 +5,72 @@
 	<ul class='left-info-list'>
 
 		<li>
-			<picture>
-				<img src="images/orange-panel.png" alt="">
-			</picture>
+			<div class='left-info-img-1'>
+				
+			</div>
 
 
 			<p>Here is some text to describe a thing.</p>
 		</li>
 
 		<li>
-			<picture>
-				<img src="images/orange-panel.png" alt="">
-			</picture>
+			<div class='left-info-img-2'>
+				
+			</div>
 
 
 			<p>Here is some text to describe a thing.</p>
 		</li>
 
 		<li>
-			<picture>
-				<img src="images/orange-panel.png" alt="">
-			</picture>
+			<div class='left-info-img-3'>
+				
+			</div>
 
 
 			<p>Here is some text to describe a thing.</p>
 		</li>
 
 		<li>
-			<picture>
-				<img src="images/orange-panel.png" alt="">
-			</picture>
+			<div class='left-info-img-4'>
+				
+			</div>
 
 
 			<p>Here is some text to describe a thing.</p>
 		</li>
 
 		<li>
-			<picture>
-				<img src="images/orange-panel.png" alt="">
-			</picture>
+			<div class='left-info-img-5'>
+				
+			</div>
 
 
 			<p>Here is some text to describe a thing.</p>
 		</li>
 
 		<li>
-			<picture>
-				<img src="images/orange-panel.png" alt="">
-			</picture>
+			<div class='left-info-img-6'>
+				
+			</div>
 
 
 			<p>Here is some text to describe a thing.</p>
 		</li>
 
 		<li>
-			<picture>
-				<img src="images/orange-panel.png" alt="">
-			</picture>
+			<div class='left-info-img-7'>
+				
+			</div>
 
 
 			<p>Here is some text to describe a thing.</p>
 		</li>
 
 		<li>
-			<picture>
-				<img src="images/orange-panel.png" alt="">
-			</picture>
+			<div class='left-info-img-8'>
+				
+			</div>
 
 
 			<p>Here is some text to describe a thing.</p>

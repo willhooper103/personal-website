@@ -1,9 +1,9 @@
 
 
 <div class='archive'>
-	<picture>
-		<img src="images/orange-panel.png" alt="">
-	</picture>
+	<div class='archive-img'>
+		
+	</div>
 
 	<div class='search-info'>
 
