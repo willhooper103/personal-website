@@ -15,30 +15,21 @@
 
 		<ul class='right-items'>
 
-			<li>
-				<picture>
-					<img src="images/orange-panel.png" alt="">
-				</picture>
+			<li class='list-img-1'>
+				
 			</li>
 
-			<li>
-				<picture>
-					<img src="images/orange-panel.png" alt="">
-				</picture>
+			<li class='list-img-2'>
+				
 			</li>
 
-			<li>
-				<picture>
-					<img src="images/orange-panel.png" alt="">
-				</picture>
+			<li class='list-img-3'>
+				
 			</li>
 
-			<li>
-				<picture>
-					<img src="images/orange-panel.png" alt="">
-				</picture>
+			<li class='list-img-4'>
+				
 			</li>
-
 
 		</ul>
 
