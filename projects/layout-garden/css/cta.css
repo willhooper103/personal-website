@@ -27,7 +27,7 @@
 
 .img-div {
 	padding: 75px;
-	background-image: url("../images/news-panel.jpg");
+	background-color: var(--off-white);
 	background-size: cover;
 	background-position: center;
 	transition: background-image 0.5s ease-in-out;
@@ -35,7 +35,7 @@
 }
 
 .img-div:hover {
-	background-image: url("../images/orange-panel.png");
+	background-color: var(--brand);
 }
 
 .info-list p {
