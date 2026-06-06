@@ -22,7 +22,7 @@
 	padding: var(--standard-padding);
 	border-radius: var(--round-corners);
 	gap: 20px;
-	outline: 1px solid black;
+	outline: var(--thin-border);
 }
 
 .left-side-panel picture {
@@ -36,7 +36,7 @@
 
 .bottom-rectangle {
 	padding: 50px;
-	outline: 1px solid black;
+	outline: var(--thin-border);
 }
 
 
@@ -50,7 +50,6 @@
 	gap: 40px;
 	outline: var(--thin-border);
 }
-
 
 
 .bottom-landscape {
@@ -69,21 +68,12 @@
 	background-color: var(--background);
 }
 
-.circle-panel picture {
-	padding: 0px;
-	max-width: 100px;
-	border-radius: var(--round-corners);
-}
-
-
-picture {
-	 display: block;
-}
-
-img {
-	 display: block;
-	 width: 100%;
-/*	 height: auto;*/
+.circle-1, .circle-2, .circle-3 {
+	display: block;
+	width: 30%;
+	aspect-ratio: 1 / 1;
+	background-color: var(--brand);
+	border-radius: var(--round);
 }
 
 

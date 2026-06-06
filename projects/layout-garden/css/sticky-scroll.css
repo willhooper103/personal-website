@@ -59,7 +59,7 @@ section-one {
 
 .column-3-info:hover {
 	color: rgb(251,247,239,100);
-	background-color: rgb(233, 79, 55, 100);
+	background-color: var(--brand);
 }
 
 h3 {
