@@ -37,19 +37,20 @@
 	margin-top: 1rem;
 }
 
-.left-info-list picture {
+.left-info-img-1,
+.left-info-img-2,
+.left-info-img-3,
+.left-info-img-4,
+.left-info-img-5,
+.left-info-img-6,
+.left-info-img-7,
+.left-info-img-8 {
 	display: block;
-	padding: 0px;
+	width: 40%;
+	aspect-ratio: 1 / 1;
+	background-color: var(--brand);
 	border-radius: var(--round);
-	width: 60%;
 }
-
-img {
-	width: 100%;
-	height: auto;
-}
-
-
 
 @media (width < 500px) {
 	.detailed-module {
