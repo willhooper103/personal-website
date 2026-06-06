@@ -14,6 +14,13 @@ whitney {
 	outline: var(--thin-border);
 }
 
+.on-view-img, .upcoming-img-1, .upcoming-img-2, .upcoming-img-3,  .upcoming-img-4 {
+	display: block;
+	aspect-ratio: 1 / 1;
+	background-color: var(--brand);
+
+}
+
 .on-view {
 	position: sticky;
 	display: block;

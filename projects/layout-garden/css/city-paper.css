@@ -29,6 +29,20 @@ city-paper {
 	justify-content: flex-start;
 	align-items: flex-start;
 	text-align: center;
+	gap: 1rem;
+	padding: var(--standard-padding);
+}
+
+
+
+.list-one-1, .list-one-2, .list-one-3, .list-two-1, .list-two-2, .list-two-3,
+.list-three-1, .list-three-2, .list-three-3, .list-four-1, .list-four-2, .list-four-3
+  {
+	display: block;
+	aspect-ratio: 1 / 1;
+	width: 100%;
+	background-color: var(--brand);
+	border-radius: var(--round-corners);
 }
 
 @media(width < 700px) {

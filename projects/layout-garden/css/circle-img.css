@@ -5,7 +5,10 @@
 	align-items: flex-start;
 	padding: 1.5rem;
 	.thing {
-		picture {
+		.thing-img-1, .thing-img-2, .thing-img-3 {
+			display: block;
+			aspect-ratio: 1 / 1;
+			background-color: var(--brand);
 			border-radius: var(--round);
 			padding:0px;
 			width: 40%;

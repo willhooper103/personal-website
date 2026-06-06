@@ -81,9 +81,12 @@
 
 }
 
-img {
+.list-img {
 	display: block;
 	width: 100%;
+	aspect-ratio: 1 / 1;
+	background-color: var(--brand);
+	border-radius: var(--round-corners);
 }
 
 

@@ -14,6 +14,7 @@
 	display: block;
 	display: grid;
 	margin-top: -1rem;
+	gap: 5px;
 }
 
 .red-box-bottom {
@@ -21,6 +22,15 @@
 	border: var(--thin-border);
 }
 
+
+.list-img-1, .list-img-2, .list-img-3, .list-img-4  {
+	display: block;
+	width: 100%;
+	aspect-ratio: 1 / 1;
+	background-color: var(--brand);
+	border-radius: var(--round-corners);
+	padding: var(--standard-padding);
+}
 
 figure {
   max-width: 100%;
