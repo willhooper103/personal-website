@@ -15,6 +15,7 @@
 picture {
 	display: block;
 	width: 80%;
+	padding: var(--narrow-padding);
 }
 
 img {
