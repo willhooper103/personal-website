@@ -192,7 +192,7 @@
 
 					<article class='thirty-day-image-preview'>
 						<picture>
-							<img src="images/day-thirty.jpg" alt="day-thirty">
+							<img src="images/day-30.jpg" alt="day-thirty">
 						</picture>
 					</article>	
 				</li>
