@@ -117,7 +117,7 @@ picture-4 .triangle {
 }
 
 picture-4 .triangle:hover {
-  fill: rgb(221 223 218);
+  fill: var(--brand);
   stroke: rgb(221 223 218);
   transition: 2s;
 }
@@ -139,12 +139,12 @@ picture-5 svg {
 }
 
 picture-5 .ellipse {
-  fill: var(--orange);
+  fill: var(--brand);
   stroke: black;
 }
 
 picture-5 .triangle {
-  fill: var(--orange);
+  fill: var(--brand);
   stroke: black;
 }
 
@@ -172,7 +172,7 @@ picture-5 .triangle {
 
 @keyframes colorChange {
 		0%{fill:black}
-		50%{fill:var(--orange);}
+		50%{fill:var(--brand);}
 		100%{fill:black}
 }
 
@@ -198,12 +198,12 @@ picture-6 svg {
 }
 
 picture-6 .ellipse {
-  fill: var(--orange);
-  stroke: var(--orange);
+  fill: var(--brand);
+  stroke: var(--brand);
 }
 
 picture-6 .triangle {
-  fill: rgb(0 0 0 45);
+  fill: rgb(--brand);
   stroke: black;
 }
 
@@ -222,12 +222,12 @@ picture-7 svg {
 }
 
 picture-7 .ellipse {
-  fill: var(--orange);
+  fill: var(--brand);
   stroke: black;
 }
 
 picture-7 .triangle {
-  fill: var(--orange);
+  fill: var(--brand);
   stroke: black;
 }
 
@@ -278,15 +278,15 @@ picture-8 .triangle {
 }
 
 picture-8 .triangle:hover {
-  fill: rgb(221 223 218);
-  stroke: rgb(221 223 218);
+  fill: var(--grey);
+  stroke: var(--grey);
   transition: 2s;
 }
 
 @keyframes colorChange {
-		0%{fill:black}
-		50%{fill:var(--orange);}
-		100%{fill:black}
+		0%{fill:rgb(233 79 55)}
+		50%{fill:black}
+		100%{fill:rgb(233 79 55)}
 }
 
  
@@ -296,6 +296,21 @@ picture-8 .triangle .ellipse {
 
 picture-8 .ellipse {
 	animation: colorChange 6s infinite;
+}
+
+
+
+picture-9 {
+  display: block;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+picture-9 svg {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -320,12 +335,12 @@ picture-18 .ellipse {
 
 picture-18 .triangle {
   fill: black;
-  stroke: rgb(221 223 218);
+  stroke: var(--grey);
 }
 
 picture-18 .triangle:hover {
-  fill: rgb(221 223 218);
-  stroke: rgb(221 223 218);
+  fill: var(--grey);
+  stroke: var(--grey);
   transition: 2s;
 }
 
@@ -351,12 +366,12 @@ picture-28 .ellipse {
 
 picture-28 .triangle {
   fill: black;
-  stroke: rgb(221 223 218);
+  stroke: var(--grey);
 }
 
 picture-28 .triangle:hover {
-  fill: rgb(221 223 218);
-  stroke: rgb(221 223 218);
+  fill: var(--grey);
+  stroke: var(--grey);
   transition: 2s;
 }
 
