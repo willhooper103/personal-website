@@ -2,12 +2,16 @@
 
 :root {
 
-	--orange: rgb(233 79 55);
-	--grey: rgb(221 223 218);
+/*	--brand: rgb(233 79 55);*/
+	--brand: rgb(55 72 91);
+	--light-orange: rgb(233 79 55);
+/*	--grey: rgb(221 223 218);*/
 	--off-white: rgb(251 247 239);
+	--grey: rgb(230 228 225);
+
 
 	--pen: sans-serif;
-	--paper: rgb(221,223,218,100);
+	--background: rgb(221 223 218);
 
 
 	--stoke-strong: black;
