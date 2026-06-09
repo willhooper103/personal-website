@@ -21,9 +21,9 @@
 	line-height: 1;
 }
 
-
-picture {
+.graphic-preview > picture {
 	display: block;
+	overflow: hidden;
 }
 
 img {
@@ -57,7 +57,8 @@ inner-column {
 .thirty-day-image-preview {
 	margin: .5rem;
 	border-radius: var(--round-corners);
-	border: 2px solid black;
+	outline: var(--thin-border);
+	overflow: hidden;
 }
 
 .thirty-day-image-grid {
