@@ -22,10 +22,11 @@
 	color: white;
 }
 
+
 .projects-module li {
 	background-color: var(--brand);
 	border-radius: var(--round-corners);
-	outline: var(--thin-border);
+	outline: var(--standar-padding);
 }
 
 .projects-module h2 {
