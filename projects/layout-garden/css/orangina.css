@@ -1,0 +1,48 @@
+
+
+orangina * {
+	border-radius: var(--round-corners);
+}
+
+section-nineteen {
+	padding: var(--standard-padding);
+}
+
+orangina {
+	display: block;
+	display: grid;
+	outline: 2px solid blue;
+}
+
+.main {
+	padding: var(--standard-padding);
+}
+
+.orangina-img {
+	display: block;
+	aspect-ratio: 1 / 1;
+	margin-bottom: 1rem;
+	background-color: var(--brand);
+}
+
+.content {
+	outline: 2px solid red;
+	margin-bottom: 1rem;
+	padding: var(--standard-padding);
+}
+
+.adoption {
+	text-align: center;
+	outline: 5px solid hotpink;
+}
+
+orangina p {
+	padding: var(--standard-padding);
+	outline: 2px solid green;
+}
+
+orangina h2 {
+	padding: var(--standard-padding);
+	outline: 2px solid green;
+}
+
