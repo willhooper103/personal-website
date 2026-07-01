@@ -48,7 +48,7 @@ nyt > .main-content {
 	padding: var(--standard-padding);
 }
 
-p {
+nyt p {
 	padding: var(--standard-padding);
 }
 
