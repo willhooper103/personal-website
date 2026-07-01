@@ -11,38 +11,64 @@ section-nineteen {
 orangina {
 	display: block;
 	display: grid;
-	outline: 2px solid blue;
+	outline: 5px;
+	outline-style: solid;
+	outline-color: rgb(254 140 56);
+	padding: 0px;
 }
 
 .main {
 	padding: var(--standard-padding);
+	background-color: rgb(255 211 180);
+}
+
+orangina picture {
+	padding: 0px;
+	outline: 5px;
+	outline-style: solid;
+	outline-color: rgb(254 140 56);
+	margin-bottom: 1.5rem;
 }
 
 .orangina-img {
 	display: block;
 	aspect-ratio: 1 / 1;
-	margin-bottom: 1rem;
 	background-color: var(--brand);
 }
 
-.content {
-	outline: 2px solid red;
-	margin-bottom: 1rem;
+orangina .content {
+	background-color: rgb(254 140 56);
+	outline: 5px;
+	outline-style: solid;
+	outline-color: rgb(254 140 56);
+	margin-bottom: 1.5rem;
 	padding: var(--standard-padding);
 }
 
 .adoption {
-	text-align: center;
-	outline: 5px solid hotpink;
+	color: white;
+	text-align: right;
+	outline: 5px;
+	outline-style: solid;
+	outline-color: rgb(108 220 254);
+	background-color: rgb(108 220 254);
+	padding: var(--standard-padding);
 }
 
-orangina p {
-	padding: var(--standard-padding);
-	outline: 2px solid green;
+ orangina p {
+	font-size: 1.5rem;
+	color: white;
+	
 }
 
 orangina h2 {
-	padding: var(--standard-padding);
-	outline: 2px solid green;
+	font-size: 1.5rem;
+}
+
+ orangina h1 {
+	font-size: 3.5rem;
+	color: white;
+	font-family: sans-serif;
+	margin-bottom: 1rem;
 }
 
