@@ -5,13 +5,16 @@
 
 		<section class='main'>
 
-				<div class='orangina-img'></div>
+				<picture>
+					<img src="images/orangina.jpg" alt="">
+				</picture>
 			
 			<section class='content'>
 				<h1>Orangina</h1>
-				<p>Favorite Thing</p>
-				<p>Other info</p>
-				<p>Other info</p>
+				<p>Favorite drink: Orange Fanta</p>
+				<p>Favorite animal: orangutan</p>
+				<p>Favorite color: blue</p>
+				<p>Age: 39</p>
 				
 			</section>
 
@@ -21,6 +24,8 @@
 			</section>
 			
 		</section>
+
+	</orangina>
 
 </section-nineteen>
 
