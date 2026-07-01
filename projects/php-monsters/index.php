@@ -1,10 +1,13 @@
 
 
+<head>
+	<link rel="stylesheet" href="css/orangina.css">
+</head>
+
 <style>
 	ol {
 		display: grid;
 		list-style-type: none;
-
 	}
 
 	monster-card {
@@ -124,7 +127,7 @@ foreach ($fruitsArray as $fruit) {
 	// echo "<li>" . $fruit . "</li>";
 }
 
-echo "</li>";
+// echo "</li>";
 
 echo "</ol>";
 
@@ -134,7 +137,11 @@ echo "</ol>";
 
 $monstersArray = [$Cody, $Lima, $Reads, $MrBanana, $Fragoo, $Shadow, $Orangina];
 
-echo "<ol>";
+?>
+
+<ol>
+
+<?php 
 
 foreach ($monstersArray as $monster) {
 	$id = $monster["id"];
@@ -142,6 +149,7 @@ foreach ($monstersArray as $monster) {
 	$story = "My favorite food is " . $monster["favoriteFood"] . " and I am " . $monster["age"] . " years old";
 	$portrait = $monster["portrait"];
 	$status = $monster["adopted"];
+	$adopted = '';
 
 	// set human readable status message
 
@@ -151,27 +159,38 @@ foreach ($monstersArray as $monster) {
 		$status = "NEEDS A HOME!";
 	}
 
-	echo "<ol>";
+	if ($monster["adopted"]) {
+		$adopted = 'adopted';
+	} 
 
-	echo "<li class='monster'>";
+	?>
 
-	echo "<monster-card id='" . $id . "'>" .
-			"<picture class='portrait'>" .
-				"<img src='" . $portrait . "' width='300'>" .
 
-			"<h2 class='name'>". $monster["name"] . "</h2>" .
 
-			"<p class='story'>" . $story . "</p>" .
-			"<p class='status'>" . $status . "</p>" .
+	<li class='monster <?=$adopted?> <?=$name?>'>;
 
-		  "</monster-card>";
+		<monster-card id='<?=$id?>'> 
 
-	echo "</li>";
-}
+			<picture class='portrait'> 
+			<img src='<?=$portrait?>' width='300'> 
+			</picture>
 
-	echo "</ol>";
+			<h2 class='name'><?=$name?></h2> 
 
-?>
+			<p class='story'><?=$story?></p> 
+			<p class='status'><?=$status?></p> 
+
+		</monster-card>;
+
+	</li>;
+
+<?php } ?>
+
+
+
+ </ol>
+
+<?php include('orangina.php'); ?>
 
 
 
