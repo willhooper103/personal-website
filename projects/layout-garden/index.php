@@ -26,6 +26,7 @@
 		<link rel="stylesheet" href="css/nyt.css">
 		<link rel="stylesheet" href="css/orangina.css">
 		<link rel="stylesheet" href="css/header.css">
+		<link rel="stylesheet" href="css/travelogue.css">
 		<link rel="stylesheet" href="css/footer.css">
 	</head>
 
@@ -205,6 +206,14 @@
 				<div class='inner-column'>
 
 					 <?php include('orangina.php'); ?>
+
+				</div> 
+			</section>
+
+			<section class="section-twenty">
+				<div class='inner-column'>
+
+					 <?php include('travelogue.php'); ?>
 
 				</div> 
 			</section>
