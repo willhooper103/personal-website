@@ -24,7 +24,6 @@
 		<link rel="stylesheet" href="css/horizontal-scroll.css">
 		<link rel="stylesheet" href="css/city-paper.css">
 		<link rel="stylesheet" href="css/nyt.css">
-		<link rel="stylesheet" href="css/orangina.css">
 		<link rel="stylesheet" href="css/header.css">
 		<link rel="stylesheet" href="css/travelogue.css">
 		<link rel="stylesheet" href="css/footer.css">
@@ -202,15 +201,8 @@
 				</div> 
 			</section>
 
-			<section class="section-nineteen">
-				<div class='inner-column'>
 
-					 <?php include('orangina.php'); ?>
-
-				</div> 
-			</section>
-
-			<section class="section-twenty">
+			<section class="section-ninteen">
 				<div class='inner-column'>
 
 					 <?php include('travelogue.php'); ?>
