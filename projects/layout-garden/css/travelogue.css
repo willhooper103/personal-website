@@ -11,22 +11,28 @@ travelogue {
 .features {
 	display: block;
 	display: grid;
+	padding: var(--narrow-padding);
+	gap: .5rem;
 	margin-bottom: 1rem;
-	outline: 2px solid red;
+	outline: var(--thin-border);
 }
 
 .features-list {
 	display: block;
 	display: grid;
 	margin-bottom: 1rem;
-	outline: 2px solid orange;
+}
+
+.features-list p {
+	padding-left: var(--narrow-padding);
+	padding-right: var(--narrow-padding);
 }
 
 
 noteworthy {
 	display: block;
 	padding: var(--standard-padding);
-	outline: 2px solid red;
+	outline: var(--thin-border);
 
 }
 
@@ -49,6 +55,7 @@ noteworthy {
 
 travelogue picture {
 	display: block;
+	padding: var(--narrow-padding);
 }
 
 travelogue img {
@@ -59,7 +66,7 @@ travelogue img {
 
 @media (width < 300px) {
 	.features-list {
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr;
 	}
 
 	.media-1 {

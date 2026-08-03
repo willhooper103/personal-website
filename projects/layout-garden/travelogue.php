@@ -42,7 +42,7 @@
 				<img src="images/news-panel.jpg" alt="">
 			</picture>
 
-			<p>Here is some text that describes the image above.</p>
+			<p>Here is some text that describes the image to the left.</p>
 			
 		</section>
 
@@ -53,7 +53,7 @@
 				<img src="images/news-panel.jpg" alt="">
 			</picture>
 
-			<p>Here is some text that describes the image above.</p>
+			<p>Here is some text that describes the image to the left.</p>
 			
 		</section>
 
