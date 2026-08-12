@@ -1,0 +1,39 @@
+
+
+
+.guitar-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+guitar-card {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid grey;
+	padding: 10px;
+	max-width: 300px;
+
+	postion: relative;
+}
+
+.guitar.on-sale guitar-card {
+	background-color: wheat;
+}
+
+guitar-card .flag {
+	background-color: red;
+	color: white;
+	padding: 10px;
+
+	position: absolute;
+	top: 0;
+	right: 850;
+	transform: rotate(4deg) translate(10px, -6px);
+}
+
+li {
+	list-style-type: none;
+}
+
+
