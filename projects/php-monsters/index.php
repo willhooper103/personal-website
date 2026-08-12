@@ -83,47 +83,8 @@
 
 	 ?>
 
-
-
-	
-
-
-	<?php include('guitars_data.php'); ?>
-
-
-	<ol class='guitar-list'>
-		<?php foreach ($guitars as $guitar) { ?>
-			<guitar-card>
-				<h3><?php echo $guitar['name']; ?></h3>
-				<p><?=$guitar['brand']?></p>
-			</guitar-card>
-		<?php } ?>
-	</ol>
-
  
 </header>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
