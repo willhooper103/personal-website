@@ -14,76 +14,113 @@ response after submission, Hello, (name), nice to meet you!
 if a name is submitted, then the response is given, if not, then response is something like, "Please enter a name."
  -->
 
+ <style>
+ 	label, input, button {
+/* 		border: 1px solid red;*/
+ 	}
+
+ 	p {
+ 		font-size: 18px;
+ 	}
+
+ 	form {
+ 		max-width: 400px;
+ 		border: 1px solid black;
+ 		border-radius: 8px;
+ 		padding: 0rem 1rem 1rem 1rem;
+ 	}
+
+ 	.field {
+/* 		border: 1px solid blue;*/
+ 		display: flex;
+ 		flex-direction: column;
+ 	}
+
+ 	.field label {
+ 		font-size: 18px;
+ 		magin-bottom: 4px;
+ 	}
+
+ 	button[type='submit'] {
+ 		margin-top: 20px;
+ 	}
+ </style>
+
+
+
+
+
  <?php
 
- if (isset($_POST["submitted"])) {
- 	// echo "Thank you.";
-
+ function showCode($data) {
+ 	echo '<pre><code>' .
+ 	print_r($data, true) . '</code></pre>';
  }
+ 
+ $name = "";
+ $greeting = "";
 
-  ?>
-
-  <?php 
-
-  $name = "Will,";
-  $name2 = 1;
-  $message = "nice to meet you!";
-  $message2 = "Please enter a name.";
+// echo $_SERVER["QUERY_STRING"];
+// showCode($_POST);
 
 
-  if (isset($_POST["submitted"])) {
 
-  		if(isset($_POST["name"])) {
-  			if ($_POST["name"]) {
-  				$name = $_POST["name"];
-  			} 
-  		}
 
-  }
+if(isset($_POST['submitted'])) {
+	//check if user gave name
+	if ( isset($_POST['nameInput']) && !empty($_POST['nameInput'])) {
+		$name = $_POST['nameInput'];
+		//if so, create greeting message.
+		$greeting = "Hi, " . $name . " nice to meet you!";
+	}else {
+		$greeting = "Please enter name.";
+	}
+
+	//If not, then create message saying 'Please enter name'.
+}
+
+
 
   ?>
 
  <form method='POST'>
- 	<p>Entering a name</p>
+
+ 	<p>Enter a name</p>
 
  	<div class='field'>
+
  		<label>What is your name?</label>
- 		<input type='name'  name='name' value=''>
+ 		<input type='text' name='nameInput'>
+
+
  	</div>
 
- 	<?php 
+ 	<?php
+ 		echo $greeting;
 
- 		echo "Hello, " . $name . " " . $message;
- 
- 	?>
-
+ 	 ?>
 
  	<button type='submit' name='submitted'>Push me
  	</button>
+
+ 	
+ <?php
+
+
+
+   
+
+ ?>
 
  </form>
 
 
 
 
- <!-- Create a program that prompts for an input string and displays output that shows the input string and the number of characters the string contains. 
 
- example output: 
 
- What is the input string? Homer
- Homer has 5 characters.
 
- This needs a form to enter 'Homer'
 
- It needs a button to submit the string.
-
- The program will need to count the letters in 'Homer', or any other string entered.
-
- So maybe, $Homer = [
-				"characters" => 5
-				"name" => $Homer
-
- It will need to echo 'Homer has 5 characters.'-->
 
 
 
