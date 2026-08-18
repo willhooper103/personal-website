@@ -4,7 +4,8 @@
 
 <div class='box-module'>
 	<div class='top-section'>
-			
+
+		<div class='box-module-images'>
 			<div class='image-1'>
 				
 			</div>
@@ -12,8 +13,8 @@
 			<div class='image-2'>
 				
 			</div>
-
-		
+			
+		</div>
 
 		<div class='red-box'>
 			
