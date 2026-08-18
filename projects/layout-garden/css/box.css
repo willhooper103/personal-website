@@ -15,9 +15,10 @@
 }
 
 .top-section {
+	display: block;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	justify-content: space-evenly;
 	align-items: center;
 	width: 100%;
 	background-color: var(--background);
@@ -34,9 +35,19 @@
 	gap: 1rem;
 }
 
+.box-module-images {
+	display: block;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 50%;
+	gap: .5rem;
+	
+}
+
 .image-1, .image-2 {
 	display: block;
-	width: 50%;
+	width: 40%;
 	aspect-ratio: 1 / 1;
 	background-color: var(--brand);
 	border-radius: var(--round);
@@ -91,11 +102,19 @@
 	.orange-images {
 		flex-direction: column;
 	}
+
+	.box-module-images {
+		flex-direction: column;
+	}
 }
 
 @media (min-width: 500px) {
 	.orange-images {
 		flex-direction: column;
+	}
+
+	.box-module-images {
+		flex-direction: row;
 	}
 
 }
