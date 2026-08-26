@@ -56,7 +56,7 @@ if a name is submitted, then the response is given, if not, then response is som
  	echo '<pre><code>' .
  	print_r($data, true) . '</code></pre>';
  }
- 
+
  $name = "";
  $greeting = "";
 
@@ -68,49 +68,35 @@ if a name is submitted, then the response is given, if not, then response is som
 
 if(isset($_POST['submitted'])) {
 	//check if user gave name
-	if ( isset($_POST['nameInput']) && !empty($_POST['nameInput'])) {
+	if (isset($_POST['nameInput']) && !empty($_POST['nameInput'])) {
 		$name = $_POST['nameInput'];
 		//if so, create greeting message.
 		$greeting = "Hi, " . $name . " nice to meet you!";
-	}else {
-		$greeting = "Please enter name.";
+		//If not, then create message saying 'Please enter name'.
+		} else {
+			$greeting = "Please enter name.";
 	}
 
-	//If not, then create message saying 'Please enter name'.
 }
 
 
 
-  ?>
+?>
 
  <form method='POST'>
+		<p>Enter a name</p>
 
- 	<p>Enter a name</p>
+	 	<div class='field'>	
+	 		<label>What is your name?</label>
+	 		<input type='text' name='nameInput'>
+	 	</div>
 
- 	<div class='field'>
-
- 		<label>What is your name?</label>
- 		<input type='text' name='nameInput'>
-
-
- 	</div>
-
- 	<?php
+<?php
  		echo $greeting;
-
- 	 ?>
+?>
 
  	<button type='submit' name='submitted'>Push me
  	</button>
-
- 	
- <?php
-
-
-
-   
-
- ?>
 
  </form>
 
