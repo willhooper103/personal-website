@@ -14,7 +14,6 @@ So two forms, then once the answers are given it needs to echo Obi-Wan Kedobi sa
 
 
 
-
 <style>
 	form * {
 		font-family: sans-serif;
@@ -43,7 +42,7 @@ So two forms, then once the answers are given it needs to echo Obi-Wan Kedobi sa
 
 <?php
 
- function showCode($data) {
+function showCode($data) {
  	echo '<pre><code>' .
  	print_r($data, true) . '</code></pre>';
  }
@@ -52,61 +51,61 @@ So two forms, then once the answers are given it needs to echo Obi-Wan Kedobi sa
  showCode($_POST);
 
 
+$name = "";
+$quote = "";
 
-	if (isset($_POST['submitted'])) {
-	if (isset($_POST['quoteInput']) && !empty($_POST['user_name'])) {
-		if($_POST['quoteInput']) {
-			$quote= $_POST['quoteInput'];
-			$quote = "These aren't the droids you're looking for";
-		}else
-			$quote = "Please enter correct quote.";
-	}	
+$nounHelper = "";
+
+function stateQuote($n, $q) {
+	return "Obi-Wan Kenobi says, These aren't the droids you're looking for.";
 }
 
-	$quote = "";
+$formSubmitted = isset($_POST['buttonPushed']);
 
-	if (isset($_POST['submitted'])) {
-	if (isset($_POST['nameInput']) && !empty($_POST['user_name'])) {
-		if($_POST['nameInput']) {
-			$name= $_POST['nameInput'];
-			$answer = "$name + $quote";
-		}else
-			$answer = "Please enter a name.";
-	}	
-}
-
-
-	$name = "Obi-Wan Kenobi";
-	$quote = "\"These aren't the droids you're looking for.\"";
-
-	$answer = "";
-
-	$answer = "$name + $quote";
+if ($formSubmitted) {
+	if (!empty($_POST['quote'])) {
+			$quote = $_POST['quote'];
+			$message = stateQuote($name, $quote);
+		} else {
+			$nounHelper = "Please enter the quote.";
+	}
+}	
 	
 
+if ($formSubmitted) {
+	if (!empty($_POST['name'])) {
+			$name = $_POST['name'];
+			$message = stateQuote($name, $quote);
+		} else {
+			$nounHelper = "Please enter the name.";
+	}
+}	
+
 ?>
-
-
 
 <form method="POST">
 	<p>String with quotations</p>
 
-	<div class="field">
-		<label>What is the quote?</label>
-		<input type="text" name='quoteInput'>
-	</div>
+	<input-field>
+		<label for='q'>What is the quote?<span title='(Something to do with drones'>(i)</span>
+			<?php if ($nounHelper) { ?>
+				<span class='warning'><?=$nounHelper?></span>
+			<?php } ?>
+		</label>
+		<input type="text" name='quote' value='<?=$name?>'>
+	</input-field>
 
 
-	<div class="field">
-		<label>Who said it?</label>
-		<input type="text" name='nameInput'>
-	</div>
+	<input-field>
+		<label for='name'>Who said it?</label>
+		<input type="text" name='name' value='<?=$quote?>'>
+	</input-field>
 
-<?php
-	echo "" . $name . "  says, " . $quote ."";
-?>
+	<button type='submit' name='buttonPushed'>Enter</button>
 
-	<button type='submit' name='submitted'>Enter</button>
+	<output>
+		<p><?=$message?></p>
+	</output>
 
 </form>
 
