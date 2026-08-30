@@ -34,7 +34,7 @@
 		</ul>
 
 		<div class='red-box-bottom'>
-			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatibus!</p>
+			<p>This box could contain an image, text, or a combination of both.</p>
 				
 		</div>
 

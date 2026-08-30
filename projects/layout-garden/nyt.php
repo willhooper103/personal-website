@@ -27,11 +27,11 @@
 		<ul class='text-list'>
 			
 			<li>
-				<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Repellendus possimus amet iusto dolores, fugiat corporis aspernatur magni dolore animi ipsam.</p>
+				<p>This text could describe or add context to an image above it.</p>
 			</li>
 
 			<li>
-				<p>Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Eaque eum quo voluptate, esse recusandae inventore, dicta. Sint facere doloremque fuga!</p>
+				<p>This text could describe or add context to an image above it.</p>
 			</li>
 
 		</ul>
