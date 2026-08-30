@@ -10,7 +10,7 @@
 			</div>
 
 
-			<p>Here is some text to describe a thing.</p>
+			<p>This text could describe the round image above.</p>
 		</li>
 
 		<li>
@@ -19,7 +19,7 @@
 			</div>
 
 
-			<p>Here is some text to describe a thing.</p>
+			<p>This text could describe the round image above.</p>
 		</li>
 
 		<li>
@@ -28,7 +28,7 @@
 			</div>
 
 
-			<p>Here is some text to describe a thing.</p>
+			<p>This text could describe the round image above.</p>
 		</li>
 
 		<li>
@@ -37,7 +37,7 @@
 			</div>
 
 
-			<p>Here is some text to describe a thing.</p>
+			<p>This text could describe the round image above.</p>
 		</li>
 
 		<li>
@@ -46,7 +46,7 @@
 			</div>
 
 
-			<p>Here is some text to describe a thing.</p>
+			<p>This text could describe the round image above.</p>
 		</li>
 
 		<li>
@@ -55,7 +55,7 @@
 			</div>
 
 
-			<p>Here is some text to describe a thing.</p>
+			<p>This text could describe the round image above.</p>
 		</li>
 
 		<li>
@@ -64,7 +64,7 @@
 			</div>
 
 
-			<p>Here is some text to describe a thing.</p>
+			<p>This text could describe the round image above.</p>
 		</li>
 
 		<li>
@@ -73,7 +73,7 @@
 			</div>
 
 
-			<p>Here is some text to describe a thing.</p>
+			<p>This text could describe the round image above.</p>
 		</li>
 
 	</ul>
