@@ -7,23 +7,23 @@
 
 	<div class='search-info'>
 
-		<h1>This is the heading </h1>
+		<h1>Heading</h1>
 
 		<div class='index-terms'>
 			<h3>Index Terms</h3>
-			<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Cum, quis!</p>
+			<p>This text could introduce an image to the left. This layout might be useful on an archive or reference site.</p>
 		
 		</div>
 
 		<div class='subject'>
 			<h3>Subject</h3>
-			<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Cum, quis!</p>
+			<p>This text could offer more details about an image to the left.</p>
 		
 		</div>
 
 		<div class='subject'>
 			<h3>Subject</h3>
-			<p>Lorem ipsum dolor sit amet consectetur, adipisicing, elit. Cum, quis!</p>
+			<p>This text could offer more details about an image to the left.</p>
 		
 		</div>
 
