@@ -53,11 +53,12 @@ function showCode($data) {
 
 $name = "";
 $quote = "";
+$message = "";
 
 $nounHelper = "";
 
 function stateQuote($n, $q) {
-	return "Obi-Wan Kenobi says, These aren't the droids you're looking for.";
+	return "$n says, $q.";
 }
 
 $formSubmitted = isset($_POST['buttonPushed']);
@@ -70,6 +71,9 @@ if ($formSubmitted) {
 			$nounHelper = "Please enter the quote.";
 	}
 }	
+
+$name = $_POST['name'];
+$quote = $_POST['quote'];
 	
 
 if ($formSubmitted) {
@@ -87,24 +91,21 @@ if ($formSubmitted) {
 	<p>String with quotations</p>
 
 	<input-field>
-		<label for='q'>What is the quote?<span title='(Something to do with drones'>(i)</span>
-			<?php if ($nounHelper) { ?>
-				<span class='warning'><?=$nounHelper?></span>
-			<?php } ?>
+		<label for='quote'>What is the quote?
 		</label>
-		<input type="text" name='quote' value='<?=$name?>'>
-	</input-field>
+		<input type="text" name='quote' value='<?=$quote?>'>
+	</input-field> <br>
 
 
 	<input-field>
-		<label for='name'>Who said it?</label>
-		<input type="text" name='name' value='<?=$quote?>'>
+		<label for='name'>Who said it?</label> 
+		<input type="text" name='name' value='<?=$name?>'>
 	</input-field>
 
 	<button type='submit' name='buttonPushed'>Enter</button>
 
 	<output>
-		<p><?=$message?></p>
+		<?php echo $message ?>
 	</output>
 
 </form>
