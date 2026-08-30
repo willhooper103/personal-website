@@ -25,21 +25,8 @@
 
 		<div class='column-2-info'>
 			<h3>Header</h3>
-			<p>Lorem, ipsum, dolor sit amet  adipisicing elit. Veniam, harum.</p>
+			<p>This box stays in place till the other boxes have scrolled past.</p>
 			
-		</div>
-		
-
-		<div class='column-2-info'>
-			
-			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
-			
-
-		</div>
-
-		<div class='column-2-info'>
-			
-			<p>Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Veniam, harum.</p>
 		</div>
 
 	</div>
