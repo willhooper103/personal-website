@@ -1,0 +1,25 @@
+
+
+.about-module {
+	border: var(--thin-border);
+	border-radius: var(--round-corners);
+	padding: 100px;
+	background: var(--brand);
+}
+
+
+
+.about-text a {
+	color: var(--orange);
+}
+
+.about-text {
+	display: block;
+}
+
+.about-text p {
+	color: white;
+	font-size: 4em;
+	line-height: 1.2;
+}
+
