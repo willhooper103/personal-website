@@ -23,6 +23,7 @@ city-paper {
 	display: grid;
 }
 
+
 .image-list-one, .image-list-two, .image-list-three, .image-list-four  {
 	display: flex;
 	flex-direction: column;
