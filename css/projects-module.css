@@ -10,8 +10,8 @@
 
 .projects-module ul {
 	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
+	flex-direction: column;
+	justify-content: space-evenly;
 	gap: 1rem;
 	width: 100%;
 }
@@ -20,6 +20,7 @@
 	display: block;
 	padding: 50px;
 	color: white;
+	text-decoration: none;
 }
 
 
