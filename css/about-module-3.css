@@ -23,6 +23,11 @@
 	gap: 20px;
 }
 
+.header-bio {
+	padding-top: var(--narrow-padding);
+	padding-left: var(--narrow-padding);
+}
+
 
 .header > h1 {
 	font-size: 3rem;
