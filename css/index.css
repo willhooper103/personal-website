@@ -32,7 +32,7 @@
 * {
 	box-sizing: border-box;
 	font-family: var(--pen);
-	padding: var(--standard-padding);
+	padding: var(--narrow-padding);
 }
 
 
@@ -46,7 +46,7 @@ body {
 
 .inner-column {
 	width: 100%;
-	max-width: 1100px;
+	max-width: 1700px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: var(--standard-padding);
