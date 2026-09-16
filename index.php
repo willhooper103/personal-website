@@ -13,10 +13,11 @@
 		<meta name='og:image' content='challenge-1/images/collage.png'>
 		<link rel='stylesheet' href='css/index.css'>
 		<link rel='stylesheet' href='css/reset.css'>
-		<link rel='stylesheet' href='css/header-2.css'>
+		<link rel='stylesheet' href='css/header-3.css'>
+		<link rel='stylesheet' href='css/name.css'>
 		<link rel='stylesheet' href='css/footer.css'>
 		<link rel='stylesheet' href='css/welcome-2.css'>
-		<link rel='stylesheet' href='css/about-module-2.css'>
+		<link rel='stylesheet' href='css/about-module-3.css'>
 		<link rel='stylesheet' href='css/projects-module.css'>
 	</head>
 		
@@ -24,7 +25,7 @@
 		<header class='site-header'>
 
 			<div class='inner-column'>
-				<?php include('header-2.php'); ?>
+				<?php include('header-3.php'); ?>
 			</div>
 
 		</header>
@@ -34,18 +35,26 @@
 			<section class='welcome'>
 
 				<div class='inner-column'>
-					<?php include('welcome-2.php'); ?>
+					<?php include('name.php'); ?>
 				</div>	
 				
 			</section>
 
-			<section class='projects-module'>
+			<section class='about'>
 				
 				<div class='inner-column'>
-					<?php include('projects-module.php'); ?>
+					<?php include('about-module-3.php'); ?>
 				</div>	
 				
 			</section>
+
+			<footer class='footer'>
+			
+			<div class='inner-column'>
+				<?php include('footer.php'); ?>
+			</div>	
+				
+			</footer>
 
 	
 	</body>
