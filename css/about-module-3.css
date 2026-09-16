@@ -1,0 +1,92 @@
+@font-face {
+	font-family: Lora-Regular, Roboto-Medium;
+	src: url(../fonts/lora/Lora-Regular.ttf) format(truetype);
+	font-weight: normal;
+	font-style: normal;	 
+}
+
+@font-face {
+	font-family: Roboto-Medium;
+	src: url(../fonts/roboto/Roboto-Medium.ttf) format(truetype);
+	font-weight: normal;
+	font-style: normal;	 
+}
+
+.about-module {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: var(--off-white);
+	outline: var(--thin-border);
+	border-radius: var(--round-corners);
+	padding: var(--narrow-padding);
+	gap: 20px;
+}
+
+
+.header > h1 {
+	font-size: 3rem;
+	font-family: Roboto-Medium;
+}
+
+picture {
+	display: block;
+	width: 100%;
+	padding: var(--narrow-padding);
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+
+.about-text > p {
+	font-family: Lora-Regular;
+	max-width: 60ch;
+	margin-bottom: 1rem;
+}
+
+.header + .about-text {
+	margin-top: 20px;
+}
+
+.about-module p {
+	font-size: 1.5rem;
+	line-height: 1.2;
+}
+
+@media (width <= 400px) {
+	picture {
+		width: 100%;
+	}
+}
+
+@media (width <= 500px) {
+	picture {
+		width: 70%;
+	}
+}
+
+@media (width < 800px) {
+	.about-module {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	picture {
+		width: 100%;
+	}
+}
+
+@media (width > 1000px) {
+	picture {
+		width: 60%;
+	}
+}
+
+
+
+
+

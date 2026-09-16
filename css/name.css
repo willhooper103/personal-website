@@ -1,0 +1,65 @@
+
+@font-face {
+	font-family: Roboto-Medium;
+	src: url(../fonts/roboto/Roboto-Medium.ttf) format(truetype);
+	font-weight: normal;
+	font-style: normal;	 
+}
+
+div > span {
+	display: block;
+	font-family: Roboto-Medium;
+	font-size: 12rem;
+	text-align: left;
+	letter-spacing: .05em;
+	max-width: 100%;
+/*	outline: 2px solid red;*/
+}
+
+.name + .about {
+	margin-top: 100px;
+}
+
+@media (width >= 300px) {
+	div > span {
+		font-size: 3rem;
+	}
+}
+
+@media (width >= 400px) {
+	div > span {
+		font-size: 4rem;
+	}
+}
+
+@media (width >= 500px) {
+	div > span {
+		font-size: 5rem;
+	}
+}
+
+@media (width >= 600px) {
+	div > span {
+		font-size: 6rem;
+	}
+}
+
+@media (width >= 800px) {
+	div > span {
+		font-size: 7rem;
+	}
+}
+
+@media (width >= 900px) {
+	div > span {
+		font-size: 8rem;
+	}
+}
+
+@media (width >= 1000px) {
+	div > span {
+		font-size: 12rem;
+	}
+}
+
+
