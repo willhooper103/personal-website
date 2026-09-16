@@ -44,6 +44,7 @@ $totalSub = 0;
 $totalMult = 0;
 $totalDivide = 0;
 $error = "";
+$denominator = floatval($secondNumber);
 
 function calculate($firstNumber, $secondNumber) {
 	return ("$firstNumber + $secondNumber = $total,
@@ -70,9 +71,15 @@ if (isset($_POST['submitted'])) {
 				$totalAdd = floatval($firstNumber) + floatval($secondNumber);
 				$totalSub = floatval($firstNumber) - floatval($secondNumber);
 				$totalMult = floatval($firstNumber) * floatval($secondNumber);
-				$totalDivide = floatval($firstNumber) / floatval($secondNumber);
-}			
-
+				if (flaotval($secondNumber) === 0.0) {
+					$totalDivide = 0;
+					$error = "Cannot divide by zero.";
+				} else {
+					$totalDivide = floatval($firstNumber) / floatval($secondNumber);
+			}
+		
+}
+		
  ?>
 
 

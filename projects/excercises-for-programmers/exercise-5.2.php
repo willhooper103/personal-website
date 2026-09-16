@@ -73,8 +73,6 @@ if (isset($_POST['submitted'])) {
 
 ?>
 
-
-
 <form method="POST">
 	<header><strong>Simple Math</strong></header>
 
@@ -88,7 +86,9 @@ if (isset($_POST['submitted'])) {
 		<input type="text" name="secondNumber" value="<?=$secondNumber?>"> 
 	</input-field>
 
-	<button type='submit' name='submitted'>Submit</button>
+	<div class='actions'>
+		<button type='submit' name='submitted'>Submit</button>
+	</div>
 
 	<output>
 		<?=$additionResult?> <br> <?=$subtractionResult?> <br> <?=$multiplicationResult?> <br> <?=$divisionResult?>

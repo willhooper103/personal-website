@@ -61,6 +61,7 @@ function stateQuote($n, $q) {
 	return "$n says, $q.";
 }
 
+
 $formSubmitted = isset($_POST['buttonPushed']);
 
 if ($formSubmitted) {
