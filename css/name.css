@@ -17,7 +17,7 @@ div > span {
 }
 
 .name + .about {
-	margin-top: 100px;
+	margin-top: 40px;
 }
 
 @media (width >= 300px) {
