@@ -19,6 +19,7 @@
 		<link rel='stylesheet' href='css/welcome-2.css'>
 		<link rel='stylesheet' href='css/about-module-3.css'>
 		<link rel='stylesheet' href='css/projects-module.css'>
+		
 	</head>
 		
 	<body>
@@ -32,7 +33,7 @@
 
 		<main id="index" class='page-content'>
 
-			<section class='welcome'>
+			<section class='name'>
 
 				<div class='inner-column'>
 					<?php include('name.php'); ?>
