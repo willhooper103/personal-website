@@ -32,7 +32,7 @@
 * {
 	box-sizing: border-box;
 	font-family: var(--pen);
-	padding: var(--narrow-padding);
+/*	padding: var(--narrow-padding);*/
 }
 
 
@@ -46,7 +46,7 @@ body {
 
 .inner-column {
 	width: 100%;
-	max-width: 1700px;
+	max-width: 1100px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: var(--standard-padding);
@@ -81,25 +81,6 @@ svg {
 	border-radius: 2%;
 	stroke-width: 3px;
 }
-
-
-.site-footer {
-/*	display: flex;*/
-/*	flex-direction: column;*/
-/*	justify-content: flex-start;*/
-	background-color: black;
-/*	outline: 3px solid hotpink;*/
-}
-
-.footer-menu {
-	background-color: black;
-}
-
-.footer-menu > li {
-	color: antiquewhite;
-	background-color: black;
-}
-
 
 h1 {
 	font-family: sans-serif;
