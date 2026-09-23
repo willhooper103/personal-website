@@ -1,5 +1,8 @@
+
+
 .site-footer {
 	background-color: black;
+	width: 100%;
 }
 
 .footer-module {
@@ -8,8 +11,20 @@
 	justify-content: flex-start;
 	padding: var(--standard-padding);
 	color: white;
-	background-color: black;
+}
 
+.footer-menu {
+	background-color: black;
+}
+
+.footer-menu > li {
+	color: antiquewhite;
+	background-color: black;
+}
+
+.footer-module img {
+	width: 24px;
+	border-radius: 0px;
 }
 
 h2 {
