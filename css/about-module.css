@@ -34,6 +34,10 @@ img {
 	line-height: 1.2;
 }
 
+.about-module p + p {
+	margin-bottom: var(--margin-bottom-narrow);
+}
+
 @media (width < 700px) {
 	.about-module {
 		flex-direction: column;
