@@ -29,6 +29,7 @@
 	justify-content: flex-start;
 	align-items: flex-start;
 	background_color: var(--paper);
+	margin-top: 1rem;
 
 
 }
