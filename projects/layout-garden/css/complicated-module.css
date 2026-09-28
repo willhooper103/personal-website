@@ -68,7 +68,7 @@ left-section > .bottom-section {
 }
 
 
-img {
+.complicated-module img {
 	display: block;
 	opacity: 0;
 }
