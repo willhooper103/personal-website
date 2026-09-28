@@ -6,7 +6,7 @@
 	</picture>
 
 	<div class='about-text'>
-			<p>I’m Will, a web design and development student with <a href="https://perpetual.education" target="_blank">Perpetual.Education</a></p>
+			<p>I’m Will, a web design and development student with <a href="https://perpetual.education" target="_blank">Perpetual.Education.</a></p>
 
 			<p>I’m starting out in the industry and am interested in helping small businesses on the northside of Chicago improve their websites both visually and functionally.</p>
 
@@ -20,6 +20,10 @@
 
 
 			<p>I live in Andersonville, Chicago, IL.</p>
+
+			<p>Below are links to my work. </p>
+
+			<p>Check out my <a href="">layout garden</a>, where I explore layout ideas using flexbox and grid. </p>
 	
 	</div>
 	
