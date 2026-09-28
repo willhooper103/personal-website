@@ -25,6 +25,14 @@
 	--standard-padding: 1rem;
 	--narrow-padding: .5rem;
 	--wide-padding: 1.5rem;
+	
+
+	--margin-top-narrow: .5rem;
+	--margin-top-standard: 1rem;
+
+	--margin-bottom-narrow: .5rem;
+	--margin-bottom-standard: 1rem;
+
 
 }
 
