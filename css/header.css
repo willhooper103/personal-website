@@ -3,7 +3,7 @@
 	position: sticky;
 	top: 0;
 	width: 100%;
-	padding: var(--standard-padding);
+/*	padding: var(--standard-padding);*/
 	background-color: var(--off-white);
 	outline: var(--thin-border);
 }
@@ -29,7 +29,7 @@
 	color: black;
 }
 
-a {
+.site-header a {
 	text-decoration: none;
 	color: black;
 }
