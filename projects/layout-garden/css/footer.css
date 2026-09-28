@@ -1,21 +1,37 @@
+
+
 .site-footer {
 	background-color: black;
+	width: 100%;
 }
 
 .footer-module {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
-	padding: 30px;
+	padding: var(--standard-padding);
 	color: white;
+}
+
+.footer-menu {
 	background-color: black;
+}
+
+.footer-menu > li {
+	color: antiquewhite;
+	background-color: black;
+}
+
+.footer-module img {
+	width: 24px;
+	border-radius: 0px;
 }
 
 h2 {
 	font-size: 1.2rem;
 }
 
-.footer-module > .contact {
+.contact {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -24,15 +40,11 @@ h2 {
 	gap: 20px;
 }
 
-.footer-list {
-	padding: 0px;
-}
-
 
 .footer-module > ul {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: flex-start;
 	gap: 4px;
 }
@@ -46,9 +58,10 @@ h2 {
 	color: white;
 }
 
- .footer-list > li:nth-of-type(1) {
+li:nth-of-type(1) {
 	font-size: 1.1rem;
 }
+
 
 
 
