@@ -96,7 +96,7 @@ h3 + p {
 @media (min-width: 300px) {
 	.scroll-module {
 		flex-direction: column;
-/*		padding: 1rem;*/
+		padding-top: 1rem;
 
 	.column-3 {
 		width: 100%;
