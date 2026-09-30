@@ -6,6 +6,8 @@
 	border-radius: var(--round-corners);
 	margin-bottom: 1rem;
 	padding: var(--standard-padding);
+	margin-top: 1rem;
+	outline: var(--thin-border);
 }
 
 /*p::first-letter {*/
