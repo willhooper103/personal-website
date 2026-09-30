@@ -34,6 +34,20 @@ img {
 	line-height: 1.2;
 }
 
+.about-module ul + p {
+	margin-top: 1rem;
+}
+
+.about-module ul {
+	list-style-type: circle;
+	padding-left: 30px;
+}
+
+.about-text li {
+	font-size: 1.2rem;
+	line-height: 1.2;
+}
+
 .about-module p + p {
 	margin-bottom: var(--margin-bottom-narrow);
 }
