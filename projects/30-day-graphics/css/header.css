@@ -1,9 +1,10 @@
 
+
 .site-header {
 	position: sticky;
 	top: 0;
 	width: 100%;
-	padding: var(--standard-padding);
+/*	padding: var(--standard-padding);*/
 	background-color: var(--off-white);
 	outline: var(--thin-border);
 }
@@ -25,11 +26,11 @@
 }
 
 .nav-menu > ul {
-	background-color: var(--off-white);
+	background-color: lightgrey;
 	color: black;
 }
 
-a {
+.site-header a {
 	text-decoration: none;
 	color: black;
 }
@@ -52,15 +53,22 @@ ul a {
 @media (width <= 700px) {
 	.header-list {
 		flex-direction: column;
-		line-height:1.5;
+		line-height: 1.5;
 	}
 
 @media (width <= 400px) {
 	.header-list {
 		flex-direction: column;
-		line-height:1.5;
+		line-height: 1.5;
 	}
 
+@media (width <= 344px) {
+	.header-list {
+		flex-direction: column;
+		line-height: 1.5;
+	}
+
+}
 @media (width <= 344px) {
 	.header-list {
 		flex-direction: column;
