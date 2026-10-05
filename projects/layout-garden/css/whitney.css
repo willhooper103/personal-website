@@ -37,6 +37,23 @@ whitney {
 	gap: 20px;
 }
 
+.on-view-img + h1 {
+	margin-top: 10px;
+}
+
+.upcoming-img-1 + h1 {
+	margin-top: 10px;
+}
+.upcoming-img-2 + h1 {
+	margin-top: 10px;
+}
+.upcoming-img-3 + h1 {
+	margin-top: 10px;
+}
+.upcoming-img-4 + h1 {
+	margin-top: 10px;
+}
+
 @media (width < 700px) {
 	whitney {
 		grid-template-columns: 1fr; 
