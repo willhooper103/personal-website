@@ -1,7 +1,7 @@
 
 
   	<section class="about">
-		  <p>These images are from a 30-day challenge from my course with Perpetual Education. Since I could do anything I wanted, I chose to narrow down my imagery and color palette for the sake of simplicity. By the end I was thinking of how I could refine the work and design for the web.</p>
+		  <p>These images are from a 30-day challenge from my course with Perpetual Education where I explored tools and techniques in Procreate. Since I could do anything I wanted, I chose to narrow down my imagery and color palette for the sake of simplicity. By the end I was thinking of how I could refine the work and design for the web.</p>
 	</section>
 
 	<section>
