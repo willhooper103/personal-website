@@ -45,7 +45,7 @@
 	color: white;
 }
 
-li:nth-of-type(1) {
+ .footer-module li:nth-of-type(1) {
 	font-size: 1.1rem;
 }
 
