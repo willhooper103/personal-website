@@ -26,9 +26,10 @@
 
 			<p>I live in Andersonville, Chicago, IL.</p>
 
-			<p>Below are links to some of my work. </p>
 
-			<p>Check out my <a href="">layout garden</a>, where I explore layout ideas using flexbox and grid. </p>
+			<p>Check out my <a href="projects/layout-garden/index.php" rel="noopener">layout garden</a>, where I explore layout ideas using flexbox and grid. </p>
+
+			<p>And here is a <a href="projects/30-day-graphics/index.php" rel="noopener">page</a> of graphics where I explore techniques in Procreate.</p>
 	
 	</div>
 	
