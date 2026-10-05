@@ -108,12 +108,12 @@ h1 + h2 {
 
 .dollar-amount li:hover {
 	color: white;
-	background-color: rgb(233, 79, 55);
+	background-color: var(--brand);
 }
 
 .amount p:hover {
 	color: white;
-	background-color: rgb(233, 79, 55);
+	background-color: var(--brand);
 }
 
 .deliver-how h2 + ul, .delivery-where h2 + ul {
@@ -127,7 +127,7 @@ h1 + h2 {
 
 .buy-now:hover, .add-to-cart:hover {
 	color: white;
-	background-color: rgb(233, 79, 55);
+	background-color: var(--brand);
 }
 
 
