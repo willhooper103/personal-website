@@ -12,6 +12,11 @@
 	outline: var(--thin-border);
 }
 
+.detailed-module p {
+	font-family: var(--copy-font);
+	font-size: 1rem;
+}
+
 .left-info-list {
 	display: block;
 	display: grid;

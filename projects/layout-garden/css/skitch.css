@@ -76,6 +76,10 @@
 	outline: 1px solid black;
 }
 
+.skitch-module p {
+	font-family: var(--copy-font);
+}
+
 
 img {
 	display: block;

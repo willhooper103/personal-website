@@ -22,6 +22,10 @@
 	border: var(--thin-border);
 }
 
+.magazine p {
+	font-family: var(--copy-font);
+}
+
 
 .list-img-1, .list-img-2, .list-img-3, .list-img-4  {
 	display: block;

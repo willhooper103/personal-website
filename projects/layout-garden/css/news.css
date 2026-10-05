@@ -13,6 +13,11 @@
 	gap: 30px;
 }
 
+.news-module p {
+	font-family: var(--copy-font);
+	font-size: 1rem;
+}
+
 
 .block img {
 	outline: 1px solid black;

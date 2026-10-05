@@ -42,6 +42,10 @@ left-section > .bottom-section {
 	outline: none;
 }
 
+.bottom-section p {
+	font-family: var(--copy-font);
+}
+
 .box-1, .box-2, .box-3 {
 	padding: var(--standard-padding);
 	outline: var(--thin-border);
