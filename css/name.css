@@ -6,7 +6,7 @@
 	font-style: normal;	 
 }
 
-.artist-name > soan {
+.artist-name > span {
 	display: block;
 	font-family: "Roboto-Medium";
 	font-size: 12rem;
