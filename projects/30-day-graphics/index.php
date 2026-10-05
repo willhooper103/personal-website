@@ -17,6 +17,7 @@
 			<div class="inner-column">
 				
 				<?php include('header.php'); ?>
+				
 			</div>
 				
 		</header>
