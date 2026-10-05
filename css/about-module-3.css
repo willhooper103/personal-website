@@ -24,6 +24,25 @@
 	gap: 20px;
 }
 
+.about-text a {
+	padding: var(--narrow-padding);
+	background-color: green;
+}
+
+.about-module p {
+	font-size: 1rem;
+	line-height: 1.2;
+}
+
+.about-module ul + p {
+	margin-top: 1rem;
+}
+
+.about-module ul {
+	list-style-type: circle;
+	padding-left: 30px;
+}
+
 .header-bio {
 	padding-top: var(--narrow-padding);
 	padding-left: var(--narrow-padding);
