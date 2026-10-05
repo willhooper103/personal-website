@@ -13,6 +13,10 @@ city-paper {
 	outline: var(--thin-border);
 }
 
+city-paper h1 {
+	font-size: rem;
+}
+
 .main-content {
 	display: block;
 	display: grid;
@@ -22,7 +26,6 @@ city-paper {
 	display: block;
 	display: grid;
 }
-
 
 .image-list-one, .image-list-two, .image-list-three, .image-list-four  {
 	display: flex;
@@ -34,8 +37,6 @@ city-paper {
 	padding: var(--standard-padding);
 }
 
-
-
 .list-one-1, .list-one-2, .list-one-3, .list-two-1, .list-two-2, .list-two-3,
 .list-three-1, .list-three-2, .list-three-3, .list-four-1, .list-four-2, .list-four-3
   {
@@ -44,6 +45,13 @@ city-paper {
 	width: 100%;
 	background-color: var(--brand);
 	border-radius: var(--round-corners);
+}
+
+.list-one-1 + h1, .list-one-2 + h1, .list-one-3 + h1,
+.list-two-1 + h1, .list-two-2 + h1, .list-two-3 + h1,
+.list-three-1 + h1, .list-three-2 + h1, .list-three-3 + h1, 
+.list-four-1 + h1, .list-four-2 + h1, .list-four-3 + h1 {
+	margin-top: 10px;
 }
 
 @media(width < 700px) {
