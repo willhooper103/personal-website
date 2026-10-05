@@ -2,6 +2,20 @@
 
 :root {
 
+@font-face {
+	font-family: "Roboto-Medium";
+	src: url(fonts/Roboto/Roboto-Medium.ttf) format(truetype);
+	font-weight: normal;
+	font-style: normal;	 
+}
+
+@font-face {
+	font-family: "Lora-Regular";
+	src: url(fonts/Lora/Lora-Regular.ttf) format(truetype);
+	font-weight: normal;
+	font-style: normal;	 
+}
+
 /*	--brand: rgb(233 79 55);*/
 	--brand: rgb(55 72 91);
 	--light-orange: rgb(233 79 55);
@@ -10,7 +24,9 @@
 	--grey: rgb(230 228 225);
 
 
-	--pen: sans-serif;
+	--attention-font: 'Roboto-Medium', sans-serif;
+	--copy-font: 'Lora-Regular', serif;
+	
 	--background: rgb(221 223 218);
 
 
@@ -36,13 +52,10 @@
 
 }
 
-
 * {
 	box-sizing: border-box;
-	font-family: var(--pen);
 /*	padding: var(--narrow-padding);*/
 }
-
 
 body {
 	position: relative;
@@ -50,6 +63,7 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 	background-color: var(--background);
+	font-family: var(--copy-font);
 }
 
 .inner-column {
@@ -91,7 +105,7 @@ svg {
 }
 
 h1 {
-	font-family: sans-serif;
+	font-family: var(--attention-text);
 	font-size: 24px;
 	color: black;
 }
@@ -99,8 +113,6 @@ h1 {
 h2 {
 	font-family: sans-serif;
 }
-
-
 
 @media (min-width: 500px) {
 	.gallery .image-list {
