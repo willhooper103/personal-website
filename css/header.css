@@ -13,7 +13,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	background-color: var(--off-white);
-	font-family: var(--pen);
+	font-family: var(--attention-font);
 }
 
 .nav-menu {
