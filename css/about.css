@@ -9,6 +9,11 @@
 
 }
 
+.about-text a {
+	padding: var(--narrow-padding);
+	background-color: green;
+}
+
 .headshot {
 	display: block;
 	width: 50%;
