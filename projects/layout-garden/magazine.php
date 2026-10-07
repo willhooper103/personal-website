@@ -5,10 +5,10 @@
 	<ul class='master-list'>
 		<ul class='left-items'>
 
-			<li><figure>
-				<video controls src="images/welcome-video.mov"></video>
+			<!-- <li><figure> -->
+				<!-- <video controls src="images/welcome-video.mov"></video> -->
 				</figure>
-			</li>
+			<!-- </li> -->
 			
 		</ul>
 					
