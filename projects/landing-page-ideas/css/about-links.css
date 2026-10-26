@@ -1,0 +1,20 @@
+
+
+
+.links-text {
+	background-color: var(--off-white);
+	font-size: 1.2rem;
+	line-height: 1.2;
+	border-radius: var(--round-corners);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: var(--standard-padding);
+	outline: var(--thin-border);
+}
+
+.about-links p {
+	font-family: var(--copy-font);
+}
+
+
+
