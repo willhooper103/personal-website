@@ -7,5 +7,6 @@
 		<li><a href="../../index.php#contact">contact</a></li> 
 		<li><a href="index.php">layout-garden</a></li> 
 		<li><a href="../30-day-graphics/index.php">30-day graphics</a></li> 
+		<li><a href="../landing-page-ideas/index.php" rel="noopener">landing pages</a></li>
 	</ul>
 </div>
