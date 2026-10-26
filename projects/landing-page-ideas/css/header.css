@@ -43,8 +43,6 @@ ul a {
 	font-size: 1rem;
 }
 
-
-
 .artist-name {
 	font-size: 2rem;
 }
@@ -53,6 +51,23 @@ ul a {
 	.header-list {
 		flex-direction: column;
 		line-height: 1.5;
+	}
+
+}
+
+@media (width <= 515px) {
+	.header-list {
+		flex-direction: column;
+		line-height: 1.5;
+	}
+
+	ul a {
+		font-size: 1rem;
+	}
+
+	.nav-menu {
+		flex-direction: column;
+		align-items: flex-start;
 	}
 
 }
