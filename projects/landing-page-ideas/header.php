@@ -1,6 +1,6 @@
 <div class='header-list'>
 
-	<span class='artist-name'><a href="#">Will Hooper</a></span>
+	<span class='artist-name'><a href="../../index.php">Will Hooper</a></span>
 
 	<ul class='nav-menu'>
 		<li><a href="../../index.php">home</a></li> 
