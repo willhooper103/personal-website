@@ -7,5 +7,7 @@
 		<li><a href="#contact">contact</a></li> 
 		<li><a href="projects/layout-garden/index.php" rel="noopener">layout-garden</a></li> 
 		<li><a href="projects/30-day-graphics/index.php" rel="noopener">30-day graphics</a></li> 
+		<li><a href="projects/landing-page-ideas/index.php" rel="noopener">landing pages</a></li> 
+
 	</ul>
 </div>
