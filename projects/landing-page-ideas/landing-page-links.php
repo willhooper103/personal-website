@@ -7,7 +7,7 @@
 				<a href="bike-shop/index.php">
 					<div class="landing-graphic-panel">
 						<picture>
-							<img src="images/bike-hub.jpg" alt="bike hub">
+							<img src="images/bike-hub2.jpg" alt="bike hub">
 						</picture>
 						
 						<p>SPEED and SPOKE </p>
