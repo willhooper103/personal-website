@@ -49,9 +49,6 @@ img {
 
 /*STYLE*/
 
-picture {
-	display: block;
-}
 
 .img-div:hover {
 	background-color: var(--brand);
