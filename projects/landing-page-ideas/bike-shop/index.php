@@ -17,6 +17,8 @@
 		<link rel='stylesheet' href='css/reset.css'>
 		<link rel='stylesheet' href='css/bike-shop-header.css'>
 		<link rel='stylesheet' href='css/b-s-welcome.css'>
+		<link rel='stylesheet' href='css/b-s-rental.css'>
+		<link rel='stylesheet' href='css/b-s-repair.css'>
 		<link rel='stylesheet' href='css/bike-shop-footer.css'>
 	</head>
 		
@@ -33,6 +35,18 @@
 			<section class='bike-shop-welcome'>
 				<div class='inner-column'>
 					<?php include('b-s-welcome.php'); ?>
+				</div>	
+			</section>
+
+			<section class='bike-shop-rental'>
+				<div class='inner-column'>
+					<?php include('b-s-rental.php'); ?>
+				</div>	
+			</section>
+
+			<section class='bike-shop-repair'>
+				<div class='inner-column'>
+					<?php include('b-s-repair.php'); ?>
 				</div>	
 			</section>
 
