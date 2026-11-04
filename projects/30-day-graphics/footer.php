@@ -5,7 +5,7 @@
 
 		<!-- <h2>Find me here:</h2> -->
 
-		<ul>
+		<ul class='name-address'>
 			<li>willhooper103@gmail.com</li>
 			<li> <a href="https://bsky.app/profile/willhooperart.bsky.social" target="_blank" rel="noopener"><img src="images/bluesky-logo/bluesky-brands-solid.png" alt="Bluesky Profile" width="24px" height="24px"></a></li>
 			
