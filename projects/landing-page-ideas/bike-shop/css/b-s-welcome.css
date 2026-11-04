@@ -1,7 +1,7 @@
 
 
 .bike-shop-welcome {
-
+	padding-top: .5rem;
 }
 
 .b-s-welcome {
@@ -17,9 +17,9 @@
 	line-height: 1.2;
 /*	background-color: #63BFEE;*/
 	padding: var(--standard-padding);
-	border-radius: var(--round-corners);
+/*	border-radius: var(--round-corners);*/
 	width: 60ch;
-	outline: 2px #63BFEE;
+	outline: 2px solid black;
 }
 
 @media (width <= 400px) {
