@@ -1,0 +1,99 @@
+
+
+.site-footer {
+	display: flex;
+	flex-direction: column;
+/*	background-color: black;*/
+	width: 100%;
+	gap: 1rem;
+/*	outline: 2px solid red;*/
+}
+
+.footer-module {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	color: white;
+	background-color: black;
+/*	outline: 2px solid green;*/
+}
+
+.contact {
+	display: flex;
+	flex-direction: column;
+	width: 40%;
+/*	outline: 2px solid green;*/
+}
+
+.social-media {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 30%;
+	gap: 1rem;
+}
+
+.footer-module ul {
+	padding: var(--standard-padding);
+}
+
+.footer-menu > li {
+	color: antiquewhite;
+}
+
+.footer-module img {
+	width: 24px;
+	border-radius: 0px;
+}
+
+.footer-module > .contact {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	font-family: sans-serif;
+	line-height: 1.2;
+	gap: 20px;
+}
+
+.name-address {
+	display: flex;
+	flex-direction: column;
+/*	outline: 2px solid white;*/
+}
+
+.store-hours {
+	display: flex;
+	flex-direction: column;
+/*	outline: 2px solid white;*/
+}
+
+.social-media {
+/*	outline: 2px solid white;*/
+}
+
+.footer-module a {
+	text-decoration: none;
+	color: white;
+}
+
+li:nth-of-type(1) {
+	font-size: 1.1rem;
+}
+
+@media (width <= 400px) {
+	.contact {
+		flex-direction: column;
+	}
+}
+
+@media (width <= 1000px) {
+	.footer-module > .contact {
+		flex-direction: column;
+	}
+}
+
+
+
+
+
+
