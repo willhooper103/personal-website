@@ -1,7 +1,10 @@
 
 
-site-header {
+.site-header {
+	position: sticky;
+	top: 0;
 	background-color: black;
+	padding: 0;
 }
 
 .header-list {
@@ -9,8 +12,9 @@ site-header {
 	flex-direction: row;
 	justify-content: space-between;
 	background-color: black;
-	padding: var(--standard-padding);
-	outline: 2px solid yellow;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+/*	outline: 2px solid yellow;*/
 }
 
 span a {
