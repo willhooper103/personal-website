@@ -15,45 +15,33 @@
 		<meta name='og:image' content='challenge-1/images/collage.png'>
 		<link rel='stylesheet' href='css/index.css'>
 		<link rel='stylesheet' href='css/reset.css'>
-		<link rel='stylesheet' href='css/header.css'>
-		<link rel='stylesheet' href='css/bikeshop-header.css'>
-		<link rel='stylesheet' href='css/footer.css'>
+		<link rel='stylesheet' href='css/bike-shop-header.css'>
+		<link rel='stylesheet' href='css/b-s-welcome.css'>
+		<link rel='stylesheet' href='css/bike-shop-footer.css'>
 	</head>
 		
 	<body>
 
 		<header class='site-header'>
 			<div class='inner-column'>
-				<?php include('header.php'); ?>
+				<?php include('bike-shop-header.php'); ?>
 			</div>
 		</header>
 
 		<main id="index" class='page-content'>
 
-			<section class='content-intro'>
+			<section class='bike-shop-welcome'>
 				<div class='inner-column'>
-					<?php include('intro.php'); ?>
+					<?php include('b-s-welcome.php'); ?>
 				</div>	
 			</section>
 
-			<section class='bikeshop-header'>
+			<footer class='site-footer'>	
 				<div class='inner-column'>
-					<?php include('bikeshop-header.php'); ?>
+					<?php include('bike-shop-footer.php'); ?>
 				</div>					
-			</section>
-
-			<section class='bikeshop-footer'>	
-				<div class='inner-column'>
-					<?php include(''); ?>
-				</div>					
-			</section>
+			</footer>
 		</main>
-
-		<footer class='site-footer'>			
-			<div class='inner-column'>
-				<?php include('footer.php'); ?>
-			</div>					
-		</footer>
 	
 	</body>
 </html>	
