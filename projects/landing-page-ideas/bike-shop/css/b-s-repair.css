@@ -1,0 +1,81 @@
+/* STRUCTURE  */
+
+
+.b-s-repair {
+  outline: 2px solid black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* TYPOGOPHY  */
+
+body {
+  font-family: sans-serif;
+}
+
+
+.attention-voice {
+  font-size: 2rem;
+}
+
+.graphic-panels p {
+  font-family: var(--copy-font);
+}
+
+.graphic-panels a {
+  color: black;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+/* ELEMENTS  */
+
+.b-s-repair picture {
+  padding: 0px;
+  outline: var(--thin-border);
+}
+
+.panel-1, .panel-2, .panel-3 {
+  display: grid; 
+  .info {
+    padding: var(--standard-padding);
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+}
+  p {
+    margin-top: 1em;
+  }
+  .action {
+    margin-top: 1em;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    padding: var(--narrow-padding);
+    border-radius: var(--round-corners);
+    background-color: var(--orange);
+  }
+
+  @media (width >=700px) {
+    .graphic-panels {
+      padding: var(--standard-padding);
+    }
+  
+    grid-template-columns: 1fr 1fr;
+  
+    &.flipped {
+      picture {
+        order: 2;
+      }
+    }
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
