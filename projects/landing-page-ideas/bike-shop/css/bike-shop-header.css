@@ -33,6 +33,8 @@ span a {
 	text-decoration: none;
 }
 
-.header-nav {
-
+@media (width <= 360px) {
+	.header-list {
+		align-items: center;
+	}
 }
