@@ -7,28 +7,41 @@
 .b-s-welcome {
 	background-image: url('../images/andersonville.jpg');
 	background-size: cover;
+	background-position: top left;
 	height: 500px;
 	padding: var(--standard-padding);
 	outline: 2px solid black;
 }
 
-.b-s-welcome > p {
+ .b-s-welcome-text {
 	font-size: 1.2rem;
 	line-height: 1.2;
 /*	background-color: #63BFEE;*/
 	padding: var(--standard-padding);
 /*	border-radius: var(--round-corners);*/
 	width: 60ch;
-	outline: 2px solid black;
+/*	outline: 2px solid black;*/
 }
 
-@media (width <= 400px) {
+.b-s-welcome-text h1 {
+	font-size: 2rem;
+}
+
+
+
+@media (width <= 360px) {
 	.b-s-welcome > p {
-		font-size: 1rem;
+		font-size: .2rem;
 	}
 }
 
-@media (width <= 600px) {
+@media (width <= 480px) {
+	.b-s-welcome > p {
+		font-size: .8rem;
+	}
+}
+
+@media (width <= 700px) {
 	.b-s-welcome > p {
 		width: 40ch;
 	}
