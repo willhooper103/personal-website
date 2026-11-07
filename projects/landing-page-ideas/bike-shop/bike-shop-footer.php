@@ -13,11 +13,7 @@
 
 		<ul class='store-hours'>
 			<li>Store Hours:</li><br>
-			<li>MON - 11am-6pm</li>
-			<li>Tues - 11am-6pm</li>
-			<li>Wed - 11am-6pm</li>
-			<li>Thurs - 11am-6pm</li>
-			<li>Fri - 11am-6pm</li>
+			<li>Mon- Fri - 11am-6pm</li>
 			<li>Sat - 10am-4pm</li>
 			<li>Sun - 10am-3pm</li>
 		</ul>
