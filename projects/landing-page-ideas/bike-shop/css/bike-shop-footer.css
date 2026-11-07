@@ -83,6 +83,7 @@ li:nth-of-type(1) {
 @media (width <= 400px) {
 	.contact {
 		flex-direction: column;
+		width: 60%;
 	}
 }
 
