@@ -1,6 +1,6 @@
 
 
-<section class='b-s-repair'>
+<section id="b-s-repair" class='b-s-repair'>
 
 	<div class="panel-1">
 	    <picture>
