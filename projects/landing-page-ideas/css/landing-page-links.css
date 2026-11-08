@@ -28,6 +28,10 @@
 	gap: 10px;
 }
 
+.landing-graphic-panel picture {
+	overflow: hidden;
+}
+
 .landing-links {
 	min-height: 100vh;
 }
