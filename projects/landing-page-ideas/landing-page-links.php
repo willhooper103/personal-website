@@ -21,7 +21,7 @@
 						<img src="images/place-holder.jpg" alt="bike hub">
 					</picture>
 					
-					<p>COMING SOON</p>
+					<p> MORE COMING SOON</p>
 				</div>
 			</li>
 		</ul>	
