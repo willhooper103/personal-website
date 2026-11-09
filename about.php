@@ -29,7 +29,9 @@
 
 			<p>Check out my <a href="projects/layout-garden/index.php" rel="noopener">layout garden</a>, where I explore layout ideas using flexbox and grid. </p>
 
-			<p>And here is a <a href="projects/30-day-graphics/index.php" rel="noopener">page</a> of graphics where I explore techniques in Procreate.</p>
+			<p>Here is a <a href="projects/30-day-graphics/index.php" rel="noopener">page</a> of graphics where I explore techniques in Procreate.</p>
+
+			<p>And here is a <a href="projects/landing-page-ideas/index.php">link</a> to small business landing pages. </p>
 	
 	</div>
 	
