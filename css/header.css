@@ -74,7 +74,7 @@ ul a {
 
 }
 
-@media (width <= 400px) {
+@media (701px <= width <= 1100px) {
 	.header-list {
 		flex-direction: column;
 		line-height: 1.5;
@@ -85,13 +85,30 @@ ul a {
 	}
 
 	.nav-menu {
-		flex-direction: column;
+		flex-direction: row;
 		align-items: flex-start;
+		gap: 20px;
 	}
-
 }
 
-@media (width <= 344px) {
+@media (476px <= width <= 700px) {
+	.header-list {
+		flex-direction: column;
+		line-height: 1.5;
+	}
+
+	ul a {
+		font-size: 1rem;
+	}
+
+	.nav-menu {
+		flex-direction: row;
+		align-items: flex-start;
+		gap: 10px;
+	}
+}
+
+@media (360px <= width <= 475px) {
 	.header-list {
 		flex-direction: column;
 		line-height: 1.5;
@@ -104,6 +121,6 @@ ul a {
 	.nav-menu {
 		flex-direction: column;
 		align-items: flex-start;
+		gap: 10px;
 	}
-
 }

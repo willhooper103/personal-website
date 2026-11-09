@@ -47,13 +47,6 @@ ul a {
 	font-size: 2rem;
 }
 
-@media (width <= 700px) {
-	.header-list {
-		flex-direction: column;
-		line-height: 1.5;
-	}
-}
-
 @media (701px <= width <= 1100px) {
 	.header-list {
 		flex-direction: column;
