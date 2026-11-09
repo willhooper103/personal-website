@@ -37,6 +37,24 @@ span a {
 
 @media (width <= 360px) {
 	.header-list {
-		align-items: center;
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 20px;
+	}
+}
+
+@media (360px <= width <= 400px) {
+	.header-list {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 20px;
+	}
+}
+
+@media (401px <= width <= 450px) {
+	.header-list {
+		align-items: flex-start;
+		flex-direction: column;
+		gap: 20px;
 	}
 }
