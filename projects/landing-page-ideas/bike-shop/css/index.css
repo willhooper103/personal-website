@@ -20,7 +20,8 @@
 
 
 	--pen: sans-serif;
-	--background: rgb(221 223 218);
+	--paper-header: rgb(0 0 0);
+	--paper-footer: rgb(0 0 0);
 
 
 	--stoke-strong: black;
