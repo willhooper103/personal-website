@@ -33,6 +33,14 @@
 	gap: 1rem;
 }
 
+.bluesky, .linkedin {
+	height: 24px;
+}
+
+.bluesky img {
+	background-color: white;
+}
+
 .footer-module ul {
 	padding: var(--standard-padding);
 }
