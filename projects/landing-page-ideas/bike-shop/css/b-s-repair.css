@@ -5,27 +5,37 @@
   outline: 2px solid black;
 }
 
+.repair-panel {
+  display: flex;
+  flex-direction: column;
+}
+
 * {
   box-sizing: border-box;
+}
+
+.repair-panel .info {
+  width: 60ch;
 }
 
 
 /* TYPOGOPHY  */
 
 body {
+  display: flex;
   font-family: sans-serif;
 }
-
 
 .attention-voice {
   font-size: 2rem;
 }
 
-.graphic-panels p {
+.b-s-repair p {
   font-family: var(--copy-font);
+  margin-top: 1rem;
 }
 
-.graphic-panels a {
+.b-s-repair a {
   color: black;
   font-size: 1rem;
   text-decoration: underline;
@@ -34,46 +44,43 @@ body {
 /* ELEMENTS  */
 
 .b-s-repair picture {
+  display: block;
   padding: 0px;
   outline: var(--thin-border);
 }
 
-.panel-1, .panel-2, .panel-3 {
-  display: grid; 
-  .info {
-    padding: var(--standard-padding);
-    justify-items: center;
-    align-content: center;
-    text-align: center;
-}
-  p {
-    margin-top: 1em;
-  }
-  .action {
-    margin-top: 1em;
-    justify-items: center;
-    align-content: center;
-    text-align: center;
-    padding: var(--narrow-padding);
-    border-radius: var(--round-corners);
-    background-color: var(--orange);
-  }
-
-  @media (width >=700px) {
-    .graphic-panels {
-      padding: var(--standard-padding);
-    }
-  
-    grid-template-columns: 1fr 1fr;
-  
-    &.flipped {
-      picture {
-        order: 2;
-      }
-    }
-  }
+.repair-panel > .info {
+  justify-items: left;
+  line-height: 1.2;
+  padding: 1rem;
 }
 
+.action {
+  margin-top: 1em;
+  justify-items: left;
+  padding-left: 0px;
+}
+
+@media (360px <= width <= 600px) {
+  .repair-panel .info {
+  width: 30ch;
+}
+}
+
+
+@media (width <= 360px) {
+  .repair-panel {
+    flex-direction: column;
+  }
+  
+}
+
+@media (width >= 700px) {
+  .repair-panel {
+    flex-direction: row;
+  }
+}
+   
 img {
   display: block;
   width: 100%;
