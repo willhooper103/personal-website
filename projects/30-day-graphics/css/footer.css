@@ -1,7 +1,7 @@
 
 
 .site-footer {
-	background-color: black;
+	background-color: var(--paper-footer);
 	width: 100%;
 }
 
