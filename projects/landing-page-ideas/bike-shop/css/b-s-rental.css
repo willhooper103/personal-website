@@ -1,14 +1,22 @@
 /* STRUCTURE  */
 
 
-.b-s-repair {
+.b-s-rental {
   outline: 2px solid black;
+}
+
+.rental-panel {
+  display: flex;
+  flex-direction: column;
 }
 
 * {
   box-sizing: border-box;
 }
 
+.rental-panel .info {
+  width: 60ch;
+}
 
 /* TYPOGOPHY  */
 
@@ -16,16 +24,15 @@ body {
   font-family: sans-serif;
 }
 
-
 .attention-voice {
   font-size: 2rem;
 }
 
-.b-s-repair p {
+.b-s-rental p {
   font-family: var(--copy-font);
 }
 
-.b-s-repair a {
+.b-s-rental a {
   color: black;
   font-size: 1rem;
   text-decoration: underline;
@@ -33,47 +40,49 @@ body {
 
 /* ELEMENTS  */
 
-.b-s-repair picture {
+.b-s-rental picture {
+  display: block;
+/*  width: 60%;*/
   padding: 0px;
   outline: var(--thin-border);
 }
 
-.panel-1, .panel-2, .panel-3 {
-  display: grid; 
-  .info {
-    padding: var(--standard-padding);
-    justify-items: center;
-    align-content: center;
-    text-align: center;
+.rental-panel > .info {
+  justify-items: left;
+  line-height: 1.2;
+  padding: 1rem;
 }
-  p {
-    margin-top: 1em;
-  }
-  .action {
-    margin-top: 1em;
-    justify-items: center;
-    align-content: center;
-    text-align: center;
-    padding: var(--narrow-padding);
-    border-radius: var(--round-corners);
-    background-color: var(--orange);
-  }
 
-  @media (width >=700px) {
-    .graphic-panels {
-      padding: var(--standard-padding);
-    }
-  
-    grid-template-columns: 1fr 1fr;
-  
-    &.flipped {
-      picture {
-        order: 2;
-      }
-    }
+p {
+  margin-top: 1em;
+}
+
+.action {
+  margin-top: 1em;
+  justify-items: left;
+  padding-left: 0px;
+}
+
+@media (360px <= width <= 600px) {
+  .rental-panel .info {
+  width: 30ch;
   }
 }
 
+
+@media (width <= 360px) {
+  .rental-panel {
+    flex-direction: column;
+  } 
+}
+
+@media (width >= 700px) {
+  .rental-panel {
+    flex-direction: row;
+  }
+
+}
+   
 img {
   display: block;
   width: 100%;
